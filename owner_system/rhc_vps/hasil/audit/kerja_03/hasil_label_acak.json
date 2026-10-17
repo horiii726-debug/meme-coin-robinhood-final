@@ -1,0 +1,21 @@
+{
+ "n": 2797,
+ "retrain": 25,
+ "pelanggaran_exit_ge_decide": 0,
+ "selisih_maks_vs_arena_scored": 1.1102230246251565e-16,
+ "auc_kausal_semua": 0.7424725526281366,
+ "baris_latih_masih_buka": 0,
+ "auc_kausal_u_ds5d": 0.6436950146627566,
+ "auc_kausal_u_ds24": 0.6415829523078465,
+ "auc_kausal_m1": 0.7556586002693643,
+ "auc_kausal_m2": 0.7959079283887467,
+ "auc_label_acak": [
+  0.4904829296678588,
+  0.4900722031834783,
+  0.4931381273066069,
+  0.48736781350301256,
+  0.479697890207752
+ ],
+ "auc_label_acak_rata2": 0.4881517927737417,
+ "auc_label_acak_sd": 0.004605839761145905
+}

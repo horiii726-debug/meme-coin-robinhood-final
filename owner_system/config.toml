@@ -1,0 +1,169 @@
+# Robinhood Chain — verified chain facts
+# FASE 0 output. Semua address di file ini DIVERIFIKASI on-chain pada tanggal tercantum.
+# Aturan: jangan tambah address ke file ini tanpa kolom `source` + `verified`.
+
+[chain]
+name        = "Robinhood Chain"
+chain_id    = 4663                     # eth_chainId -> 0x1237
+stack       = "Arbitrum Nitro (Orbit)" # web3_clientVersion -> nitro/v3.11.4-rc.3-7d5ac27
+settles_to  = "Ethereum L1"            # genesis/blocks carry l1BlockNumber ~25.9M
+gas_token   = "ETH"
+genesis_block   = 0                    # timestamp 0 (placeholder genesis)
+first_live_block = 1
+first_live_ts   = 1777567931           # 2026-04-30T16:52:11Z
+age_days_at_survey = 135
+block_time_sec  = 0.10                 # measured: ~9.9 blocks/s over last 13 days
+verified    = "2026-09-12"
+
+[rpc]
+http = "https://rpc.mainnet.chain.robinhood.com"
+ws   = ""                              # TIDAK ADA WS publik: upgrade -> 400 / /ws -> 404
+archive = false                        # state hanya ~1k-10k blok terakhir ("metadata is not found")
+getlogs_max_results = 10000            # error: "logs matched by query exceeds limit of 10000"
+getlogs_max_block_range = 0            # tidak ada limit range, yang membatasi adalah jumlah log
+latency_trivial_sec = "0.55-2.3"
+latency_getlogs_1000blk_sec = 11.0
+dns_note = "Host di-DNS-hijack oleh ISP (resolve ke aduankonten.id / 36.86.63.185). WAJIB pakai DoH: curl --doh-url https://cloudflare-dns.com/dns-query. Real CNAME -> customer-origin.offchainlabs.com"
+verified = "2026-09-12"
+
+[explorer]
+blockscout_ui  = "https://robinhoodchain.blockscout.com"
+blockscout_api = ""                    # API di balik Cloudflare challenge, tidak bisa diakses programatik
+verified = "2026-09-12"
+
+[bitquery]
+endpoint = "https://streaming.bitquery.io/graphql"
+network  = "robinhood"
+datasets_confirmed = ["Blocks", "DEXTrades", "Events", "Transfers"]
+# Events   : ABI ter-decode penuh (Initialize args lengkap) + Transaction.From = deployer asli
+# Transfers: Amount sudah ter-scale desimal + Currency.Decimals + Transaction.From
+# DECODE GOTCHA: arg bytes32 (PoolId) WAJIB minta fragment "... on EVM_ABI_Bytes_Value_Arg{ hex }",
+#               kalau tidak Value balik kosong.
+realtime_lag = "none (block 61,112,596 @ 12:39:08Z saat chain di 61,113,047)"
+auth = "Bearer <ory_at_...> — simpan di env BITQUERY_TOKEN, JANGAN commit"
+verified = "2026-09-12"
+
+# ─────────────────────────────────────────────────────────────
+# DEX — target utama
+# ─────────────────────────────────────────────────────────────
+[dex.uniswap_v4]
+pool_manager = "0x8366a39cc670b4001a1121b8f6a443a643e40951"
+# Verifikasi 3 jalur independen:
+#  1. keccak256 event-sig match: Swap(bytes32,address,int128,int128,uint160,uint128,int24,uint24)
+#     = 0x40e9cecb... ; ModifyLiquidity(bytes32,address,int24,int24,int256,bytes32) = 0xf208f491...
+#     ; Initialize(bytes32,address,address,uint24,int24,address,uint160,int24) = 0xdd466e67...
+#     Ketiganya dipancarkan HANYA oleh address ini (pola singleton).
+#  2. Bitquery DEXTrades: ProtocolName="uniswap_v4", SmartContract = address yang sama.
+#  3. eth_getCode = 24009 byte; merespon owner(), protocolFeeController(), protocolFeesAccrued(address).
+owner                  = "0x2bad8182c09f50c8318d769245bea52c32be46cd"
+protocol_fee_controller = "0x6d0009504d129cf5002dba61d9ae8575aa79314c"
+topic_initialize       = "0xdd466e674ea557f56295e2d0218a125ea4b4f0f6f3307b95f85e6110838d6438"
+topic_swap             = "0x40e9cecb9f5f1f1c5b9c97dec2917b7ee92e57ba5563708daca94dd84ad7112f"
+topic_modify_liquidity = "0xf208f4912782fd25c7f114ca3723a2d5dd6f3bcc3ac8db5af63baa85f711d5ec"
+logs_per_block         = 5.15          # -> chunk aman 1500 blok (< 10k log cap)
+verified = "2026-09-12"
+
+# CATATAN: signature Initialize di brief kamu (6 param) adalah draft v4 LAMA dan TIDAK match.
+# Yang benar di chain ini 8 param (tambah sqrtPriceX96, tick). Sudah dikoreksi di atas.
+
+[dex.uniswap_v3]
+factory = "0x1f7d7550B1b028f7571E69A784071F0205FD2EfA"
+# Verifikasi: 10 dari 12 pool sampel (yang memancarkan v3 Swap topic
+# 0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67)
+# mengembalikan address ini dari factory(). eth_getCode = 24535 byte.
+# 2 factory minor lain terlihat: 0x1ac9dB4a2608ba45D6127B1737949b51Bb54B7F3 (4917 B),
+# 0x16494A80E08Bcb9285D87b67149d7b01774D82F8 (2210 B) — belum diidentifikasi.
+verified = "2026-09-12"
+
+[dex.other_active]
+# Dari agregasi Bitquery DEXTrades 2026-09-12 06:00Z..12:40Z (trade count, unique trader)
+# uniswap_v4            848,240 / 63,284   <-- DOMINAN
+# uniswap_v3 (agregat)  ~296,000 / ~42,000
+# pancakeswap_infinity   29,596 /  1,223   0xd01c774d4a66408326bc65728ac5ae5aaf004032
+# pancake_swap_v3        20,893 /  5,324
+# uniswap_v2             21,126 /  4,328
+# seaport_v1.4           11,393 /  1,970   (NFT, bukan target)
+# pons_v2                     ?            0xc255318148ab8dbc5350073fd329fa59cde9291e
+verified = "2026-09-12"
+
+# ─────────────────────────────────────────────────────────────
+# Quote tokens — symbol()/decimals() dibaca langsung dari kontrak
+# ─────────────────────────────────────────────────────────────
+[[quote_token]]
+symbol = "ETH"
+address = "0x0000000000000000000000000000000000000000"  # native, v4 pakai address(0)
+decimals = 18
+pool_side_count_5h = 1440
+verified = "2026-09-12"
+
+[[quote_token]]
+symbol = "USDG"
+address = "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+decimals = 6
+pool_side_count_5h = 1040
+verified = "2026-09-12"
+
+[[quote_token]]
+symbol = "WETH"
+address = "0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73"
+decimals = 18
+pool_side_count_5h = 99
+verified = "2026-09-12"
+
+# ─────────────────────────────────────────────────────────────
+# Hooks — BELUM DIVERIFIKASI FUNGSINYA. Jangan diasumsikan apa-apa.
+# ─────────────────────────────────────────────────────────────
+[hooks]
+none_address = "0x0000000000000000000000000000000000000000"  # 2581 / 3407 pool (75.8%)
+# Kandidat launchpad hook dominan — fungsi BELUM diverifikasi, tugas Fase 1/4:
+dominant_unverified = "0x4e3468951D49f2EEa976eD0D6e75fFCb44a9a544"  # 573 / 3407 pool (16.8%)
+others_unverified = [
+  "0xE5e702641Ea86F4ae6cC3cDaeD2B886f976Be044",  # 55
+  "0x4Eb1976978756Bd56802d8162f2271844924e0cc",  # 32
+  "0x75A54357D9C78a2Db19004a5FDc76c50F9242AEC",  # 16
+  "0x645fc64bA22e8818Abd1640148FA46F1c6ec05c7",  # 14
+  "0xFc91F16CD23A3aC5163EAd957B040c190190C0CC",  # 13
+]
+verified = "2026-09-12"
+
+[fee_tiers_observed]
+# 3407 pool baru dalam ~5.5 jam. fee dalam pip (1e-6).
+dynamic_flag = 8388608   # 0x800000 = LPFeeLibrary.DYNAMIC_FEE_FLAG, 602 pool
+note = "Ada fee tier ekstrem: 900000 (90%), 841910, 810000, 808670 — kemungkinan kurva anti-sniper launchpad yang meluruh. WAJIB dibaca per-swap dari field fee di event Swap, JANGAN dari fee di Initialize."
+
+# ─────────────────────────────────────────────────────────────
+# KEPUTUSAN FASE 0 (2026-09-12)
+# ─────────────────────────────────────────────────────────────
+[decisions]
+backfill_primary   = "bitquery"   # bulk history via DEXTrades/Events/Transfers
+backfill_validator = "rpc"        # eth_getLogs utk cross-check 200 swap acak (gate F1 <1%)
+toolchain          = "rust + python"
+rust_host          = "x86_64-pc-windows-gnu"  # hindari VS Build Tools (~6GB, disk sisa 21.4GB)
+
+[blockers]
+# Hal-hal yang TIDAK bisa dikerjakan sesuai rencana asli. Jangan pura-pura beres.
+no_archive_state = "Fase 1 poin 5 (cross-check balanceOf(PoolManager) historis) TIDAK BISA. Rekonstruksi likuiditas hanya dari kumulatif liquidityDelta, tanpa pembanding independen. Simulasi honeypot (Fase 9 poin 2) hanya bisa live, tidak bisa di-backtest."
+no_public_ws     = "Fase 1 poin 7 (live listener WebSocket) TIDAK BISA di RPC publik. Butuh provider berbayar atau Bitquery streaming subscription. Berdampak ke Fase 8 (paper live) dan pengukuran latency Fase 7 poin 2."
+blockscout_api   = "Tertutup Cloudflare challenge. Discovery kontrak dialihkan ke agregasi Bitquery."
+isp_dns_hijack   = "WAJIB DoH. Klien Rust harus pakai resolver DoH (mis. hickory-resolver) atau host di-pin manual."
+disk_free_gb     = 21.4
+c_compiler       = "TIDAK ADA. duckdb-rs (bundled) kemungkinan gagal build di host gnu. Rencana: polars/parquet murni Rust + DuckDB CLI binary standalone utk query ad-hoc."
+
+[toolchain_verified]
+rustc  = "1.98.1 (x86_64-pc-windows-gnu)"
+cargo  = "1.98.1"
+python = "3.13.15"
+pip    = "26.2.1"
+link_test = "PASS — compile+link hello-world sukses tanpa MSVC/MinGW terpisah"
+node   = "v24.14.1 + ethers 6.17.0 (dipakai utk verifikasi Fase 0)"
+install_note = "rustup gagal 2x: rename file di .rustup/downloads dihapus mid-flight (kemungkinan Defender). Sukses di percobaan ke-2 dgn retry loop + clear cache."
+verified = "2026-09-12"
+
+[router]
+# DIVERIFIKASI ON-CHAIN 2026-09-17 (bukan dari ingatan):
+# - selektor execute(bytes,bytes[],uint256) = 0x3593564c terlihat di tx nyata, menerima ETH langsung
+universal_router = "0x8876789976decbfcbbbe364623c63652db8c0904"   # 24.546 byte kode; bukti tx 0x09b2efbaed81ec462f7c4aa9dae172c9197f1057bf0f2bc22f8c0bb844f25d3f (blok 65.256.923)
+permit2          = "0x000000000022d473030f116ddee9f6b43ac78ba3"   # 9.152 byte kode, alamat kanonik, dicek eth_getCode
+# router lain yang terlihat dipakai bot lain (belum dipakai kita):
+# 0xccc88a9d1b4ed6b0eaba998850414b24f1c315be selektor 0x0a2b8f36
+# 0x65050a9b7e5075a2ba5ced7b1b64ee66262c40dc selektor 0x4d819a2a

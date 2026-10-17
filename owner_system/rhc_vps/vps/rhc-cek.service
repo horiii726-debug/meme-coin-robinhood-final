@@ -1,0 +1,6 @@
+[Unit]
+Description=Penjaga bot RHC (restart kalau hang/tertinggal)
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/rhc-cek-sehat

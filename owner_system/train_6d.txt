@@ -1,0 +1,102 @@
+total 2540 | train 1524 | val 508 | TEST 508 (DIKUNCI)
+fitur: 50
+
+========================================================================
+### TARGET >= +100%   (base rate val 22.05%, positif val 112)
+========================================================================
+AUC train 0.894 | AUC VALIDATION 0.780
+
+  ambil K teratas menurut skor model (VALIDATION):
+  K      kena   presisi   lift
+  5         3     60.0%     2.7x
+  10        8     80.0%     3.6x
+  20       10     50.0%     2.3x
+  40       22     55.0%     2.5x
+  80       41     51.2%     2.3x
+
+  kalibrasi (VALIDATION): yang diprediksi vs yang terjadi
+    kelompok 1: prediksi   5.8%  |  kenyataan   4.9%  (n=102)
+    kelompok 2: prediksi  12.8%  |  kenyataan   7.9%  (n=101)
+    kelompok 3: prediksi  19.8%  |  kenyataan  13.7%  (n=102)
+    kelompok 4: prediksi  31.8%  |  kenyataan  31.7%  (n=101)
+    kelompok 5: prediksi  53.4%  |  kenyataan  52.0%  (n=102)
+
+  10 fitur terpenting (permutation importance):
+    +0.0194  quote_is_usdg
+    +0.0181  max_buy_usd
+    +0.0122  buy_sell_cnt_ratio
+    +0.0112  max_buy_over_lp
+    +0.0111  tick_spacing
+    +0.0094  netflow_over_lp
+    +0.0075  buy_size_mean_usd
+    +0.0042  gap_std_blocks
+    +0.0039  sellvol_usd_w
+    +0.0039  vol_logret_w
+  peringkat fitur noise: [13, 20, 42] dari 50 — aman
+
+========================================================================
+### TARGET >= +400%   (base rate val 6.69%, positif val 34)
+========================================================================
+AUC train 0.960 | AUC VALIDATION 0.658
+
+  ambil K teratas menurut skor model (VALIDATION):
+  K      kena   presisi   lift
+  5         2     40.0%     6.0x
+  10        2     20.0%     3.0x
+  20        4     20.0%     3.0x
+  40        5     12.5%     1.9x
+  80       10     12.5%     1.9x
+
+  kalibrasi (VALIDATION): yang diprediksi vs yang terjadi
+    kelompok 1: prediksi   1.3%  |  kenyataan   3.9%  (n=102)
+    kelompok 2: prediksi   2.2%  |  kenyataan   2.0%  (n=101)
+    kelompok 3: prediksi   3.8%  |  kenyataan   5.9%  (n=102)
+    kelompok 4: prediksi   6.5%  |  kenyataan   9.9%  (n=101)
+    kelompok 5: prediksi  16.9%  |  kenyataan  11.8%  (n=102)
+
+  10 fitur terpenting (permutation importance):
+    +0.0561  buy_sell_cnt_ratio
+    +0.0248  has_hook
+    +0.0232  lag_first_swap
+    +0.0217  sellvol_usd_w
+    +0.0170  accel_2nd_half
+    +0.0170  fee_med_w
+    +0.0130  n_swap_w
+    +0.0122  gap_std_blocks
+    +0.0082  sell_size_med_usd
+    +0.0070  buy_size_med_usd
+  peringkat fitur noise: [10, 45, 49] dari 50 — aman
+
+========================================================================
+### TARGET >= +1000%   (base rate val 2.36%, positif val 12)
+========================================================================
+AUC train 0.978 | AUC VALIDATION 0.606
+
+  ambil K teratas menurut skor model (VALIDATION):
+  K      kena   presisi   lift
+  5         1     20.0%     8.5x
+  10        1     10.0%     4.2x
+  20        1      5.0%     2.1x
+  40        2      5.0%     2.1x
+  80        4      5.0%     2.1x
+
+  kalibrasi (VALIDATION): yang diprediksi vs yang terjadi
+    kelompok 1: prediksi   0.2%  |  kenyataan   2.9%  (n=102)
+    kelompok 2: prediksi   0.3%  |  kenyataan   0.0%  (n=101)
+    kelompok 3: prediksi   0.8%  |  kenyataan   2.0%  (n=102)
+    kelompok 4: prediksi   1.5%  |  kenyataan   3.0%  (n=101)
+    kelompok 5: prediksi   4.8%  |  kenyataan   3.9%  (n=102)
+
+  10 fitur terpenting (permutation importance):
+    +0.0439  lag_first_swap
+    +0.0361  gap_std_blocks
+    +0.0128  quote_eth
+    +0.0110  buy_sell_cnt_ratio
+    +0.0100  buyvol_usd_w
+    +0.0072  accel_2nd_half
+    +0.0066  sell_size_med_usd
+    +0.0059  noise2   <== NOISE (BAHAYA)
+    +0.0042  quote_is_usdg
+    +0.0040  up_move_frac
+  peringkat fitur noise: [7, 22, 47] dari 50 — BOCOR
+

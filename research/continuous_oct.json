@@ -1,0 +1,34 @@
+[
+ {
+  "system": "oct_official",
+  "end": 50460.47,
+  "dd": 43.3,
+  "trades": 753,
+  "win": 76.0,
+  "pf": "2.70"
+ },
+ {
+  "system": "oct_official_retrain",
+  "end": 46719.21,
+  "dd": 46.0,
+  "trades": 731,
+  "win": 82.4,
+  "pf": "3.24"
+ },
+ {
+  "system": "oct_sysA",
+  "end": 48656.04,
+  "dd": 36.1,
+  "trades": 1533,
+  "win": 68.9,
+  "pf": "1.81"
+ },
+ {
+  "system": "oct_sysA_retrain",
+  "end": 95049.05,
+  "dd": 33.3,
+  "trades": 1442,
+  "win": 75.0,
+  "pf": "2.58"
+ }
+]

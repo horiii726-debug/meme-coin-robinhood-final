@@ -1,0 +1,8 @@
+{
+  "name": "rhc-pipeline",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pengumpul data, replay, dan uji maju strategi RHC",
+  "engines": { "node": ">=20" },
+  "dependencies": { "ethers": "^6.13.0" }
+}

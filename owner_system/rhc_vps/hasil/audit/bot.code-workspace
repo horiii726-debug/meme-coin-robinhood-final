@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../../bot"
+		},
+		{
+			"path": "../../data"
+		},
+		{
+			"path": "../../dok_lama"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../pipeline"
+		},
+		{
+			"path": "../../rust"
+		}
+	]
+}

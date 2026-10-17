@@ -1,0 +1,14 @@
+JUAL BERTAHAP — saringan aman, jeda eksekusi 30 blok (3.0 dtk)
+
+KONFIGURASI SISA 40% diurutkan menurut RETURN RATA-RATA periode LAMA (win rate LAMA >= WMIN):
+konfigurasi                                 | LAMA   n  win    PF  rata2      PnL   -top1  hold a/m >=10x >=30x top10%avg tangkap  terbesar | BARU   n  win    PF  rata2      PnL   -top1  hold a/m >=10x >=30x top10%avg tangkap  terbesar
+TP1 +20% jual 60% | sisa: model bahaya>=0.5 |      175   42%  1.81    32%    $5611    $3322    45/4m    1    0   +461%   33%    +1776% |      638   47%  1.81    12%   $10358    $9169    59/6m    0    0   +155%    8%     +820%
+TP1 +20% jual 60% | sisa: model bahaya>=0.4 |      175   44%  1.83    30%    $5535    $3246    45/4m    1    0   +433%   33%    +1776% |      638   50%  1.91    12%   $11116    $9962    57/5m    0    0   +147%    8%     +794%
+TP1 +30% jual 60% | sisa: model bahaya>=0.4 |      175   41%  1.70    29%    $5156    $2867    45/4m    1    0   +437%   33%    +1776% |      638   47%  1.71    12%   $11058    $9904    56/5m    0    0   +151%    9%     +794%
+TP1 +20% jual 60% | sisa: model bahaya>=0.3 |      175   46%  1.78    29%    $5119    $2830    38/3m    1    0   +407%   19%    +1776% |      638   51%  1.84    11%   $10018    $8865    52/3m    0    0   +129%    7%     +765%
+TP1 +30% jual 60% | sisa: model bahaya>=0.3 |      175   42%  1.64    28%    $4758    $2469    39/3m    1    0   +411%   19%    +1776% |      638   48%  1.65    11%   $10060    $8906    52/4m    0    0   +134%    7%     +765%
+PEMBANDING v3: TP1 +20% jual 85% | sisa v2  |      175   50%  1.74    26%    $4534    $2208    43/5m    1    0   +381%   21%    +1805% |      638   52%  2.00    13%   $11397   $10291    46/6m    0    0   +147%    8%     +703%
+
+PEMBANDING:
+PEMBANDING v3: TP1 +20% jual 85% | sisa v2  |      175   50%  1.74    26%    $4534    $2208    43/5m    1    0   +381%   21%    +1805% |      638   52%  2.00    13%   $11397   $10291    46/6m    0    0   +147%    8%     +703%
+PEMBANDING v2: tanpa TP1                    |      175   28%  1.55    38%    $5877    $3480    43/4m    6    0   +673%   34%    +1860% |      638   20%  1.40    17%   $11895    $7835    46/6m    3    1   +398%   17%    +3855%

@@ -1,0 +1,69 @@
+STATISTIK PER TRADE (gabungan dua periode)
+  v2 pegang penuh          n=813  win 22%  rata2 +21%  median -12%  pertumbuhan geometrik/trade +0.344%
+  v3 jual 85% di +20%      n=813  win 52%  rata2 +16%  median +2%  pertumbuhan geometrik/trade +0.294%
+  v4 jual 60% + model      n=813  win 49%  rata2 +16%  median -1%  pertumbuhan geometrik/trade +0.303%
+
+======================================================================================================================
+GABUNGAN LAMA+BARU — 1000 trade. 10.000 simulasi. modal awal $10.000. ukuran 2% modal/trade
+======================================================================================================================
+rencana                  untung di akhir  modal median  terburuk 5%   terbaik 5%  DD median  DD buruk 5%   DD>50%  modal<30%  rugi beruntun
+v2 pegang penuh                    99.7%       306.189       38.130    2.919.627        40%          61%     2.0%       0.1%      28 / 40
+v3 jual 85% di +20%               100.0%       182.109       54.263      723.284        16%          26%     0.0%       0.0%      17 / 21
+v4 jual 60% + model               100.0%       194.938       58.586      865.067        14%          23%     0.0%       0.0%      13 / 16
+
+  ukuran TETAP $200/trade:
+  v2 pegang penuh        untung  99.9% | PnL median $   42.217 | terburuk 5% $   18.923 | modal pernah habis 0.2%
+  v3 jual 85% di +20%    untung 100.0% | PnL median $   30.986 | terburuk 5% $   18.007 | modal pernah habis 0.0%
+  v4 jual 60% + model    untung 100.0% | PnL median $   31.725 | terburuk 5% $   18.826 | modal pernah habis 0.0%
+
+======================================================================================================================
+GABUNGAN LAMA+BARU (jangka panjang) — 5000 trade. 10.000 simulasi. modal awal $10.000. ukuran 2% modal/trade
+======================================================================================================================
+rencana                  untung di akhir  modal median  terburuk 5%   terbaik 5%  DD median  DD buruk 5%   DD>50%  modal<30%  rugi beruntun
+v2 pegang penuh                   100.0%267.731.593.9422.419.297.99440.024.524.901.085        55%          71%     1.8%       0.1%      36 / 49
+v3 jual 85% di +20%               100.0%22.935.162.9261.596.863.152454.385.678.218        22%          33%     0.0%       0.0%      19 / 28
+v4 jual 60% + model               100.0%33.692.511.1672.047.325.275734.781.048.418        20%          28%     0.0%       0.0%      15 / 19
+
+  ukuran TETAP $200/trade:
+  v2 pegang penuh        untung 100.0% | PnL median $  211.415 | terburuk 5% $  158.061 | modal pernah habis 0.2%
+  v3 jual 85% di +20%    untung 100.0% | PnL median $  156.351 | terburuk 5% $  127.760 | modal pernah habis 0.0%
+  v4 jual 60% + model    untung 100.0% | PnL median $  160.550 | terburuk 5% $  130.392 | modal pernah habis 0.0%
+
+======================================================================================================================
+HANYA PERIODE LAMA — 1000 trade. 10.000 simulasi. modal awal $10.000. ukuran 2% modal/trade
+======================================================================================================================
+rencana                  untung di akhir  modal median  terburuk 5%   terbaik 5%  DD median  DD buruk 5%   DD>50%  modal<30%  rugi beruntun
+v2 pegang penuh                   100.0%     5.555.986      301.921  104.241.759        44%          63%     1.7%       0.1%      18 / 26
+v3 jual 85% di +20%               100.0%       938.943      106.558    9.730.660        31%          48%     0.3%       0.0%       6 / 8
+v4 jual 60% + model               100.0%     2.203.117      220.049   26.263.554        27%          42%     0.1%       0.0%       7 / 10
+
+  ukuran TETAP $200/trade:
+  v2 pegang penuh        untung 100.0% | PnL median $   74.697 | terburuk 5% $   42.756 | modal pernah habis 0.2%
+  v3 jual 85% di +20%    untung 100.0% | PnL median $   51.148 | terburuk 5% $   27.583 | modal pernah habis 0.0%
+  v4 jual 60% + model    untung 100.0% | PnL median $   60.241 | terburuk 5% $   35.065 | modal pernah habis 0.0%
+
+======================================================================================================================
+HANYA PERIODE BARU — 1000 trade. 10.000 simulasi. modal awal $10.000. ukuran 2% modal/trade
+======================================================================================================================
+rencana                  untung di akhir  modal median  terburuk 5%   terbaik 5%  DD median  DD buruk 5%   DD>50%  modal<30%  rugi beruntun
+v2 pegang penuh                    98.9%       132.572       20.669    1.010.041        40%          61%     2.7%       0.3%      29 / 42
+v3 jual 85% di +20%               100.0%       119.591       57.576      265.240         8%          12%     0.0%       0.0%      17 / 22
+v4 jual 60% + model               100.0%       104.805       53.917      219.058         9%          13%     0.0%       0.0%      14 / 17
+
+  ukuran TETAP $200/trade:
+  v2 pegang penuh        untung  99.5% | PnL median $   32.710 | terburuk 5% $   11.402 | modal pernah habis 0.4%
+  v3 jual 85% di +20%    untung 100.0% | PnL median $   25.731 | terburuk 5% $   18.240 | modal pernah habis 0.0%
+  v4 jual 60% + model    untung 100.0% | PnL median $   24.396 | terburuk 5% $   17.514 | modal pernah habis 0.0%
+
+======================================================================================================================
+PEMBANDING: acak satu-satu (meremehkan rentetan rugi) — 1000 trade. 10.000 simulasi. modal awal $10.000. ukuran 2% modal/trade
+======================================================================================================================
+rencana                  untung di akhir  modal median  terburuk 5%   terbaik 5%  DD median  DD buruk 5%   DD>50%  modal<30%  rugi beruntun
+v2 pegang penuh                    99.9%       299.004       47.152    2.447.715        33%          51%     0.4%       0.0%      23 / 33
+v3 jual 85% di +20%               100.0%       184.318       72.744      510.194        11%          17%     0.0%       0.0%       9 / 12
+v4 jual 60% + model               100.0%       199.357       77.535      592.647        11%          17%     0.0%       0.0%       9 / 13
+
+  ukuran TETAP $200/trade:
+  v2 pegang penuh        untung 100.0% | PnL median $   41.740 | terburuk 5% $   20.557 | modal pernah habis 0.0%
+  v3 jual 85% di +20%    untung 100.0% | PnL median $   31.031 | terburuk 5% $   21.006 | modal pernah habis 0.0%
+  v4 jual 60% + model    untung 100.0% | PnL median $   31.894 | terburuk 5% $   21.791 | modal pernah habis 0.0%

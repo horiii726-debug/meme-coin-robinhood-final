@@ -1,0 +1,81 @@
+======================================================================
+LABEL pk_val >= 10 | lama 31/646 | m1 29/1267 | m2 1/645
+======================================================================
+
+## Univariat (fitur terbaik tiap keluarga, dipilih di periode LAMA)
+keluarga           fitur                AUC-pilih  AUC-m1  AUC-m2
+F1 buyer accel     ba_slope_n (-)         0.603   0.670   0.189
+F2 tx burst        tx_ratio (-)           0.590   0.684   0.376
+F3 vol accel       vol_ratio (-)          0.601   0.613   0.166
+F4 liq growth      lp_first (-)           0.619   0.602   0.999
+F5 holder accel    hold_growth (-)        0.596   0.673   0.503
+F6 wallet indep    buyer_uniq_frac        0.563   0.685   0.752
+F7 second wave     wave2 (-)              0.567   0.645   0.141
+F8 price traj      traj_recov (-)         0.597   0.490   0.772
+F9 cluster/fund    sync_frac              0.645   0.591   0.780
+F10 dev behavior   dev_out_frac (-)       0.661   0.358     nan
+
+## Model per keluarga (latih LAMA -> uji m1/m2), + kontrol label diacak
+keluarga            AUC-m1  AUC-m2 AUC-gab   acak-m1
+F1 buyer accel       0.666   0.286   0.682     0.474
+F2 tx burst          0.689   0.488   0.715     0.565
+F3 vol accel         0.587   0.034   0.571     0.532
+F4 liq growth        0.575   0.356   0.594     0.519
+F5 holder accel      0.640   0.186   0.659     0.475
+F6 wallet indep      0.701   0.907   0.746     0.541
+F7 second wave       0.675   0.776   0.702     0.490
+F8 price traj        0.461   0.569   0.426     0.522
+F9 cluster/fund      0.714   0.790   0.740     0.388
+F10 dev behavior     0.483   0.927   0.515     0.575
+
+## Model gabungan
+LAMA34 (fitur bot sekarang)  AUC m1 0.383 | m2 0.862 | gab 0.414 | acak 0.423
+BARU (10 keluarga)           AUC m1 0.598 | m2 0.837 | gab 0.638 | acak 0.440
+LAMA34 + BARU                AUC m1 0.496 | m2 0.894 | gab 0.538 | acak 0.406
+SKOR-BOT                     AUC m1 0.364 | m2 0.116  (skor filter ML yang dipakai bot)
+
+## Presisi ambang ketat (ambil top x% skor), BUKTI m1 & m2
+
+LAMA34 (fitur bot sekarang) | m1 (n=1267, dasar >=10x 2.3% >=5x 6.2% >=3x 15.1%)
+  top%%   n  /hari   >=10x   >=5x   >=3x   >=2x    rug   ret_rata  ret_med  puncak_rata
+     1%  13   7.9    0.0%   0.0%  15.4%  15.4%   30.8%     0.87     0.88     1.72
+     2%  25  15.2    0.0%   0.0%   8.0%  12.0%   24.0%     0.82     0.88     1.44
+     5%  63  38.2    1.6%   6.3%  15.9%  28.6%   25.4%     1.06     0.90     1.96
+    10% 127  77.1    1.6%   6.3%  12.6%  22.0%   21.3%     1.03     0.90     1.86
+
+LAMA34 (fitur bot sekarang) | m2 (n=645, dasar >=10x 0.2% >=5x 2.2% >=3x 14.3%)
+  top%%   n  /hari   >=10x   >=5x   >=3x   >=2x    rug   ret_rata  ret_med  puncak_rata
+     1%   6   5.3    0.0%   0.0%  33.3%  33.3%    0.0%     1.32     1.08     1.35
+     2%  13  11.4    0.0%   7.7%  23.1%  30.8%    0.0%     1.24     1.00     1.65
+     5%  32  28.2    0.0%   3.1%   9.4%  18.8%    3.1%     1.03     0.79     1.32
+    10%  64  56.3    0.0%   4.7%  12.5%  18.8%   10.9%     1.07     0.90     1.47
+
+BARU (10 keluarga) | m1 (n=1267, dasar >=10x 2.3% >=5x 6.2% >=3x 15.1%)
+  top%%   n  /hari   >=10x   >=5x   >=3x   >=2x    rug   ret_rata  ret_med  puncak_rata
+     1%  13   7.9    7.7%   7.7%   7.7%  23.1%    7.7%     1.01     1.03     2.72
+     2%  25  15.2    4.0%  12.0%  12.0%  24.0%   12.0%     1.04     0.99     2.37
+     5%  63  38.2    3.2%   9.5%  15.9%  25.4%   12.7%     1.01     0.91     2.23
+    10% 127  77.1    3.9%  10.2%  17.3%  27.6%   13.4%     1.05     0.91     2.43
+
+BARU (10 keluarga) | m2 (n=645, dasar >=10x 0.2% >=5x 2.2% >=3x 14.3%)
+  top%%   n  /hari   >=10x   >=5x   >=3x   >=2x    rug   ret_rata  ret_med  puncak_rata
+     1%   6   5.3    0.0%   0.0%   0.0%   0.0%   16.7%     0.92     1.08     1.20
+     2%  13  11.4    0.0%   0.0%   0.0%   7.7%    7.7%     0.94     0.97     1.37
+     5%  32  28.2    0.0%   3.1%  12.5%  25.0%   12.5%     0.94     0.94     1.56
+    10%  64  56.3    0.0%   3.1%   9.4%  20.3%   12.5%     1.02     0.90     1.48
+
+LAMA34 + BARU | m1 (n=1267, dasar >=10x 2.3% >=5x 6.2% >=3x 15.1%)
+  top%%   n  /hari   >=10x   >=5x   >=3x   >=2x    rug   ret_rata  ret_med  puncak_rata
+     1%  13   7.9    0.0%   0.0%   0.0%   0.0%    7.7%     0.85     0.90     1.21
+     2%  25  15.2    8.0%  16.0%  16.0%  20.0%   12.0%     1.13     0.91     2.75
+     5%  63  38.2    3.2%   7.9%  15.9%  28.6%   15.9%     1.09     0.91     2.18
+    10% 127  77.1    3.9%   8.7%  15.0%  27.6%   17.3%     1.09     0.91     2.28
+
+LAMA34 + BARU | m2 (n=645, dasar >=10x 0.2% >=5x 2.2% >=3x 14.3%)
+  top%%   n  /hari   >=10x   >=5x   >=3x   >=2x    rug   ret_rata  ret_med  puncak_rata
+     1%   6   5.3    0.0%  16.7%  16.7%  16.7%   16.7%     0.90     0.96     1.37
+     2%  13  11.4    0.0%   7.7%  15.4%  23.1%   15.4%     0.99     0.97     1.48
+     5%  32  28.2    0.0%   3.1%  15.6%  25.0%    6.2%     1.07     0.91     1.54
+    10%  64  56.3    0.0%   1.6%   9.4%  20.3%    9.4%     0.98     0.90     1.38
+
+-> skor_roket_th10.csv

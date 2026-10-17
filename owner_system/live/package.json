@@ -1,0 +1,12 @@
+{
+  "name": "rhc-paper-live",
+  "version": "1.0.0",
+  "description": "Paper trading v4 Robinhood Chain (mode kertas, tanpa transaksi)",
+  "main": "paper_live.js",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node --env-file=.env paper_live.js",
+    "cek": "node cek_siap.js"
+  }
+}

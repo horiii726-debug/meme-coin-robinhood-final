@@ -1,0 +1,12 @@
+[Unit]
+Description=Latih ulang model filter RHC dengan gerbang mutu (model lama tetap dipakai kalau kandidat tidak lebih baik)
+
+[Service]
+Type=oneshot
+User=rhc
+Group=rhc
+WorkingDirectory=/opt/rhc/pipeline
+Environment=BOT_DIR=/opt/rhc/bot
+Environment=DATA_DIR=/opt/rhc/data
+ExecStart=/opt/rhc/venv/bin/python /opt/rhc/pipeline/latih_ulang.py
+Nice=15

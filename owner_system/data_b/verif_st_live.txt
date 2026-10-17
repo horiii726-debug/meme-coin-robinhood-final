@@ -1,0 +1,16 @@
+=== VARIAN st_live  EXTRA=[]  ARENA_ENV=[MAXPOS=5]
+Ags-Sep s0: beli 193   win 69.4% | PF 4.15 | rug 28 akun $100 -> $16290.99 | DD maks 17.9%  
+Ags-Sep s1: beli 202   win 73.3% | PF 4.51 | rug 28 akun $100 -> $18204.41 | DD maks 20.0%  
+Ags-Sep s2: beli 195   win 67.7% | PF 3.18 | rug 36 akun $100 -> $14224.45 | DD maks 18.8%  
+OKTOBER   : beli 50   win 74.0% | PF 9.28 | rug 10 akun $100 -> $264.69 | DD maks 8.0%  
+=== UJI ACAK varian st_live  ARENA_ENV=[MAXPOS=5]
+1) tiap periode diuji dgn model dari periode LAIN, akun $100 mulai dari nol:
+   Ags      :   27 koin | beli   1 | win 100% | $100 -> $102.45 | DD 0.0%
+   5Sep     :  118 koin | beli  11 | win 64% | $100 -> $97.75 | DD 3.1%
+   10Sep    :  527 koin | beli  34 | win 53% | $100 -> $87.14 | DD 18.4%
+   13-15Sep : 1342 koin | beli  59 | win 85% | $100 -> $688.40 | DD 23.8%
+   16-17Sep :  783 koin | beli  49 | win 71% | $100 -> $227.70 | DD 18.4%
+   1-2Okt   :  525 koin | beli  52 | win 71% | $100 -> $262.79 | DD 7.6%
+2) 200 urutan acak (potongan 6 jam, 23 potongan, semua periode), akun $100 [PROYEKSI - urutan diacak]:
+   akhir: median $11,656 | terburuk 5% $7,450 | terbaik 5% $16,417 | jalur rugi (<$100) 0.0%
+   drawdown: median 26.3% | terburuk 5% 33.4% | maks 37.4% | trade median 204

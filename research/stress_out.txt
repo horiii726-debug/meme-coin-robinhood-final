@@ -1,0 +1,7 @@
+baseline (3 s latency, owner's costs)      -> $   83,154.23 | max DD  28.0% | trades 1159
+our sells move the price                   -> $   79,120.67 | max DD  28.0% | trades 1158
+latency 5 s                                -> $   80,999.18 | max DD  28.1% | trades 1148
+latency 10 s                               -> $   85,191.16 | max DD  24.1% | trades 1131
+gas busy $0.21/tx + approve $0.06          -> $   81,970.96 | max DD  28.1% | trades 1159
+10% buys + 10% sells fail                  -> $   62,891.69 | max DD  29.0% | trades 1163
+all of the above combined                  -> $   59,215.59 | max DD  31.9% | trades 1149

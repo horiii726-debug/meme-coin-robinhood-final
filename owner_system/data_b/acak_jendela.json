@@ -1,0 +1,44 @@
+[
+ {
+  "nama": "acak_A1",
+  "dari": 69446093,
+  "sampai": 70306092,
+  "jenis": "ujian murni (sesudah masa latihan)",
+  "mulai": "20 Jul 21:24"
+ },
+ {
+  "nama": "acak_A2",
+  "dari": 71060060,
+  "sampai": 71920059,
+  "jenis": "ujian murni (sesudah masa latihan)",
+  "mulai": "22 Jul 18:41"
+ },
+ {
+  "nama": "acak_A3",
+  "dari": 76004637,
+  "sampai": 76864636,
+  "jenis": "ujian murni (sesudah masa latihan)",
+  "mulai": "28 Jul 13:26"
+ },
+ {
+  "nama": "acak_A4",
+  "dari": 78819366,
+  "sampai": 79679365,
+  "jenis": "ujian murni (sesudah masa latihan)",
+  "mulai": "31 Jul 20:24"
+ },
+ {
+  "nama": "acak_B1",
+  "dari": 1285501,
+  "sampai": 2145500,
+  "jenis": "rezim awal (uji mundur)",
+  "mulai": "02 May 04:56"
+ },
+ {
+  "nama": "acak_B2",
+  "dari": 4615701,
+  "sampai": 5475700,
+  "jenis": "rezim awal (uji mundur)",
+  "mulai": "06 May 02:22"
+ }
+]

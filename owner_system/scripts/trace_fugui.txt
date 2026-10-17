@@ -1,0 +1,44 @@
+pool lahir blok 10338241 (2026-07-15T10:57:16.000Z), 1428.4 jam lalu
+swap dalam 24.0 jam: 1266 | mint LP: 1 | burn LP: 7
+
+swap pertama: blok +0 (0.0 mnt) harga $3.792e-6
+PUNCAK: $4.698e-5 di menit 12.2 (0.2 jam) = +1,139% dari swap pertama
+sekarang   : $4.187e-6 = -91.1% dari puncak
+likuiditas aktif (virtual) di puncak ≈ $25,435
+
+--- FASE NAIK (lahir -> puncak) ---
+koreksi terdalam sebelum puncak: 77% | koreksi >=30%: 2x | >=50%: 1x
+transaksi 860 (beli 477 / jual 383) | vol beli $40,224 / jual $30,547
+beli median $63 | terbesar $629 | beruntun beli terpanjang 31
+
+--- DOMPET PEMBELI (fase naik, 860/860 tx ter-resolusi) ---
+pembeli unik 274 | penjual unik 222 | HHI beli 0.007
+top-1 1.9% | top-5 8.3% | top-10 14.4% dari volume beli
+  1. 0x5430f1760d10baee416be8008a0b3781c12f911d  $762  (juga menjual $535)
+  2. 0xfb0e8c111e0b529b9f0dcf1278d5abb511c413ed  $654  (juga menjual $703)
+  3. 0x12ac5957b765be2c67faaf96eb74eb8b6456531f  $653  (juga menjual $411)
+  4. 0xf63621208ebac259761e5ad482db760964158a4c  $629  (juga menjual $245)
+  5. 0xbac453b9b7f53b35ac906b641925b2f5f2567a89  $629  
+
+--- 10 TRANSAKSI PERTAMA ---
+  #1 blok +0  BELI $   172.13  0xa28e053bf47616
+  #2 blok +73  BELI $    78.25  0x0db368e3cf61ed
+  #3 blok +73  BELI $    72.77  0x982a264c93f3d2
+  #4 blok +74  BELI $    84.93  0x01712195b0a2fb
+  #5 blok +77  JUAL $    83.26  0x0db368e3cf61ed
+  #6 blok +77  JUAL $    79.73  0x07de72e1a39d4f
+  #7 blok +79  JUAL $    68.41  0xcd49d019d71e1c
+  #8 blok +89  BELI $   125.70  0xf193708e2f3832
+  #9 blok +100  BELI $    37.71  0xca4775d7c17f4f
+  #10 blok +100  BELI $    37.71  0x2da97cfa190440
+
+--- PER JAM ---
+jam  swap  beli  jual   vol_beli    harga_akhir   vs_swap_pertama
+  0  1249   646   603  $   49,707   $4.027e-6           6%
+  1     4     3     1  $      204   $4.308e-6          14%
+  3     8     5     3  $      404   $4.350e-6          15%
+  7     1     0     1  $        0   $4.206e-6          11%
+ 10     1     0     1  $        0   $4.206e-6          11%
+ 12     1     0     1  $        0   $4.189e-6          10%
+ 13     1     0     1  $        0   $4.189e-6          10%
+ 23     1     0     1  $        0   $4.187e-6          10%

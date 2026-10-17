@@ -1,0 +1,76 @@
+== w00
+  entry filter: n=1240 AUC=0.7914874835309618 base ret 1.096 | top10% ret 1.300 win 78% | random p50 1.083 p95 1.297 | p=0.0475
+  danger_model : n=1277 mean ret diff +0.0806 CI95 [+0.0446,+0.1322] better 21% worse 10%
+  up_model     : n=1277 mean ret diff +0.0724 CI95 [+0.0399,+0.1116] better 25% worse 13%
+  all_exit_ml  : n=1277 mean ret diff +0.1214 CI95 [+0.0803,+0.1769] better 27% worse 17%
+== w01
+  entry filter: n=955 AUC=0.8391498940445101 base ret 1.167 | top10% ret 1.257 win 80% | random p50 1.111 p95 1.640 | p=0.1713
+  danger_model : n=957 mean ret diff +0.0948 CI95 [+0.0667,+0.1233] better 26% worse 6%
+  up_model     : n=957 mean ret diff +0.1051 CI95 [+0.0319,+0.2099] better 27% worse 12%
+  all_exit_ml  : n=957 mean ret diff +0.1667 CI95 [+0.1076,+0.2444] better 32% worse 15%
+== w02
+  entry filter: n=985 AUC=0.8357599168028523 base ret 1.180 | top10% ret 1.309 win 82% | random p50 1.156 p95 1.390 | p=0.1293
+  danger_model : n=989 mean ret diff +0.0552 CI95 [+0.0185,+0.0940] better 27% worse 15%
+  up_model     : n=989 mean ret diff +0.1360 CI95 [+0.0841,+0.2037] better 27% worse 7%
+  all_exit_ml  : n=989 mean ret diff +0.1417 CI95 [+0.0804,+0.2149] better 33% worse 18%
+== w03
+  entry filter: n=929 AUC=0.8845809688067952 base ret 1.185 | top10% ret 1.428 win 81% | random p50 1.183 p95 1.296 | p=0.0004
+  danger_model : n=933 mean ret diff +0.0145 CI95 [-0.0190,+0.0459] better 25% worse 20%
+  up_model     : n=933 mean ret diff +0.1107 CI95 [+0.0869,+0.1341] better 29% worse 6%
+  all_exit_ml  : n=933 mean ret diff +0.0812 CI95 [+0.0442,+0.1181] better 30% worse 21%
+== w04
+  entry filter: n=1071 AUC=0.765494195780779 base ret 1.036 | top10% ret 1.296 win 78% | random p50 1.018 p95 1.239 | p=0.0217
+  danger_model : n=1076 mean ret diff +0.0197 CI95 [-0.0383,+0.0659] better 25% worse 16%
+  up_model     : n=1076 mean ret diff -0.0583 CI95 [-0.1088,+0.0035] better 21% worse 21%
+  all_exit_ml  : n=1076 mean ret diff -0.0047 CI95 [-0.0736,+0.0623] better 34% worse 29%
+== w05
+  entry filter: n=1347 AUC=0.6838827270437536 base ret 0.937 | top10% ret 1.408 win 86% | random p50 0.923 p95 1.120 | p=0.0002
+  danger_model : n=1351 mean ret diff +0.0514 CI95 [+0.0307,+0.0727] better 21% worse 10%
+  up_model     : n=1351 mean ret diff -0.0756 CI95 [-0.1092,-0.0408] better 24% worse 26%
+  all_exit_ml  : n=1351 mean ret diff +0.0446 CI95 [+0.0119,+0.0788] better 36% worse 25%
+== w06
+  entry filter: n=1371 AUC=0.6726866927584378 base ret 0.881 | top10% ret 1.200 win 72% | random p50 0.881 p95 0.973 | p=0.0001
+  danger_model : n=1377 mean ret diff +0.0126 CI95 [-0.0037,+0.0290] better 13% worse 11%
+  up_model     : n=1377 mean ret diff -0.0973 CI95 [-0.1243,-0.0718] better 25% worse 28%
+  all_exit_ml  : n=1377 mean ret diff -0.0153 CI95 [-0.0390,+0.0081] better 28% worse 30%
+== w07
+  entry filter: n=1302 AUC=0.668127967711301 base ret 0.911 | top10% ret 1.435 win 83% | random p50 0.912 p95 1.006 | p=0.0001
+  danger_model : n=1302 mean ret diff +0.0376 CI95 [+0.0167,+0.0584] better 21% worse 12%
+  up_model     : n=1302 mean ret diff -0.0716 CI95 [-0.0991,-0.0451] better 29% worse 24%
+  all_exit_ml  : n=1302 mean ret diff +0.0236 CI95 [-0.0043,+0.0507] better 34% worse 27%
+== w08
+  entry filter: n=1115 AUC=0.6910187054496038 base ret 0.877 | top10% ret 1.369 win 79% | random p50 0.876 p95 0.981 | p=0.0001
+  danger_model : n=1116 mean ret diff +0.0548 CI95 [+0.0365,+0.0732] better 18% worse 9%
+  up_model     : n=1116 mean ret diff -0.0983 CI95 [-0.1289,-0.0688] better 28% worse 29%
+  all_exit_ml  : n=1116 mean ret diff +0.0295 CI95 [-0.0009,+0.0588] better 33% worse 27%
+== w09
+  entry filter: n=1078 AUC=0.6761380857125538 base ret 0.743 | top10% ret 1.259 win 67% | random p50 0.741 p95 0.854 | p=0.0001
+  danger_model : n=1085 mean ret diff +0.0347 CI95 [+0.0201,+0.0499] better 12% worse 7%
+  up_model     : n=1085 mean ret diff -0.0708 CI95 [-0.0957,-0.0457] better 17% worse 22%
+  all_exit_ml  : n=1085 mean ret diff +0.0126 CI95 [-0.0127,+0.0382] better 24% worse 20%
+== w10
+  entry filter: n=1171 AUC=0.7365096870342773 base ret 0.874 | top10% ret 1.413 win 85% | random p50 0.875 p95 0.970 | p=0.0001
+  danger_model : n=1186 mean ret diff -0.0114 CI95 [-0.0284,+0.0042] better 9% worse 11%
+  up_model     : n=1186 mean ret diff -0.0417 CI95 [-0.0645,-0.0176] better 24% worse 24%
+  all_exit_ml  : n=1186 mean ret diff -0.0017 CI95 [-0.0233,+0.0202] better 25% worse 25%
+== w11
+  entry filter: n=863 AUC=0.6736883942766295 base ret 0.878 | top10% ret 1.313 win 74% | random p50 0.877 p95 0.992 | p=0.0001
+  danger_model : n=867 mean ret diff +0.0474 CI95 [+0.0260,+0.0698] better 18% worse 10%
+  up_model     : n=867 mean ret diff -0.0019 CI95 [-0.0257,+0.0214] better 19% worse 14%
+  all_exit_ml  : n=867 mean ret diff +0.0580 CI95 [+0.0322,+0.0837] better 27% worse 17%
+== w12
+  entry filter: n=671 AUC=0.7105620587972477 base ret 0.979 | top10% ret 1.240 win 79% | random p50 0.977 p95 1.126 | p=0.0030
+  danger_model : n=683 mean ret diff +0.0331 CI95 [+0.0091,+0.0567] better 19% worse 11%
+  up_model     : n=683 mean ret diff +0.0423 CI95 [+0.0123,+0.0759] better 19% worse 7%
+  all_exit_ml  : n=683 mean ret diff +0.0584 CI95 [+0.0297,+0.0874] better 23% worse 15%
+== w13
+  entry filter: n=822 AUC=0.7010760559691944 base ret 0.943 | top10% ret 1.180 win 72% | random p50 0.943 p95 1.065 | p=0.0009
+  danger_model : n=837 mean ret diff -0.0214 CI95 [-0.0487,+0.0050] better 16% worse 17%
+  up_model     : n=837 mean ret diff +0.0485 CI95 [+0.0261,+0.0711] better 23% worse 5%
+  all_exit_ml  : n=837 mean ret diff +0.0048 CI95 [-0.0256,+0.0344] better 20% worse 19%
+== ALL
+  entry filter: n=14920 AUC=0.7437625673921595 base ret 0.972 | top10% ret 1.396 win 82% | random p50 0.970 p95 1.015 | p=0.0001
+  danger_model : n=15036 mean ret diff +0.0366 CI95 [+0.0289,+0.0446] better 19% worse 12%
+  up_model     : n=15036 mean ret diff -0.0086 CI95 [-0.0190,+0.0028] better 24% worse 18%
+  all_exit_ml  : n=15036 mean ret diff +0.0488 CI95 [+0.0382,+0.0603] better 29% worse 22%
+saved data/eval_w00_w01_w02_w03_w04_w05_w06_w07_w08_w09_w10_w11_w12_w13.json

@@ -1,0 +1,325 @@
+// MESIN STRATEGI (v2/v3/v4) — satu kode untuk backtest ulang, uji maju, dan paper trading live.
+// Logika disalin dari exit_tp2.js (keputusan keluar) + state_rows.js (fitur model bahaya),
+// tapi diproses BLOK DEMI BLOK: hanya memakai data sampai blok yang sedang diproses.
+// Urutan per blok: (1) event likuiditas, (2) swap baru + potret fitur, (3) aturan keluar.
+const fs = require("fs");
+
+const NATIVE = "0x0000000000000000000000000000000000000000";
+const HZ = 216000, MIN = 600, STEP = 100, GAS = 0.02;
+
+const DANGER_TH = +(process.env.DANGER_TH || 0.4);
+const UP_TH = +(process.env.UP_TH || 1);
+const TP_UP = +(process.env.TP_UP || 1);   // p_naik >= ini -> TUNDA TP1 (1 = mati)
+const TP_ENV = +(process.env.TP || 1.2);        // ambang TP1 (1.2 = +20%)
+const FRAC_ENV = +(process.env.FRAC || 0.6);   // porsi dijual saat TP1   // p_naik >= ini -> TAHAN walau ada sinyal bahaya (1 = fitur mati)   // uji: ambang model bahaya (1.0 = model dimatikan)
+const CONFIGS = {
+  v4: { tp: TP_ENV, frac: FRAC_ENV, pre: "hard40", run: "danger", th: DANGER_TH },
+  v3: { tp: 1.2, frac: 0.85, pre: "hard40", run: "v2" },
+  v2: { tp: Infinity, frac: 0, pre: "flow", run: "v2" },
+};
+
+// hash deterministik (untuk simulasi transaksi gagal yang bisa diulang)
+const h32 = str => { let h = 2166136261; for (let i = 0; i < str.length; i++) { h ^= str.charCodeAt(i); h = Math.imul(h, 16777619); } return (h >>> 0) / 4294967296; };
+const safe = m => (m.c0 === NATIVE || m.c1 === NATIVE) && m.fee <= 5000 && Number((BigInt(m.hooks) >> 7n) & 1n) === 0;
+
+function loadModel(file) {
+  const M = JSON.parse(fs.readFileSync(file, "utf8"));
+  const predict = x => {
+    let raw = M.baseline;
+    for (const t of M.trees) {
+      let n = 0;
+      while (!t.is_leaf[n]) {
+        const v = x[t.feature_idx[n]];
+        n = (Number.isNaN(v) ? t.missing_go_to_left[n] : v <= t.num_threshold[n]) ? t.left[n] : t.right[n];
+      }
+      raw += t.value[n];
+    }
+    return 1 / (1 + Math.exp(-raw));
+  };
+  return { feats: M.feats, predict };
+}
+
+const fx = (x, k) => { const v = parseFloat(x.toFixed(k)); return Number.isFinite(v) ? v : -1; };   // meniru CSV + fillna(-1)
+const num = v => Number.isFinite(v) ? v : -1;
+
+class PoolSim {
+  // meta: {id, c0, c1, fee, hooks, init}; opt: {ethUsd, model, latb, plans, onTrade, onEvent}
+  constructor(meta, opt) {
+    this.m = meta; this.o = opt;
+    this.ethUsd = opt.ethUsd; this.latb = opt.latb ?? 30;
+    // BIAYA NYATA (audit 2026-09-15): gas per transaksi swap, approve token sebelum jual, transaksi gagal (diulang, bayar gas lagi)
+    this.gas = opt.gasUsd ?? GAS; this.approveUsd = opt.approveUsd ?? 0;
+    this.failBuy = opt.failBuy ?? 0; this.failSell = opt.failSell ?? 0; this.nFail = 0;
+    this.hz = opt.hz ?? HZ;                         // batas pegang (blok sejak pool lahir); Infinity = tanpa batas
+    this.staleB = opt.staleMin ? opt.staleMin * 600 : null;   // belum TP1 dalam X menit -> jual
+    this.quietB = opt.quietMin ? opt.quietMin * 600 : null;   // sesudah TP1, tidak ada swap X menit -> jual sisa
+    this.qIsC1 = meta.c1 === NATIVE;
+    this.hook = meta.hooks !== NATIVE ? 1 : 0;
+    this.sw = []; this.V = []; this.LP = [];
+    this.a = 0n; this.r = 0n; this.warnBlk = null; this.rugBlk = null; this.remFrac = 0;
+    this.ei = -1; this.skip = false; this.closed = false;
+    // jendela arus 60 dtk (aturan keluar)
+    this.lo = 0; this.b = 0; this.s = 0; this.sUsdW = 0;
+    this.peak = 1; this.sCnt = 0; this.sUsd = 0;
+    // potret fitur (state_rows)
+    this.peakS = 1; this.sCntS = 0; this.sSumS = 0; this.lastSnap = -1e9; this.snapStop = false; this.pd = null; this.pu = null; this.nSnap = 0;
+    this.snaps = []; this.snapPtr = -1;
+    this.perfect = 0;
+    this.plans = (opt.plans || Object.keys(CONFIGS)).map(name => ({ name, C: CONFIGS[name], rem: 0, proceeds: 0, txs: 1,
+      tpDone: false, trig: null, pend: [], done: false, exitIdx: -1, reason: null }));
+  }
+  toUsd(r) { return (Math.abs(r) / 1e18) * this.ethUsd; }
+  lpUsd(x) { return 2 * this.toUsd(this.qIsC1 ? x.L * x.sqrtP : x.L / x.sqrtP); }
+  isBuy(x) { return (this.qIsC1 ? x.a0 : x.a1) > 0; }
+  qUsd(x) { return (Math.abs(this.qIsC1 ? x.a1 : x.a0) / 1e18) * this.ethUsd; }
+  sellVal(x, bTok) {
+    if (bTok <= 0) return 0;
+    const bIn = bTok * (1 - x.fee / 1e6); let r;
+    if (this.qIsC1) { const inv = 1 / x.sqrtP + bIn / x.L; r = x.L * (x.sqrtP - 1 / inv); }
+    else { const spb = x.sqrtP + bIn / x.L; r = x.L * (1 / x.sqrtP - 1 / spb); }
+    return (!isFinite(r) || r <= 0) ? 0 : this.toUsd(r);
+  }
+  realize(idx, tok) { return (this.rugBlk !== null && this.rugBlk <= this.sw[idx].blk) ? 0 : this.sellVal(this.sw[idx], tok); }
+
+  // liqs: [BigInt delta] urut log index; swaps: [{blk,li,tx,a0,a1,sqrtP,L,fee}] urut log index
+  processBlock(blk, liqs, swaps) {
+    if (this.closed || this.skip) return;
+    const m = this.m;
+    if (blk > m.init + this.hz) return;
+    // AUDIT 2026-09-15: masuk berdasarkan WAKTU (keputusan menit 1 + jeda), pakai kondisi pool sebelum blok ini.
+    // Dulu masuk menunggu swap berikutnya -> koin yang mati sesudah menit 1 tidak pernah dibeli (bias melihat masa depan).
+    if (this.entryTgt() < blk || (!this.o.worstOrder && this.entryTgt() <= blk)) { this.enterAt(this.entryTgt()); if (this.skip) return; }
+    // (1) likuiditas
+    for (const d of liqs) {
+      if (d > 0n) this.a += d; else this.r += -d;
+      if (this.a > 0n) {
+        if (this.warnBlk === null && this.r * 100n / this.a > 30n) this.warnBlk = blk;
+        if (this.rugBlk === null && this.r * 100n / this.a > 80n) this.rugBlk = blk;
+      }
+    }
+    this.remFrac = this.a > 0n ? Number(this.r * 1000n / this.a) / 1000 : 0;
+    // (2) swap baru
+    const first = this.sw.length;
+    for (const x of swaps) {
+      if (!isFinite(x.sqrtP) || x.sqrtP <= 0 || !isFinite(x.L) || x.L <= 0) continue;
+      const i = this.sw.length; this.sw.push(x); this.LP.push(this.lpUsd(x)); this.V.push(0);
+      if (this.ei < 0 && this.o.entryLat && this.decideBlk === undefined && x.blk >= m.init + MIN) this.decideBlk = i > 0 ? m.init + MIN : x.blk;   // AUDIT: putuskan di menit 1, isi 3 dtk kemudian
+      if (this.ei < 0 && !this.o.entryLat && x.blk >= m.init + MIN) {
+        this.ei = i; this.e = x;
+        this.size = Math.min(200, 0.01 * this.LP[i]);
+        if (!isFinite(this.size) || this.size < 20) { this.skip = true; this.skipWhy = "ukuran<$20"; return; }
+        const dIn = (this.size / this.ethUsd) * 1e18 * (1 - x.fee / 1e6);
+        let base;
+        if (this.qIsC1) { const sp1 = x.sqrtP + dIn / x.L; base = x.L * (1 / x.sqrtP - 1 / sp1); }
+        else { const inv = 1 / x.sqrtP + dIn / x.L; base = x.L * (x.sqrtP - 1 / inv); }
+        if (!isFinite(base) || base <= 0) { this.skip = true; this.skipWhy = "base"; return; }
+        this.base = base;
+        for (const p of this.plans) p.rem = base;
+        this.V[i] = this.sellVal(x, base) / this.size;
+        this.o.onEvent?.({ type: "entry", pool: m.id, blk: x.blk, size: this.size, lp: this.LP[i] });
+      } else if (this.ei >= 0) {
+        this.V[i] = this.sellVal(x, this.base) / this.size;
+        if (this.V[i] > this.perfect) this.perfect = this.V[i];
+      }
+    }
+    // potret fitur untuk swap baru (bisa lebih dari satu swap per blok, maks satu potret per blok)
+    if (this.ei >= 0 && this.o.model && !this.snapStop) {
+      for (let i = Math.max(first, this.ei + 1); i < this.sw.length; i++) {
+        const x = this.sw[i];
+        if (this.V[i] > this.peakS) this.peakS = this.V[i];
+        if (!this.isBuy(x)) { this.sCntS++; this.sSumS += this.qUsd(x); }
+        if (x.blk - this.lastSnap < STEP) continue;
+        if (this.V[i] <= 0) { this.snapStop = true; break; }
+        this.lastSnap = x.blk;
+        const fx = this.features(i);
+        const pdv = this.o.model.predict(fx); this.nSnap++;
+        const puv = this.o.modelUp ? this.o.modelUp.predict(fx) : null;   // p_naik: masih akan naik >=1,5x?
+        if (this.o.pdPool) { this.o.pdPool.push(pdv); }
+        if (this.o.pdMode === "random" && this.o.pdPool) this.snaps.push({ i, pd: this.o.pdPool[Math.floor(Math.random() * this.o.pdPool.length)], pu: puv });
+        else this.snaps.push({ i, pd: pdv, pu: puv });
+        if (!this.o.strictSnap) { const L = this.snaps[this.snaps.length - 1]; this.pd = L.pd; this.pu = L.pu; }
+      }
+    }
+    if (this.sw.length > first) { this.aAtLast = this.a; this.rAtLast = this.r; }
+    // urutan terburuk: bot lain di blok yang sama dengan transaksi kita dianggap lebih dulu
+    if (this.o.worstOrder && this.entryTgt() <= blk) { this.enterAt(this.entryTgt()); if (this.skip) return; }
+    // (3) aturan keluar
+    for (let i = first; i < this.sw.length; i++) this.exitStep(i);
+  }
+
+  features(i) {
+    const sw = this.sw, x = sw[i], V = this.V, LP = this.LP, ei = this.ei;
+    let b60 = 0, s60 = 0, bu60 = 0, su60 = 0, maxs60 = 0, b300 = 0, s300 = 0, bu300 = 0, su300 = 0, i60 = i, i300 = i;
+    const tx60 = new Set();
+    for (let k = i; k >= 0 && sw[k].blk > x.blk - 3000; k--) {
+      const y = sw[k], u = this.qUsd(y), buy = this.isBuy(y);
+      if (buy) { b300++; bu300 += u; } else { s300++; su300 += u; }
+      i300 = k;
+      if (y.blk > x.blk - 600) { i60 = k; tx60.add(y.tx); if (buy) { b60++; bu60 += u; } else { s60++; su60 += u; const q = u / Math.max(LP[k], 1); if (q > maxs60) maxs60 = q; } }
+    }
+    const ref = k => Math.max(ei, k - 1);
+    const avgs60 = s60 ? su60 / s60 : 0, avgb60 = b60 ? bu60 / b60 : 0;
+    const surge = (s60 && this.sCntS) ? avgs60 / (this.sSumS / this.sCntS) : 0;
+    const acc = (b60 + s60) / Math.max((b300 + s300) / 5, 1e-9);
+    return [fx(Math.log(V[i]), 4), fx(Math.log(this.peakS), 4), fx(1 - V[i] / this.peakS, 4), fx((x.blk - this.e.blk) * 0.1 / 60, 2),
+      b60, s60, fx(bu60, 0), fx(su60, 0), fx(avgs60, 1), fx(avgb60, 1), fx((bu60 - su60) / Math.max(LP[i], 1), 4),
+      b300, s300, fx(bu300, 0), fx(su300, 0), fx(surge, 3), fx(maxs60, 4),
+      fx(V[i] / Math.max(V[ref(i60)], 1e-9), 4), fx(V[i] / Math.max(V[ref(i300)], 1e-9), 4),
+      fx(LP[i] / Math.max(LP[ei], 1), 3), fx(LP[i] / Math.max(LP[i300], 1), 3),
+      acc > 50 ? 50 : fx(acc, 3), tx60.size, i > 0 ? x.blk - sw[i - 1].blk : 0, num(this.remFrac), this.hook, this.m.fee];
+  }
+
+  exitStep(i) {
+    const x = this.sw[i], sw = this.sw;
+    if (this.isBuy(x)) this.b++; else { this.s++; this.sUsdW += this.qUsd(x); }
+    while (sw[this.lo].blk <= x.blk - 600) { const y = sw[this.lo]; if (this.isBuy(y)) this.b--; else { this.s--; this.sUsdW -= this.qUsd(y); } this.lo++; }
+    if (this.ei < 0 || i <= this.ei) return;
+    const v = this.V[i]; if (v > this.peak) this.peak = v;
+    if (!this.isBuy(x)) { this.sCnt++; this.sUsd += this.qUsd(x); }
+    if (this.o.strictSnap) { while (this.snapPtr + 1 < this.snaps.length && this.snaps[this.snapPtr + 1].i <= i) this.snapPtr++; this.pd = this.snapPtr >= 0 ? this.snaps[this.snapPtr].pd : null; this.pu = this.snapPtr >= 0 ? this.snaps[this.snapPtr].pu : null; }   // AUDIT: tanpa intip swap berikutnya di blok yang sama
+    const pd = this.pd, pu = this.pu;
+    for (const p of this.plans) {
+      if (p.done) continue;
+      // isi pesanan yang tertunda (jeda eksekusi)
+      for (const q of p.pend) if (!q.filled && q.trig < i && x.blk >= q.tgt) { p.proceeds += this.realize(i, q.tok); q.filled = true; q.idx = i; }
+      if (p.trig) { const q = p.trig; if (q.trig < i && x.blk >= q.tgt) { this.close(p, i); } continue; }
+      const C = p.C;
+      // TP1 DITUNDA kalau p_naik masih tinggi. Data: koin yang kena TP1 naik sampai median 1,66x,
+      // 28,6% tembus 2x, 10% tembus 3x. Jual di +20% membuang rata-rata +92% kenaikan.
+      const tundaTP = TP_UP < 1 && pu !== null && pu !== undefined && pu >= TP_UP;
+      if (!p.tpDone && C.frac > 0 && v >= C.tp && !tundaTP) {
+        const tok = this.base * C.frac;
+        const k1 = this.retries(p.name + "|tp1"); p.pend.push({ trig: i, tgt: x.blk + this.latb * (1 + k1), tok }); p.rem -= tok; p.txs += 1 + k1; this.nFail += k1; p.tpDone = true; p.tp1Blk = x.blk; p.tp1V = v;
+        this.o.onEvent?.({ type: "tp1", plan: p.name, pool: this.m.id, blk: x.blk, v });
+        continue;
+      }
+      let why = null;
+      if (this.staleB && !p.tpDone && x.blk >= this.e.blk + this.staleB) why = "tanpa kemajuan";
+      if (!why && this.warnBlk !== null && x.blk > this.warnBlk) why = "LP ditarik >30%";
+      if (!why && !this.isBuy(x) && this.qUsd(x) >= 0.05 * this.LP[i]) why = "dump >=5% LP";
+      if (!why && this.peak >= 3 && this.s >= 3 && this.sCnt >= 6 && (this.sUsdW / this.s) >= 1.5 * (this.sUsd / this.sCnt)) why = "tanda pucuk";
+      // DUA MODEL: jual karena bahaya hanya kalau model tidak melihat kenaikan lagi.
+      // 18,3% potret berlabel bahaya ternyata masih naik >=1,5x dalam 30 menit -> itu pemenang yang dulu dijual terlalu dini.
+      const tahan = UP_TH < 1 && pu !== null && pu !== undefined && pu >= UP_TH;
+      if (!why && p.tpDone && C.run === "danger" && pd !== null && pd >= C.th && !tahan) why = "model bahaya";
+      if (!why && p.tpDone && C.run === "danger" && v <= this.peak * 0.10) why = "stop bencana";
+      if (!why && !(p.tpDone && C.run === "danger")) {
+        let tr;
+        if (!p.tpDone && C.pre === "hard40") tr = 0.40;
+        else { const strong = this.b >= this.s && this.b >= 3; tr = this.peak >= 10 ? (strong ? 0.50 : 0.20) : (strong ? 0.80 : 0.30); }
+        if (v <= this.peak * (1 - tr)) why = p.tpDone ? "stop arus" : "stop -40%";
+      }
+      if (why) { const k = this.retries(p.name + "|exit"); p.txs += k; this.nFail += k; p.trig = { trig: i, tgt: x.blk + this.latb * (1 + k) }; p.reason = why; this.o.onEvent?.({ type: "exit_signal", plan: p.name, pool: this.m.id, blk: x.blk, v, why }); }
+    }
+  }
+
+  close(p, idx) {
+    if (p.rem > this.base * 1e-9) p.proceeds += this.realize(idx, p.rem);
+    this.emit(p, idx);
+  }
+  // jual pada kondisi pool SAAT INI tanpa swap baru (dipakai jual berbasis waktu)
+  stateNow(blk) {
+    let s = this.sw[this.sw.length - 1];
+    if (this.o.lpAdjust && this.a > 0n && this.aAtLast !== undefined) {
+      const remNow = Number(this.a - this.r), remAt = Number(this.aAtLast - this.rAtLast);
+      if (remAt > 0) s = { ...s, L: s.L * Math.max(0, Math.min(1, remNow / remAt)) };
+    }
+    return s;
+  }
+  realizeNow(blk, tok) { return (this.rugBlk !== null && this.rugBlk <= blk) ? 0 : this.sellVal(this.stateNow(blk), tok); }
+  // jam berjalan tanpa swap: cek batas waktu & isi pesanan tertunda
+  entryTgt() {
+    if (!this.o.entryLat || this.ei >= 0 || this.skip || this.closed || !this.sw.length) return Infinity;
+    const d = this.decideBlk ?? this.m.init + MIN;
+    return d + this.o.entryLat;
+  }
+  enterAt(tgt) {
+    const i = this.sw.length - 1, s = this.stateNow(tgt);
+    if (this.failBuy && h32(this.m.id + "|buy") < this.failBuy) {   // beli gagal: tidak dapat koin, gas tetap terbayar
+      this.skip = true; this.skipWhy = "beli gagal";
+      const size = Math.min(200, 0.01 * this.lpUsd(s));
+      if (isFinite(size) && size >= 20) for (const p of this.plans) this.o.onTrade?.({ plan: p.name, pool: this.m.id, init: this.m.init, entryBlk: tgt, exitBlk: tgt, size,
+        pnl: -this.gas, ret: 1 - this.gas / size, hold: 0, reason: "beli gagal", tp1: false, tp1Blk: null, tp1V: null, peakV: 1, perfect: 1, ethUsd: this.ethUsd, gasTot: this.gas, fails: 1 });
+      return;
+    }
+    this.ei = i; this.e = { ...this.sw[i], blk: tgt };
+    this.size = Math.min(200, 0.01 * this.lpUsd(s));
+    if (!isFinite(this.size) || this.size < 20) { this.skip = true; this.skipWhy = "ukuran<$20"; return; }
+    const dIn = (this.size / this.ethUsd) * 1e18 * (1 - s.fee / 1e6);
+    let base;
+    if (this.qIsC1) { const sp1 = s.sqrtP + dIn / s.L; base = s.L * (1 / s.sqrtP - 1 / sp1); }
+    else { const inv = 1 / s.sqrtP + dIn / s.L; base = s.L * (s.sqrtP - 1 / inv); }
+    if (!isFinite(base) || base <= 0) { this.skip = true; this.skipWhy = "base"; return; }
+    this.base = base;
+    for (const p of this.plans) p.rem = base;
+    this.V[i] = this.sellVal(s, base) / this.size;
+    this.o.onEvent?.({ type: "entry", pool: this.m.id, blk: tgt, size: this.size, lp: this.lpUsd(s) });
+  }
+  nextDeadline() {
+    if (this.closed || this.skip) return Infinity;
+    if (this.ei < 0) return this.entryTgt();
+    let d = Infinity; const lastBlk = this.sw[this.sw.length - 1].blk;
+    for (const p of this.plans) {
+      if (p.done) continue;
+      if (this.o.fillOnTime) for (const q of p.pend) if (!q.filled) d = Math.min(d, q.tgt);
+      if (p.trig) { if (this.o.fillOnTime || p.trig.timed) d = Math.min(d, p.trig.tgt); continue; }
+      if (this.staleB && !p.tpDone) d = Math.min(d, this.e.blk + this.staleB);
+      if (this.quietB && (p.tpDone || this.o.quietAll)) d = Math.min(d, lastBlk + this.quietB);
+    }
+    return d;
+  }
+  tick(blk) {
+    if (this.closed || this.skip || blk > this.m.init + this.hz) return;
+    if (this.ei < 0) { if (this.entryTgt() <= blk) this.enterAt(this.entryTgt()); return; }
+    const last = this.sw.length - 1, lastBlk = this.sw[last].blk;
+    if (blk <= lastBlk) return;
+    for (const p of this.plans) {
+      if (p.done) continue;
+      if (this.o.fillOnTime || p.trig?.timed) for (const q of p.pend) if (!q.filled && blk >= q.tgt) { p.proceeds += this.realizeNow(blk, q.tok); q.filled = true; }
+      if (p.trig) {
+        if ((this.o.fillOnTime || p.trig.timed) && blk >= p.trig.tgt) { if (p.rem > this.base * 1e-9) p.proceeds += this.realizeNow(blk, p.rem); this.emit(p, last, blk); }
+        continue;
+      }
+      let why = null;
+      if (this.staleB && !p.tpDone && blk >= this.e.blk + this.staleB) why = "tanpa kemajuan";
+      else if (this.quietB && (p.tpDone || this.o.quietAll) && blk >= lastBlk + this.quietB) why = "pool sepi";
+      if (why) { const k = this.retries(p.name + "|exit"); p.txs += k; this.nFail += k; p.trig = { trig: last, tgt: blk + this.latb * (1 + k), timed: true }; p.reason = why; this.o.onEvent?.({ type: "exit_signal", plan: p.name, pool: this.m.id, blk, why }); }
+    }
+  }
+  allDone() { return this.skip || (this.ei >= 0 && this.plans.every(p => p.done)); }
+  retries(tag) { let k = 0; while (this.failSell && k < 5 && h32(this.m.id + "|" + tag + "|" + k) < this.failSell) k++; return k; }
+  emit(p, idx, atBlk) {
+    p.txs++; p.done = true;
+    const gasTot = this.gas * p.txs + this.approveUsd;
+    const pnl = p.proceeds - this.size - gasTot;
+    const xb = atBlk ?? this.sw[idx].blk;
+    this.o.onTrade?.({ plan: p.name, pool: this.m.id, init: this.m.init, entryBlk: this.e.blk, exitBlk: xb,
+      size: this.size, pnl, ret: (p.proceeds - gasTot) / this.size, gasTot, txs: p.txs, hold: (xb - this.e.blk) * 0.1 / 60,
+      reason: p.reason || "batas 6 jam", tp1: p.tpDone, tp1Blk: p.tp1Blk ?? null, tp1V: p.tp1V ?? null, peakV: this.peak, perfect: this.perfect, ethUsd: this.ethUsd });
+  }
+
+  // dipanggil setelah semua blok <= init+HZ diproses
+  finalize() {
+    if (this.closed) return; this.closed = true;
+    if (this.skip || this.ei < 0) return;
+    if (this.ei >= this.sw.length - 1 && !this.o.keepNoAfter) return;   // (backtest membuang pool tanpa swap setelah masuk)
+    const last = this.sw.length - 1;
+    // AUDIT: LP yang ditarik SETELAH swap terakhir memperkecil likuiditas saat jual di akhir horizon
+    let endSw = this.sw[last];
+    if (this.o.lpAdjust && this.a > 0n) {
+      const remNow = Number(this.a - this.r), remAt = Number(this.aAtLast - this.rAtLast);
+      if (remAt > 0) endSw = { ...endSw, L: endSw.L * Math.max(0, Math.min(1, remNow / remAt)) };
+    }
+    for (const p of this.plans) {
+      if (p.done) continue;
+      for (const q of p.pend) if (!q.filled) { p.proceeds += this.realize(last, q.tok); q.filled = true; }
+      if (p.trig) { this.close(p, last); continue; }
+      p.proceeds += (this.rugBlk !== null && this.rugBlk <= this.m.init + this.hz) ? 0 : this.sellVal(endSw, p.rem);
+      if (this.ei >= this.sw.length - 1) p.reason = "tanpa swap setelah masuk";
+      else if (this.hz !== HZ) p.reason = "akhir data";
+      this.emit(p, last, this.hz !== HZ && isFinite(this.m.init + this.hz) ? this.m.init + this.hz : undefined);
+    }
+  }
+}
+
+module.exports = { PoolSim, CONFIGS, loadModel, safe, NATIVE, HZ, MIN };

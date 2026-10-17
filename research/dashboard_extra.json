@@ -1,0 +1,272 @@
+{
+ "system_label": "Sistem A + retrain tiap 2 hari",
+ "verdict": [
+  [
+   "good",
+   "● Untung di semua uji data baru"
+  ],
+  [
+   "good",
+   "● Mengalahkan 100/100 bot acak"
+  ],
+  [
+   "warn",
+   "▲ Rusak bila tiap trade ≥20–30% lebih jelek"
+  ],
+  [
+   "crit",
+   "■ Belum layak uang asli"
+  ]
+ ],
+ "systems": [
+  {
+   "period": "18 Sep–16 Okt",
+   "label": "Resmi (model beku)",
+   "end": 84445.64,
+   "dd": 24.2,
+   "trades": 1155,
+   "win": 78.0,
+   "main": false
+  },
+  {
+   "period": "18 Sep–16 Okt",
+   "label": "Resmi + retrain 2 hari",
+   "end": 78368.77,
+   "dd": 21.0,
+   "trades": 1268,
+   "win": 83.9,
+   "main": false
+  },
+  {
+   "period": "18 Sep–16 Okt",
+   "label": "Sistem A (model beku)",
+   "end": 140123.06,
+   "dd": 25.2,
+   "trades": 2367,
+   "win": 72.7,
+   "main": false
+  },
+  {
+   "period": "18 Sep–16 Okt",
+   "label": "Sistem A + retrain 2 hari",
+   "end": 161557.85,
+   "dd": 25.2,
+   "trades": 2496,
+   "win": 78.0,
+   "main": true
+  },
+  {
+   "period": "Oktober saja",
+   "label": "Resmi (model beku)",
+   "end": 50460.47,
+   "dd": 43.3,
+   "trades": 753,
+   "win": 76.0,
+   "main": false
+  },
+  {
+   "period": "Oktober saja",
+   "label": "Resmi + retrain 2 hari",
+   "end": 46719.21,
+   "dd": 46.0,
+   "trades": 731,
+   "win": 82.4,
+   "main": false
+  },
+  {
+   "period": "Oktober saja",
+   "label": "Sistem A (model beku)",
+   "end": 48656.04,
+   "dd": 36.1,
+   "trades": 1533,
+   "win": 68.9,
+   "main": false
+  },
+  {
+   "period": "Oktober saja",
+   "label": "Sistem A + retrain 2 hari",
+   "end": 95049.05,
+   "dd": 33.3,
+   "trades": 1442,
+   "win": 75.0,
+   "main": true
+  }
+ ],
+ "shuffle": [
+  {
+   "label": "Resmi",
+   "p5": 79654.0125,
+   "p50": 88272.69,
+   "min": 72.78,
+   "loss_share": 0.01,
+   "dd_p50": 30.85
+  },
+  {
+   "label": "Sistem A",
+   "p5": 74.12,
+   "p50": 141653.515,
+   "min": 74.12,
+   "loss_share": 0.06,
+   "dd_p50": 32.7
+  }
+ ],
+ "ml_final": [
+  {
+   "label": "CatBoost resmi (beku)",
+   "auc": 0.6887005828228151,
+   "end": 45625.33,
+   "dd": 48.8,
+   "hl": false
+  },
+  {
+   "label": "CatBoost dilatih ulang (Sep)",
+   "auc": 0.7433907614496305,
+   "end": 42103.36,
+   "dd": 21.3,
+   "hl": true
+  },
+  {
+   "label": "CatBoost ulang + rumus jurnal",
+   "auc": 0.7572434562152404,
+   "end": 40921.6,
+   "dd": 29.6,
+   "hl": false
+  },
+  {
+   "label": "LightGBM",
+   "auc": 0.6711388205911016,
+   "end": 35281.51,
+   "dd": 59.1,
+   "hl": false
+  },
+  {
+   "label": "Ensemble Cat+XGB+LGBM",
+   "auc": 0.678132520446338,
+   "end": 35235.17,
+   "dd": 59.7,
+   "hl": false
+  },
+  {
+   "label": "LightGBM ulang + rumus jurnal",
+   "auc": 0.7412549619365048,
+   "end": 29303.28,
+   "dd": 47.9,
+   "hl": false
+  }
+ ],
+ "lit": [
+  {
+   "name": "Akselerasi transaksi",
+   "src": "Hawkes / Bacry et al.",
+   "corr": "+0,32 | +0,32",
+   "use": "ya"
+  },
+  {
+   "name": "Pertumbuhan trader unik",
+   "src": "studi memecoin arXiv",
+   "corr": "+0,28 | +0,34",
+   "use": "ya"
+  },
+  {
+   "name": "Ilikuiditas Amihud",
+   "src": "Amihud 2002, J. Fin. Markets",
+   "corr": "+0,16 | +0,29",
+   "use": "ya"
+  },
+  {
+   "name": "Porsi sniper 3 dtk pertama",
+   "src": "studi sniper pump.fun arXiv",
+   "corr": "−0,21 | −0,37",
+   "use": "ya"
+  },
+  {
+   "name": "Porsi lompatan (RV−BV)",
+   "src": "Barndorff-Nielsen & Shephard",
+   "corr": "−0,04 | −0,19",
+   "use": "tidak (tanda berbalik)"
+  },
+  {
+   "name": "Lompatan Lee–Mykland",
+   "src": "Lee & Mykland 2008, RFS",
+   "corr": "−0,07 | −0,18",
+   "use": "tidak (tanda berbalik)"
+  },
+  {
+   "name": "Branching ratio Hawkes",
+   "src": "Filimonov & Sornette 2012",
+   "corr": "−0,15 | +0,07",
+   "use": "tidak (tanda berbalik)"
+  },
+  {
+   "name": "VPIN",
+   "src": "Easley, López de Prado, O'Hara",
+   "corr": "−0,03 | +0,33",
+   "use": "tidak (tanda berbalik)"
+  },
+  {
+   "name": "Spread Roll",
+   "src": "Roll 1984, J. Finance",
+   "corr": "+0,08 | −0,38",
+   "use": "tidak (tanda berbalik)"
+  },
+  {
+   "name": "Dampak akar-kuadrat",
+   "src": "Tóth, Bouchaud 2011",
+   "corr": "+0,21 | +0,02",
+   "use": "tidak (tanda berbalik)"
+  }
+ ],
+ "bench": [
+  {
+   "lang": "Rust (sistem sekarang)",
+   "ns": 1833,
+   "hl": true
+  },
+  {
+   "lang": "C++ g++ -O3",
+   "ns": 1962
+  },
+  {
+   "lang": "C++ clang -O3",
+   "ns": 1650
+  },
+  {
+   "lang": "Jeda jaringan RPC (pembanding)",
+   "ns": 78000000
+  }
+ ],
+ "lit_note": "Fitur jurnal yang tanda korelasinya konsisten di dua paruh September dipakai (4). Hasil di Oktober: AUC 0,743 → 0,757, tapi laba akun tidak naik jelas, jadi belum dimasukkan ke sistem utama. Rumus quantum QFV: AUC 0,53 (hampir lempar koin), ditolak.",
+ "tune_summary": {
+  "tune": [
+   "w00",
+   "w04",
+   "w05"
+  ],
+  "test": [
+   "w01",
+   "w02",
+   "w03"
+  ],
+  "rows": [
+   {
+    "label": "Resmi",
+    "desc": "QTHR 0.90 · DANGER_TH 0.4 · TRAIL 0 · tutup saat rug 0 · Kelly maks 0.10",
+    "chosen": false,
+    "tune_end": 9731.71,
+    "tune_dd": 43.9,
+    "test_end": 6104.99,
+    "test_dd": 15.6
+   },
+   {
+    "label": "Sistem A (terbaik di A)",
+    "desc": "QTHR 0.80 · DANGER_TH 0.5 · TRAIL 0.4 · tutup saat rug 1 · Kelly maks 0.15",
+    "chosen": true,
+    "tune_end": 21847.87,
+    "tune_dd": 34.1,
+    "test_end": 26097.49,
+    "test_dd": 25.6
+   }
+  ],
+  "note": "576 kombinasi. Pemenang dipilih HANYA dari jendela A (DD ≤ 35%); B dan Oktober tidak dipakai memilih."
+ }
+}

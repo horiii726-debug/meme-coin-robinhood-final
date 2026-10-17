@@ -1,0 +1,8 @@
+JUAL BERTAHAP — saringan aman, jeda eksekusi 30 blok (3.0 dtk)
+
+SEMUA KONFIGURASI diurutkan menurut PF di periode LAMA (hanya yang win rate LAMA >= 50%):
+konfigurasi                                 | LAMA   n  win    PF  rata2      PnL   -top1  hold a/m  >=2x >=11x tangkap  terbesar | BARU   n  win    PF  rata2      PnL   -top1  hold a/m  >=2x >=11x tangkap  terbesar
+TP1 +20% jual 85% | stop awal hard40        |      175   50%  1.74    26%    $4534    $2208    43/5m   13    1   21%    +1805% |      638   52%  2.00    13%   $11397   $10291    46/6m   28    0    8%     +703%
+
+PEMBANDING:
+v2 (tanpa TP1)                              |      175   28%  1.55    38%    $5877    $3480    43/4m   17    6   34%    +1860% |      638   20%  1.40    17%   $11895    $7835    46/6m   71    3   17%    +3855%

@@ -1,0 +1,17 @@
+
+=== ARENA ===
+peluang 2797 | beli 177 | tutup 177 | lewat jalur roket 0
+tolak: ml 2428, dev 0, honeypot 123, slot penuh 0, eksposur penuh 1, kill 0, kas 0, model belum siap 68
+win 75.1% | PF 2.93 | rug dimakan (ret<0,3) 27
+akun $100 -> $8983.86 (8884%) | DD maks 21.2% | kill tidak
+  u_ds5d: 18 trade | win 56% | PF 0.45 | untung $-5.96
+  u_ds24: 23 trade | win 70% | PF 1.17 | untung $5.05
+  m1: 85 trade | win 80% | PF 3.62 | untung $5538.97
+  m2: 51 trade | win 76% | PF 2.36 | untung $3345.79
+terbaik: 0x16373b x2.94 +$885.13 | 0x2245bc x2.86 +$455.79 | 0xea7007 x2.80 +$442.26
+terburuk: 0xb1b796 x0.37 $-296.27 | 0xdb7612 x-0.00 $-476.82 | 0x8e7ae8 x-0.00 $-591.20
+TRADE/HARI: 3.8 | lama pegang median 5 menit (rata2 103 mnt, terlama 546 mnt)
+POSISI BERSAMAAN saat membeli: 1 posisi: 20% | 2 posisi: 16% | 3 posisi: 10% | 4 posisi: 16% | 5 posisi: 13% | 6 posisi: 7% | 7 posisi: 5% | 8 posisi: 8% | 9 posisi: 3%
+KELLY: f*/4 rata2 8.3% (maks 10.0%) | posisi bersamaan rata2 3.9 (maks 9) | eksposur total rata2 32% modal
+ret rata2 per trade 1.438 (untung bersih 43.8% per trade)
+catatan kejujuran: 0/177 posisi melebihi 1% likuiditas pool -> slippage nyata di trade itu bisa lebih buruk dari yang disimulasikan

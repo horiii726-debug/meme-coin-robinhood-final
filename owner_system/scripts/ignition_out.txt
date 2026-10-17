@@ -1,0 +1,49 @@
+========================================================================================================
+KURVA DETIK-PER-DETIK DI SEKITAR PENYALAAN (median jumlah PEMBELIAN per 5 detik)
+========================================================================================================
+tingkat               n -60..-55 -30..-25 -20..-15 -15..-10  -10..-5    -5..0     0..5    5..10   10..15   25..30
++1.000-3.000%        83      1.8      2.2      2.0      2.1      2.2      5.5     10.2      5.0      4.5      5.3
++3.000-10.000%       30      6.0      5.9      5.2      4.2      4.5      5.7     10.5      6.8      5.4      4.8
+>+10.000%             7      1.7      1.3      0.9      1.0      1.4      2.3     14.4     23.0     30.0      7.1
+fakeout             859      2.6      2.6      2.7      2.8      3.2      4.2      5.9      4.0      3.6      3.2
+(rata-rata pembelian per jendela 5 detik; detik 0 = saat harga tembus 2x)
+
+VOLUME BELI USD per 5 detik (rata-rata)
+tingkat               n -60..-55 -30..-25 -20..-15 -15..-10  -10..-5    -5..0     0..5    5..10   10..15   25..30
++1.000-3.000%        83     $229     $272     $251     $250     $331    $1062    $4815     $707     $842     $865
++3.000-10.000%       30     $722     $393     $588     $448     $690     $915    $2521     $781     $842     $693
+>+10.000%             7      $58      $11       $3      $35      $47     $265   $18498    $9725    $6009     $656
+fakeout             859     $379     $359     $400     $416     $566     $785    $1570     $608     $473     $474
+
+========================================================================================================
+CIRI DI DETIK PENYALAAN (median) — apakah tingkat moonshot punya pola SAMA?
+========================================================================================================
+ciri                                +1.000-3.000%   +3.000-10.000%        >+10.000%          fakeout
+detik dari entry ke 2x                       294s             266s             696s             254s
+beli 10 dtk terakhir                            5                7                3                3
+beli 30 dtk terakhir                            6               12                3                7
+beli 60 dtk terakhir                            8               13                3               11
+jual 30 dtk terakhir                            0                1                1                2
+vol beli 30 dtk                             $2435            $2820             $635            $2391
+akselerasi beli (10s vs rata2)              2.00x            2.00x            1.00x            1.67x
+beli beruntun saat tembus                       4                3                3                3
+naik harga 10 dtk terakhir                    39%              39%             347%              22%
+naik harga 60 dtk terakhir                    81%             108%             347%              45%
+LP tumbuh 60 dtk terakhir                   1.39x            1.37x            1.52x            1.19x
+beli terbesar 30 dtk                         $503             $629             $127             $635
+
+======================================================================
+DAYA BEDA di detik penyalaan: moonshot vs fakeout (AUC; 0,5 = acak)
+======================================================================
+detik dari entry ke 2x            0.539
+beli 10 dtk terakhir              0.537
+beli 30 dtk terakhir              0.484
+beli 60 dtk terakhir              0.432
+jual 30 dtk terakhir              0.381
+vol beli 30 dtk                   0.515
+akselerasi beli (10s vs rata2)    0.618
+beli beruntun saat tembus         0.535
+naik harga 10 dtk terakhir        0.639
+naik harga 60 dtk terakhir        0.638
+LP tumbuh 60 dtk terakhir         0.614
+beli terbesar 30 dtk              0.470

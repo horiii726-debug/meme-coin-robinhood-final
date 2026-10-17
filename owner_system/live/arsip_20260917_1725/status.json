@@ -1,0 +1,37 @@
+{
+ "updated": "2026-09-17T10:25:02.835Z",
+ "mode": "KERTAS (tanpa transaksi)",
+ "last_block": 65138106,
+ "tip": 65258048,
+ "lag_blocks": 119942,
+ "eth_usd": 2436.99,
+ "pools_tracked": 34,
+ "v4_open": 11,
+ "uptime_min": 61.5,
+ "last_error": "",
+ "filter": {
+  "ambil": 564,
+  "lewati": 207,
+  "ambang": 0.364
+ },
+ "results": {
+  "v4": {
+   "trade": 505,
+   "win_rate": 43.6,
+   "pf": 0.74,
+   "pnl": -5912.33
+  },
+  "v3": {
+   "trade": 491,
+   "win_rate": 70.3,
+   "pf": 0.89,
+   "pnl": -2048.18
+  },
+  "v2": {
+   "trade": 491,
+   "win_rate": 31.8,
+   "pf": 0.61,
+   "pnl": -16785.15
+  }
+ }
+}

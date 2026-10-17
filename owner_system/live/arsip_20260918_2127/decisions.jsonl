@@ -1,0 +1,419 @@
+{"pool":"0x14728b29bf12153de13aaa9130f0688abdd60a4ee44cd168f8bc148c3316d93f","filterOk":false,"score":0.2048489657392502,"honeypot":null,"hpWhy":null,"t":"2026-09-17T12:52:46.353Z"}
+{"pool":"0x2669afc0726fd90bb29cfbe89481d2e3a99cb1aaf980a6ca088f15fe8cdfebcd","filterOk":false,"score":0.2048489657392502,"honeypot":null,"hpWhy":null,"t":"2026-09-17T12:52:46.414Z"}
+{"pool":"0xe22236a68ac44dc061e43446793b308979283d701c02ae722a80ed1defa96c61","filterOk":false,"score":0.34090239804569544,"honeypot":null,"hpWhy":null,"t":"2026-09-17T12:52:46.467Z"}
+{"pool":"0xc72ca994410f7ab37b6e53a7ad838bfa04b82734dcd1c6162f19ff4d5a2bd79d","filterOk":false,"score":0.2048489657392502,"honeypot":null,"hpWhy":null,"t":"2026-09-17T12:52:46.620Z"}
+{"pool":"0xda18faf70b0f55934c54c3b9a7ec7b01806cda74ffd013b5ccc5cb75ade2e61c","filterOk":false,"score":0.2048489657392502,"honeypot":null,"hpWhy":null,"t":"2026-09-17T12:52:46.684Z"}
+{"pool":"0xf354525f7c2f76505113b02013391f90b5eabc1ef7d9c9d93b61e3553c785974","filterOk":false,"score":0.2048489657392502,"honeypot":null,"hpWhy":null,"t":"2026-09-17T12:52:46.728Z"}
+{"pool":"0xa5ed77c984b7a72625e4ef146a4051a4269eed7b4c942915b3d37a6e7f726c5e","filterOk":false,"score":0.2048489657392502,"honeypot":null,"hpWhy":null,"t":"2026-09-17T12:52:47.011Z"}
+{"pool":"0x25224e0b9dc507cb561dce69916cc82090623b4e160cb5deeda1481490e70881","filterOk":true,"score":0.4459090737463679,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T12:53:24.007Z"}
+{"pool":"0x023424183a69d6d10c5b4ab440640ecedfa4a26260cebcf36d615941056397bb","filterOk":true,"score":0.4459090737463679,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T12:54:46.961Z"}
+{"pool":"0xc9774826d7df4b8ffa91ea00d732951b3bc9e2a25ab46d4cd9395d5036f7118a","filterOk":true,"score":0.5084855294875565,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T12:55:21.428Z"}
+{"pool":"0x899cff2b9c98cbd133ad749c2b2e2cb7a2171d0c1b084da3c728de5754eb3fe4","filterOk":true,"score":0.9082817350746718,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T12:56:14.442Z"}
+{"pool":"0x7e3b1757b93f19593b9f35549f0a66d53131764328f8317a168695e5b62509de","filterOk":true,"score":0.5077296126876331,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T12:57:23.161Z"}
+{"pool":"0xfa83a2d1929adc221933c230440f951f1c08ecf2b997742aef3e3407ec7439b0","filterOk":true,"score":0.6735658235362787,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T12:59:25.972Z"}
+{"pool":"0x8368c4af1faed16059834752d8307beff6cc60a9894379bff454a929f523b4b1","filterOk":true,"score":0.4456815585785234,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T13:01:46.374Z"}
+{"pool":"0x4a9bb1a20b8a90963c78c904bbadf65bed637c3af535f5130a617f2cc0a3bdf9","filterOk":true,"score":0.3855066776975438,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T13:02:24.473Z"}
+{"pool":"0xab0f6e116c15424e9e170d1340b082a8f66d6328aae48039a808829bbeb0f3e6","filterOk":true,"score":0.4915328081960358,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T13:02:39.744Z"}
+{"pool":"0x03bc02c1a8591a6ba3aaec49a53b220c3a9e22578c48ce815efc6cd9db30cb13","filterOk":true,"score":0.5563516688877497,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T13:03:31.719Z"}
+{"pool":"0x7ccadb468bcb0a9e79acdac26913c0f0f48bb4053fb41c92197285c7e493afd0","filterOk":true,"score":0.8549307653519921,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T13:03:34.537Z"}
+{"pool":"0xbc520e579c0e86895ecf15c7170d85d5b23ad620fe062fbe57b0385414a7704b","filterOk":false,"score":0.16757611549001888,"honeypot":null,"hpWhy":null,"t":"2026-09-17T13:04:19.356Z"}
+{"pool":"0x52ff4264ac7e62b7e96af5bf451bb1fa202688a90d8dadb3280f7f72fe07f7a0","filterOk":false,"score":0.1685009959234199,"honeypot":null,"hpWhy":null,"t":"2026-09-17T13:05:21.035Z"}
+{"pool":"0x179a578c813f3175ea020358992ed4ab693d7851ae5dfcb7eaac3f4974f0c5a6","filterOk":true,"score":0.4459090737463679,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T13:07:19.721Z"}
+{"pool":"0xd522bd6a9901a56b69e5b4ded68b0a477086301975b5945dc3012fd06f12cf98","filterOk":true,"score":0.4459090737463679,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T13:08:42.563Z"}
+{"pool":"0x66a91025fdbcd78bd6e2004f49c88f700f7f911ace8ab78908baa66ffddb5747","filterOk":true,"score":0.4459090737463679,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T13:10:09.866Z"}
+{"pool":"0xa43c0196a02b094e0d8a48595f0d48f52ec3d0031cc938333b5bf336126d65da","filterOk":false,"score":0.24149896139945887,"honeypot":null,"hpWhy":null,"t":"2026-09-17T13:10:17.105Z"}
+{"pool":"0xf8e448c296cd130c66efc1853cf7fca6a6dc7f0719c94f0f3d8c1b5a6792475c","filterOk":true,"score":0.5749654526710475,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T13:10:42.927Z"}
+{"pool":"0x6d3a249bbe4e5708248cd00c733dc656181ceaf34e1d4a8b4a92ad3a4f50e12f","filterOk":true,"score":0.4459090737463679,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T13:11:32.265Z"}
+{"pool":"0x826a4d597771179955fc4c5e56439ff11d65a59acd5d85a011b4fd4a4926b1ef","filterOk":true,"score":0.8072630967027381,"honeypot":true,"hpWhy":"tidak bisa dibuktikan bisa dijual","t":"2026-09-17T13:12:57.009Z"}
+{"pool":"0x06fa7188c8b8e35a4ac8298812f0e2f2c6f15ca8f9cde2426693866ae244a3d4","filterOk":false,"score":0.34090239804569544,"honeypot":null,"hpWhy":null,"t":"2026-09-17T13:15:51.850Z"}
+{"pool":"0x3f1beb7861b76a45f54cf2e1cf7cf40f14e9e4bc7565aece11cbd0a2119bf302","filterOk":true,"score":0.4592286564622101,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T13:16:05.805Z"}
+{"pool":"0x28f904fe27b2fb4a39c312d317ea74df8f0c052acc1cf2cecaa9bf9cfce35a6d","filterOk":false,"score":0.24149896139945887,"honeypot":null,"hpWhy":null,"t":"2026-09-17T13:17:40.568Z"}
+{"pool":"0x2ef245b9b329ce181eb1ba68300f5e083eca5b9465bcaffee424b83a125a4507","filterOk":true,"score":0.4997228608731918,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T13:19:31.547Z"}
+{"pool":"0x8aee331f9984448da228fa465191698383fb1e4cb7348205ece44b932698f518","filterOk":true,"score":0.3858342848928265,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T13:21:34.151Z"}
+{"pool":"0xb19b16b06781891e51a172b01c16aeb4f69b1c2e2ff40ba030bde0549a3d4cfa","filterOk":true,"score":0.7973824658478914,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T13:22:27.482Z"}
+{"pool":"0xff783232df0b68337c53627aa522745fe6b03764a4fc4c446aea051061b9e0dd","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T13:24:02.122Z"}
+{"pool":"0x32389e02fe2ef0b2267391e914a3dbf7a7ab78d52786d2dc255ed01ce31bfa5d","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T13:24:02.259Z"}
+{"pool":"0x97f99808a8ee1cd0fb362a1d41019838784fe57ae6225f34c8b9e4c2e994fd59","filterOk":true,"score":0.4459090737463679,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T13:25:27.907Z"}
+{"pool":"0x4844401a1e591575539c6a942e9db98df9db7f446a27c153307d941ddf9ac057","filterOk":true,"score":0.4459090737463679,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T13:26:47.530Z"}
+{"pool":"0x0d5da4943c15cb892cff136d58eb1f908e38be2babdfeb6b754486d06f78b9b7","filterOk":true,"score":0.4459090737463679,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T13:28:09.399Z"}
+{"pool":"0xcd99043367c93140831475d873d7ede8a60a6cce73143230d20ea2c21def7945","filterOk":true,"score":0.47625341869435,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T13:28:11.994Z"}
+{"pool":"0xa1155eb47e71e7e579b62498fb477205c4f25f4f05bce1f79cbf851efb546fe5","filterOk":true,"score":0.45695493533888304,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T13:28:35.686Z"}
+{"pool":"0x755a1a634c9ef8cdfaa9ee795b68aa396f343a9a6e6b893290a72b52d8e06d8f","filterOk":true,"score":0.8903678572731785,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T13:28:53.084Z"}
+{"pool":"0x53f3ef7aa8ca7f4d59c8ced93a3be7f99cdbc13bebbaf02332c81861e8f31a0f","filterOk":true,"score":0.8241862005240116,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T13:29:31.631Z"}
+{"pool":"0x3f2c25f7db563d3942735331164e01d4f9d171e1e4b1ad7cc5dc6ff481941a60","filterOk":false,"score":0.27503331781378926,"honeypot":null,"hpWhy":null,"t":"2026-09-17T13:30:17.329Z"}
+{"pool":"0x17062d984066fd776f6aa670a0014fafc5f09c3bcdedcdfd3958434f7dcd81b0","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T13:31:26.971Z"}
+{"pool":"0xfc16a40eebb45549c665f8dfbc828bb497bcc461228a1327264852a53c7fdaf3","filterOk":true,"score":0.6074747045844244,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T13:32:23.070Z"}
+{"pool":"0x27040669aa473aa43fdb8b70428b3f6d4ca4ccc02ff173605e195c5036c0b8c3","filterOk":true,"score":0.4459090737463679,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T13:32:42.850Z"}
+{"pool":"0x11d9e80bd8fdd5f62f68292bea5532939da6e4c919d623b2d7a8e066397a730a","filterOk":true,"score":0.8745793849832645,"honeypot":true,"hpWhy":"tidak bisa dibuktikan bisa dijual","t":"2026-09-17T13:34:08.813Z"}
+{"pool":"0x66e80fdc1c8cb1abb3b8b7300e4577be70a8805ed7990cd7f8e9335257cc1071","filterOk":false,"score":0.24495667722637904,"honeypot":null,"hpWhy":null,"t":"2026-09-17T13:36:33.941Z"}
+{"pool":"0xdc2835732c6ba628018a0a1c6c63edb059db8cf22818f052c532fa5954db585b","filterOk":true,"score":0.554718154474189,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T13:37:55.486Z"}
+{"pool":"0x3380a595e3e3838a6cae78e171d4bbc595b395363f6e3d9698f01e37a9e4e0be","filterOk":false,"score":0.17795099259096311,"honeypot":null,"hpWhy":null,"t":"2026-09-17T13:37:55.638Z"}
+{"pool":"0x5fd85aab97701664782234f4726adf7ef37e394b987ff8d02994e4e6d9b89d55","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T13:39:13.706Z"}
+{"pool":"0x4f166b7f5c18a43df89005f9ff31970ccfafdf4cefef7f0227d185861adf6f2d","filterOk":true,"score":0.882352447620924,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T13:40:22.764Z"}
+{"pool":"0x689f80c1f4f058fb74ff83382284cf7d4bc9218361ac63557ae2a40600e07a4d","filterOk":true,"score":0.44232324737603457,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T13:40:49.489Z"}
+{"pool":"0x5cf274e3758b58e0c7d78b7aec69195996527b57882fff72599d6d109031dd00","filterOk":false,"score":0.3050159301566605,"honeypot":null,"hpWhy":null,"t":"2026-09-17T13:45:32.336Z"}
+{"pool":"0xf97daacaeb3f546c24214f1c111a361a506b829f33822c5897d2c68743004f4d","filterOk":false,"score":0.2048489657392502,"honeypot":null,"hpWhy":null,"t":"2026-09-17T13:46:25.528Z"}
+{"pool":"0xdac038286d4ccbe829d85270011b710522b11983b52d0d28a9c81c1e3d6d8c20","filterOk":true,"score":0.8879336436757136,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T13:47:42.486Z"}
+{"pool":"0x36a5f16b1284d96444e4b270b3b2a9b47eb6f044d73a1894f6ec43ad5f9e3662","filterOk":false,"score":0.17795099259096311,"honeypot":null,"hpWhy":null,"t":"2026-09-17T13:50:16.574Z"}
+{"pool":"0x492ee56bd6a93701be1df12741a27903f9bb01a25d498b3050e7c3f633380c4f","filterOk":true,"score":0.49593893571122843,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T13:50:32.536Z"}
+{"pool":"0x908e3ebd84b9b435d8edbf2cb9386ae75cf94700a0f08f4a89d9c56cb9227e96","filterOk":true,"score":0.9172688006301066,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T13:51:27.916Z"}
+{"pool":"0x4491704bb7906fe9bb12711d4b0c4f8616adb1cbfa50781f35f5e851142381fb","filterOk":true,"score":0.6492677436401045,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T13:52:05.946Z"}
+{"pool":"0x3c2a30b566b8a2ecd0e853af88ef4bcce30b6852cf33a2c53886b4fcef74deff","filterOk":true,"score":0.554718154474189,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T13:52:54.760Z"}
+{"pool":"0xda840538003273c5717be69df8a0f666e6c07c5773ed6d24b7c238badf244613","filterOk":false,"score":0.1005202847561587,"honeypot":null,"hpWhy":null,"t":"2026-09-17T13:53:03.902Z"}
+{"pool":"0x53db48c9b9b2d93e45e061b3fea905d05bb8fb783a1d8467d38a0a2d278722b0","filterOk":true,"score":0.4915328081960358,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T13:53:12.114Z"}
+{"pool":"0x5e412de0e6315d12f9c7e74f680ca558875651ee7ad5d938633ea31547a40496","filterOk":true,"score":0.4340998427445701,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T13:53:12.156Z"}
+{"pool":"0x10dce8707d412059ea3630f30cffd8be3b41a88f289bd050717300f954480523","filterOk":true,"score":0.554718154474189,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T13:53:37.579Z"}
+{"pool":"0x00bbf4a17381fec6b2110309c07770bf074b1a8f7c3874ac9e1ded660ce46a11","filterOk":true,"score":0.8699969965332693,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T13:54:19.507Z"}
+{"pool":"0x8d627b5a04c69e6218a94c8b90968ddd1bf556ba0698d05c6fd3c0451ba7587f","filterOk":true,"score":0.5095573591630882,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T13:54:39.773Z"}
+{"pool":"0x8fcf5fae007ce786d04b3381e0fa28fc76790124d035d5a76d665426c0efe5b9","filterOk":false,"score":0.15472170785339476,"honeypot":null,"hpWhy":null,"t":"2026-09-17T13:54:51.192Z"}
+{"pool":"0xa629c44333ee920446100a5224ed9f0321007d08f07c1094bb70e696639ca9f7","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T13:56:42.849Z"}
+{"pool":"0x6ab570d38387b0532042d2d49670f9ae6e2a7b54416c93d322f11ba7bb7d8b6f","filterOk":true,"score":0.4604294027822281,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T13:57:10.939Z"}
+{"pool":"0x0271b9aee226cd4e0e0a234b6b8cbb654cc3967126d1811deae5ca4c915185be","filterOk":false,"score":0.3050159301566605,"honeypot":null,"hpWhy":null,"t":"2026-09-17T13:57:53.004Z"}
+{"pool":"0x5734f4a67bf6dcc5ed4888c5cb8070f4e9165ab5d07dd80779e425bad86c031c","filterOk":true,"score":0.6492677436401045,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T13:59:55.080Z"}
+{"pool":"0xe9290bbde3cd0e1f2c6e2f84c5e53914556c782d7dbfb9eced18c538382b4460","filterOk":false,"score":0.17795099259096311,"honeypot":null,"hpWhy":null,"t":"2026-09-17T14:05:29.870Z"}
+{"pool":"0x0a7253ab3b270c89726fdcbdd5d8fe03723f4ebf30376f8da852eb7e502ccead","filterOk":true,"score":0.7082680504440402,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T14:07:48.820Z"}
+{"pool":"0xadab5cd974043ca13b0de7f41cc67b6a4fba3fd50fe5a70c46e4c0665f5c881e","filterOk":true,"score":0.7531325353277095,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T14:08:14.965Z"}
+{"pool":"0xd543445178527a1f14711bc4ee1123de43ed6cc3ccd48415bb6169b1cd128ac4","filterOk":true,"score":0.8620024553544346,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T14:09:53.377Z"}
+{"pool":"0xe6ef870c922b8f19d177d8158d1bb14a61f5d5c8f8e2fc1e3275e38a7ef34f90","filterOk":true,"score":0.42796564571192464,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T14:09:57.811Z"}
+{"pool":"0x46a66610a26e2b2101c643a6b28c84e3154b75bea4dabd31c6e38441419ed252","filterOk":false,"score":0.0771701985239715,"honeypot":null,"hpWhy":null,"t":"2026-09-17T14:11:40.876Z"}
+{"pool":"0x40e628e50f21ab3106b6c1c96b8ea1be54492fca42d3db619211b94640fe77b6","filterOk":false,"score":0.2142053660436591,"honeypot":null,"hpWhy":null,"t":"2026-09-17T14:12:24.584Z"}
+{"pool":"0x4b5e5c8013f119d7b169a07150d9cfd8cf34986b851824f2f4996d99980bfdb0","filterOk":false,"score":0.2949395843565061,"honeypot":null,"hpWhy":null,"t":"2026-09-17T14:13:09.578Z"}
+{"pool":"0xfa9a50c414f386758ccdc3eef76e5d3a2a3636726dc9d1ae143f4b3c7c25ae3a","filterOk":true,"score":0.850923804064603,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T14:13:47.503Z"}
+{"pool":"0xe5bfaaa66ee6651ccc14cd689038e6260dc78ff81f73e1307087dabc529c1647","filterOk":true,"score":0.8768224340625201,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T14:15:53.884Z"}
+{"pool":"0x8be6a0560393c0d9d628149b0a0986489312387046ca5aa3ac7196f1f6249177","filterOk":false,"score":0.20558941818525037,"honeypot":null,"hpWhy":null,"t":"2026-09-17T14:18:18.983Z"}
+{"pool":"0xe1592afb8e2bb1c6a7e73335b40735cd6749fa951fda19422f98c014cc233f8c","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T14:18:35.958Z"}
+{"pool":"0xd6cdac4eb66c9858af7b41923f08faf7db17f457a1a7c3bbde246c1dd2ced65a","filterOk":true,"score":0.7149654150426039,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T14:20:29.130Z"}
+{"pool":"0xdd36323f29cbee39e6f485ac6d172277644edd246e0c42c354c4ba34a0a217c3","filterOk":true,"score":0.42473213557984457,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T14:20:30.561Z"}
+{"pool":"0xb1d1988794921734c5f606b6d15696c099540088f0de0a457249666407c77e3b","filterOk":true,"score":0.883388466187931,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T14:20:31.847Z"}
+{"pool":"0x9933f8eef014268593be0332ce483ef8d2716cd11d9b2ec8acebf52294cd7cc9","filterOk":true,"score":0.806652936516371,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T14:22:07.890Z"}
+{"pool":"0xa52d1e32f3e26f620f1f0538d182dc61a1fca5d12f0a1a2b49c9cebaaa566320","filterOk":true,"score":0.7593452065038874,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T14:22:49.308Z"}
+{"pool":"0xe96ca5e76935cbbe102a169221022fb85e2697a3fef89639ba4298b8962ba35a","filterOk":false,"score":0.11822788609729061,"honeypot":null,"hpWhy":null,"t":"2026-09-17T14:22:54.722Z"}
+{"pool":"0x18cf418821006cfe351ae50be6ea9ec38701416a3d767442f876fe39653b623b","filterOk":true,"score":0.348573014246354,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T14:23:34.659Z"}
+{"pool":"0x89aa74b5e2f5ed4c866749e6f5b5e17249571b122ee616a5883b165d8e2bcde4","filterOk":true,"score":0.6492677436401045,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T14:23:38.017Z"}
+{"pool":"0xd5e1002a85093eb68a78771145699a561ed2e2b8305c0d1e7426fdfe7cc16f60","filterOk":true,"score":0.8768224340625201,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T14:24:14.342Z"}
+{"pool":"0xf446ed018f0bb91cd55368f8093028f06329e107e8bc8ef0412f0bdf4115270b","filterOk":true,"score":0.8620024553544346,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T14:26:50.305Z"}
+{"pool":"0x31f1fb5738230058e9fd47f629e8530a74c0f6be13091b58ad20ea11bd5a4bed","filterOk":true,"score":0.9105460285726819,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T14:28:52.105Z"}
+{"pool":"0xb274dc46dcf61d1dbb0695b756d50d6f7bb0fc1b08039ee80a10c8274cac5c40","filterOk":true,"score":0.9285112039558033,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T14:30:18.501Z"}
+{"pool":"0x89630f52bc16180892ebeb79c05621d9e73e6427597dc54f6806f2301fe1ad67","filterOk":false,"score":0.05105001452336573,"honeypot":null,"hpWhy":null,"t":"2026-09-17T14:32:24.996Z"}
+{"pool":"0x6f3061edbbdf0996ce34b659a41b1ded8ed6108a19ea68a58751ae5fbaa6a68b","filterOk":true,"score":0.37922267051681546,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T14:37:53.845Z"}
+{"pool":"0x5d456b5d62b16ab28ffc44e2c16a2091e13233b8e6fd075534c38286ce161f0e","filterOk":true,"score":0.850923804064603,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T14:39:18.221Z"}
+{"pool":"0x55085beeb5ffc2b0eb41679dcd9a3f3e2b085db1401411a32fe097516c5477dd","filterOk":true,"score":0.8410114855327476,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T14:40:33.908Z"}
+{"pool":"0x54398ea7ff0744cb2b62ae05f00e878360196a5acd4275c38a5d037127f872ae","filterOk":true,"score":0.897518241226438,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T14:41:32.405Z"}
+{"pool":"0xfa309242187ec19ffa6a467bdfea620f3fe626e0f7ff43e1e356b1004c1defaf","filterOk":true,"score":0.6421257061815185,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T14:42:54.912Z"}
+{"pool":"0xdc5eea6001e33e7a3e1fba3daa9ee5d0276452d09421956a19207d581560f10d","filterOk":true,"score":0.9111359895065146,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T14:45:02.365Z"}
+{"pool":"0x44161f88a9d0fcbd652d793932539d5e34525b3b006802f7707a61d5134be080","filterOk":true,"score":0.9192923702679471,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T14:45:13.411Z"}
+{"pool":"0x21da7c888781f1d8875578bc3ab8af6ea010645281af3eed5c4c78532ba2db67","filterOk":true,"score":0.9285112039558033,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T14:47:29.869Z"}
+{"pool":"0x47dca6809e0ea5f203951159cd4a6c690a19db00d3a15f5d4fe81727efde96ac","filterOk":true,"score":0.45451395973016995,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T14:47:31.103Z"}
+{"pool":"0x3d5fb06809e0bf5328cd990eac99c82751d4378fa7f03cf593b554d7fce6086f","filterOk":true,"score":0.720721827416538,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T14:50:17.335Z"}
+{"pool":"0x74958e4358c697255e6ecc586b4fd31ea3aacf070dfb95ce0d17c90321598353","filterOk":false,"score":0.0771701985239715,"honeypot":null,"hpWhy":null,"t":"2026-09-17T14:51:55.522Z"}
+{"pool":"0x7def78d4f23a6498cfe8c4d97f111ccd7d969f8a21e581f2753109920367391b","filterOk":true,"score":0.9029702958766638,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T14:52:45.649Z"}
+{"pool":"0x82a7615f1c0bb076b0b1f81d4af20dbbc6fd25d46e1338126d9e79477f82f43a","filterOk":true,"score":0.8877264123982208,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T14:53:27.707Z"}
+{"pool":"0x2823d562eb1433f28b8bd1d81c80e826327c9f234b1a0cacfe6e4a94f9032c8d","filterOk":true,"score":0.8762766686436151,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T14:57:10.387Z"}
+{"pool":"0xfe797a2eeb190d3b15dfff4c12fb054dc5e832ed8eee7381361cd3c20bad83dc","filterOk":true,"score":0.6202041298875692,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T14:59:04.696Z"}
+{"pool":"0xaa657d315822ca5f4d42c8fdd346c9715ee57e9d8473f1321d4aed40fb77a6f1","filterOk":true,"score":0.5880924046287113,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T14:59:58.498Z"}
+{"pool":"0x63a2b9e42084cf029e7992117d6e4a0ae4e6a79f01e18897ee38e71571833bd2","filterOk":false,"score":0.032553330430576656,"honeypot":null,"hpWhy":null,"t":"2026-09-17T15:01:41.550Z"}
+{"pool":"0xfe8309d373292b2e3f8d418e889c7d2e73609d97d3205448631d186d7094c415","filterOk":false,"score":0.11061515254028559,"honeypot":null,"hpWhy":null,"t":"2026-09-17T15:03:19.148Z"}
+{"pool":"0xfa0a528126b4b6360406ce54b992def9e37f126842efaa82b64abcca8e7da2aa","filterOk":true,"score":0.6401397796378961,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T15:06:10.865Z"}
+{"pool":"0x698b17672c0956dfdfffbcb0cf73a84c9ddd097380a51f3ac45903228ccfd6c2","filterOk":true,"score":0.850923804064603,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T15:08:18.020Z"}
+{"pool":"0xaec9604e46dc1ebe34075bfe32be0f06e9ed5bfb3f0524919deb0d3e803e6452","filterOk":true,"score":0.526910008595307,"honeypot":true,"hpWhy":"tidak bisa dibuktikan bisa dijual","t":"2026-09-17T15:08:44.205Z"}
+{"pool":"0xde0ff6f321c935b4a3fd41abe063567b3cd8f6a1221f1a9fb7d0359140e9093e","filterOk":true,"score":0.4990621943695954,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T15:09:36.039Z"}
+{"pool":"0x2bc93461147fea727a553892f9e57240482fc70174a7c113ec1cf605fa3c8890","filterOk":true,"score":0.4871659369667913,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T15:10:21.090Z"}
+{"pool":"0x59ee32438bb2122b1387e692beb3295820afcb34fd98725ca7254a6e4e388b5f","filterOk":false,"score":0.2048489657392502,"honeypot":null,"hpWhy":null,"t":"2026-09-17T15:11:01.397Z"}
+{"pool":"0x7e4f2e87b819143b57b02eb879488f63c2af397f0a95e623d5d88fa82cf5ab02","filterOk":true,"score":0.850923804064603,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T15:11:49.034Z"}
+{"pool":"0x9be89b26c1ad2cfa21b70f1aebd1644ae00475ee46384130cfa02211d0fd31fe","filterOk":false,"score":0.0771701985239715,"honeypot":null,"hpWhy":null,"t":"2026-09-17T15:12:39.759Z"}
+{"pool":"0x3c5e5ba6c3f7c0e7c1aee66558374ea8b47d2ad3dd353bce369f058c761a4938","filterOk":false,"score":0.10534621046282482,"honeypot":null,"hpWhy":null,"t":"2026-09-17T15:13:11.218Z"}
+{"pool":"0x29b3b430d37ca63fa690a15105b2837290ebf536e8f27b73f537bf25b1b39d44","filterOk":true,"score":0.42473213557984457,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T15:13:21.580Z"}
+{"pool":"0xd9f47386332f06ad7eb8038529415269977e82450e4231f63e219a2426d78d62","filterOk":true,"score":0.8915288403901271,"honeypot":true,"hpWhy":"tidak bisa dibuktikan bisa dijual","t":"2026-09-17T15:13:25.064Z"}
+{"pool":"0x7c70308f983d3fbd1a96affa72e2b0fd3c832bf837428fd7f5229b5887115e03","filterOk":true,"score":0.5914807757027103,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T15:13:28.137Z"}
+{"pool":"0x6eb0d349f4aeabed17930b17b4c488427e5f93ccc7957d4c083aab472c3cea69","filterOk":true,"score":0.765807594211532,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T15:15:46.825Z"}
+{"pool":"0x8125dadb47e9e27361c7beaee34c1ceee31484689a6f20858c52e1b4a67de7fd","filterOk":false,"score":0.4135480701007857,"honeypot":null,"hpWhy":null,"t":"2026-09-17T15:15:54.899Z"}
+{"pool":"0x3eebb0258461926c7a71550dbf508c7be11f5c467f2e2fb92861a7ca3fd78e71","filterOk":true,"score":0.8718133055761523,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T15:16:58.878Z"}
+{"pool":"0x4ee0df892a15787d66a9bc6453d0afef46b01b0be7e137b72b838a7a49a46598","filterOk":true,"score":0.5641236303974317,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T15:20:00.190Z"}
+{"pool":"0x3f52b587b7b11ee4f9a6fb936dabaedcf55066588ae2f06178f3cb58388867dc","filterOk":true,"score":0.9081383577897363,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T15:23:51.177Z"}
+{"pool":"0x2c81d80790da56aa5536262b31127e0d63a195c79588083566650940653376b9","filterOk":false,"score":0.40813819233139353,"honeypot":null,"hpWhy":null,"t":"2026-09-17T15:24:25.582Z"}
+{"pool":"0x2b6f932d325dd415b88e8968296cdf14c72a5a563adf426fdc4ef9a317bb0ccd","filterOk":true,"score":0.8684504393697073,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T15:26:26.056Z"}
+{"pool":"0x30d5b9ac539ca47a9868b78e704a5a769b02254469b383aea5d2fbd01816fca8","filterOk":true,"score":0.6237903932714077,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T15:28:03.361Z"}
+{"pool":"0xce8bccdc854266d031fe1d6a10393eb07710398536b06b8330749bc42e98351b","filterOk":true,"score":0.850923804064603,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T15:28:41.961Z"}
+{"pool":"0xd23635812197b00b0ea0fd0e36021740c7951fb34ff1ca79260052b47e9769bc","filterOk":true,"score":0.46599701371445806,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T15:28:42.906Z"}
+{"pool":"0xd88dfd6a6e03b40edbae62e4839a06297a142e43c581e62cdcc491bc07539c74","filterOk":false,"score":0.027989649040618535,"honeypot":null,"hpWhy":null,"t":"2026-09-17T15:31:30.668Z"}
+{"pool":"0x5a920121908fd25be8bf69a6ae248795501ae518d25afcd2b527bb91953fb2d7","filterOk":false,"score":0.2048489657392502,"honeypot":null,"hpWhy":null,"t":"2026-09-17T15:34:01.907Z"}
+{"pool":"0x4510d349b2fb937e0dd29bd0c7c61dc04456c24981d7a1b8d0605c0fe2e7b18d","filterOk":true,"score":0.6632900614022972,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T15:34:37.766Z"}
+{"pool":"0x48b8560713b2b33a7ed03f8f94a5cc32ef46fbcd65e0ba8959c2d279cd3f410c","filterOk":false,"score":0.42617701877350794,"honeypot":null,"hpWhy":null,"t":"2026-09-17T15:35:46.562Z"}
+{"pool":"0x7d7b48d8d903fffd33df9eac7b168682369b3c69f88bb57c5983fcdcdb44a865","filterOk":false,"score":0.42449864437916274,"honeypot":null,"hpWhy":null,"t":"2026-09-17T15:36:46.899Z"}
+{"pool":"0x6fb07714b1a4e95a742fe3ef38021dc3e03a5c6908c1443e3a38add892b9ca3b","filterOk":false,"score":0.08360702677419368,"honeypot":null,"hpWhy":null,"t":"2026-09-17T15:39:32.545Z"}
+{"pool":"0xb15f115c5c4df0f1d5d501ba38d8e1a923d29fa46c69bb88a336187f48281cea","filterOk":true,"score":0.850923804064603,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T15:39:40.563Z"}
+{"pool":"0xba2667015e75f1431f7ec30de328875803cac1ebdb74f586aa6a91072c100978","filterOk":false,"score":0.34090239804569544,"honeypot":null,"hpWhy":null,"t":"2026-09-17T15:41:05.493Z"}
+{"pool":"0xa7ad1401d0e5bc262818057c62ce56ea8cf9bb8cfa7fcbf115ae455e66c25630","filterOk":true,"score":0.6401397796378961,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T15:41:34.611Z"}
+{"pool":"0x8a422c97f4db39725820185be4acc3222c8a16a47f4f06e985b4421f26dcf08e","filterOk":false,"score":0.2048489657392502,"honeypot":null,"hpWhy":null,"t":"2026-09-17T19:57:45.478Z"}
+{"pool":"0xd34dfa65897160f24422cc448b398f847c9a2347279aca2cdb25a67258d3927c","filterOk":false,"score":0.023657703750534574,"honeypot":null,"hpWhy":null,"t":"2026-09-17T19:58:01.030Z"}
+{"pool":"0x2859656b013244c5c5b914442d1c396b76f662f70d8381318b4a6534e17c46fb","filterOk":false,"score":0.2048489657392502,"honeypot":null,"hpWhy":null,"t":"2026-09-17T19:58:01.686Z"}
+{"pool":"0xd5a21d6f3d3546749a91ca2e6dcca83d27a1045f1cc5f9db20ae0ba8b4d6e2ae","filterOk":false,"score":0.2523303524984693,"honeypot":null,"hpWhy":null,"t":"2026-09-17T19:59:45.345Z"}
+{"pool":"0x61dd20b7316b9f4df5a6419db7e97895e1c6f7d7c036a7d0580c7a088709ea3e","filterOk":true,"score":0.38864768997427807,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T19:59:45.724Z"}
+{"pool":"0xd27f4cdd9109c681ec4d3d8b15f19ecdb804cd1ef442d4d4e74809722bff6505","filterOk":true,"score":0.7798860409722301,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T19:59:45.828Z"}
+{"pool":"0xe4126e882912ab39dceab2f7ae70f9e88763da44058ee72827ed16ec10ade3cd","filterOk":true,"score":0.7151481884126876,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T19:59:46.311Z"}
+{"pool":"0xd0dafefe57e488b3dcf07f7aa1d262ad32822a0f367da52666d302b14c7b7d50","filterOk":true,"score":0.6005990437659953,"honeypot":true,"hpWhy":"RPC gagal saat cek","t":"2026-09-17T19:59:46.688Z"}
+{"pool":"0xd8f67c7d7f4ca8dc5b1399c766614c60ac66499142856bc832769ac58902fda7","filterOk":true,"score":0.4425624716883574,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T19:59:53.726Z"}
+{"pool":"0x8a8197393cf7f93f55e4683c4c311435cffa49bfae470a757c538127998140bd","filterOk":true,"score":0.6401397796378961,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:00:05.929Z"}
+{"pool":"0x0c7cb9c984eeee21ccf17a86ad3f5f3e398c90b1bbb438b98813025c1dea822c","filterOk":true,"score":0.8779106465230091,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:00:06.028Z"}
+{"pool":"0xd076f9c685035721416189984638db641fb84e28895a82b8beec6e4def8f0f9e","filterOk":true,"score":0.4569740203365251,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:00:08.471Z"}
+{"pool":"0xa859ed499f47b752a2504f4ede2959719181ceb8ae278176724f5aa0bb51bd31","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:01:10.572Z"}
+{"pool":"0xad389ea22a0f276e285990b2c9b517f129c041c86f52f728c43cb4ec661fc8fc","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:01:11.982Z"}
+{"pool":"0xc3b81ba40cba880436875e5133e14ca8840d5ff6fd7cd3d8b0dd7e2dec965f4e","filterOk":false,"score":0.36172188592951043,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:01:34.432Z"}
+{"pool":"0x2d30fbd78f363d386d019a6a57fb7948bd42733e21dec6793b1b054368584bd5","filterOk":true,"score":0.8626649375169303,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:01:34.441Z"}
+{"pool":"0xaba8233956b97a0272c1de7e7cdef9bebd16868b299ba15f62a0e4485436c814","filterOk":false,"score":0.16711679930942966,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:01:35.420Z"}
+{"pool":"0xb1e6a67bb2ff4edf3ee5399300de21575cfcaa6b0ec4d4b646babadec9025dd6","filterOk":false,"score":0.23024332431061426,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:01:37.260Z"}
+{"pool":"0xc144574f08f29952b1de6bee9a10cfec807f9f6853478879f9520d3983e91c9b","filterOk":false,"score":0.24893997794559625,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:02:41.120Z"}
+{"pool":"0xef45fb40def3574fd916254a5a685f03bbf85de4bf0868b17e262325d4edbc9c","filterOk":false,"score":0.2048489657392502,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:03:24.079Z"}
+{"pool":"0xe89a2b06f3086a74c5b3f7326060078f8285c665203309c2301e650fe41e589a","filterOk":true,"score":0.5865166430280653,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:03:24.528Z"}
+{"pool":"0x0db5fb284f065966327f057daa983ea262231460972ccc791952d8fe4a6c5f34","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:03:28.125Z"}
+{"pool":"0x794fce83245f869905ee328fee34236b17766d05b773de78c3b20673cd0626a3","filterOk":true,"score":0.6632900614022972,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:04:43.966Z"}
+{"pool":"0xecdd695b788e9440c8c8ec13a4df238a99115b96ab25f1bcdd880d90bf0a70aa","filterOk":false,"score":0.2048489657392502,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:04:44.849Z"}
+{"pool":"0xe3d2301121c622e1e9b5de4c39721c3b42cadf8b822910c9a3ca3cb361753736","filterOk":true,"score":0.9062220058201219,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:04:46.415Z"}
+{"pool":"0x9f787f1382258a74186c30a3857925b773da6ceae8cccdc640f07c78d6369704","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:06:16.069Z"}
+{"pool":"0x3c16e427595f5663a13eb97e9269523259a27a00d7c0a12bb9d0a7bc50c3627b","filterOk":true,"score":0.6137341332462566,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:07:04.153Z"}
+{"pool":"0x6e332f226aab2229c5bf2593ef7c92141d2ff4b977c1c15523f40967411e4e44","filterOk":true,"score":0.8847166618600033,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:07:04.381Z"}
+{"pool":"0x396cdcbabf1c573f1dfb9e56aacf74e2af9f42605c20cc99a607ba88426880f2","filterOk":true,"score":0.6113988408967498,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:07:27.701Z"}
+{"pool":"0x9da1a9d09ee33e2383c01a60796455a12d474f2128433c19a0b7f66aea0c2798","filterOk":true,"score":0.506252957827612,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T20:07:30.705Z"}
+{"pool":"0xdf9cf8ff59770800766bd8643dcbae4e01a672a99ff60293fdb637382412c48a","filterOk":false,"score":0.22852629253318335,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:08:31.554Z"}
+{"pool":"0x00c6091c8ec30859214065540d7a07ee3a95b4ec4b12134cb7b134066aa0c1ab","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:10:12.467Z"}
+{"pool":"0x7f0f2562378ff5ac5c13014fde3385ef028f9378763d9c66f6a122cbd8926b82","filterOk":false,"score":0.22852629253318335,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:10:12.745Z"}
+{"pool":"0xa24d9f7c6e8ae58c71965821759f90a48f94c0e73dd4cae4316fe1ce8ad4d044","filterOk":false,"score":0.0771701985239715,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:10:43.199Z"}
+{"pool":"0x3702f71bf2ed15418db655e07e86623def2de879e70ea6cfebfffeb04f73505f","filterOk":false,"score":0.056322762107748385,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:12:26.465Z"}
+{"pool":"0x5cb798d0e556ae80c43c02fda1fb5b738c0099f5888cef5659edb6e51eaa3b82","filterOk":false,"score":0.1538286246550113,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:12:26.661Z"}
+{"pool":"0x77230cd5423e4b3792053cfbf832dcf2961d3d41d945ecc64bb1a6a438dd1307","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:13:25.479Z"}
+{"pool":"0xf174821e5b0ebdce970345a577c5aec4fc358eefbccb18fb7ba07ed64e0beb69","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:13:25.524Z"}
+{"pool":"0x97982df689e888c435707ba4427b0ec79ebae4a4c8ab058c3cabba03e4550706","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:13:25.570Z"}
+{"pool":"0x7fd95a4a3041357147e2a3b057633cba1cd3f92ec0ef627547cbd42a2352cd59","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:13:25.639Z"}
+{"pool":"0xcf4ae006b89a67d307cc71a0e8b5a679ea2d40b83f87503bbdb7c5cd1d4aa2e9","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:14:10.754Z"}
+{"pool":"0x4f63f023e0ba12c2aef74cf7779acbbf01f1d2ffa606c3b45a6eae4ba5babc96","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:14:10.846Z"}
+{"pool":"0x3c7a3465f57b884fbdbdc7808409cfb390066cbcd64f859244c968f8748d1a9a","filterOk":true,"score":0.5573206224593749,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:15:34.190Z"}
+{"pool":"0x79ce719e9ab2e7d998a4c5bb95719a7fa2cdbb0336bba0131b10b2f1fd6f9cd9","filterOk":false,"score":0.22852629253318335,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:17:15.868Z"}
+{"pool":"0xf88f08651309fd002c228f58c5f95f610598eb47371d5ba018b48f9ead00107d","filterOk":true,"score":0.4768851340753467,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:17:17.980Z"}
+{"pool":"0x2cff0e2c9003d55b673af4902ed0fcf06fbe3a36c382f281a95e467c4cb93900","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:17:20.104Z"}
+{"pool":"0xd12411f5c498c3826cc493245d31337bc262805480d7ae5c20d0d677ee7a664e","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:17:20.334Z"}
+{"pool":"0x223976bddb555582153a55ad8c3c44c72dcfef2089fce3319db37986869f7512","filterOk":true,"score":0.6954944527748668,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:18:21.215Z"}
+{"pool":"0xc0b10ce9ec4a7f4d3b10dca3fc584094bd9c2ec6b795d88919e92e298de7457a","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:18:24.219Z"}
+{"pool":"0xd4ff62d224c635b8a72ab8712d11fd860747b0093c39cf7f810b172bead2d58b","filterOk":true,"score":0.889274747485032,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:18:43.201Z"}
+{"pool":"0xe58edaf8e707aee02747fcd42fc62980f36a6e675da0871eb1cbf03ba6330dc6","filterOk":false,"score":0.22852629253318335,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:18:58.372Z"}
+{"pool":"0x0f5c1bebb585aa8136e4986b2ec87a4f8cb9abd37c1da258534b7bf5f5cd2b6e","filterOk":true,"score":0.5132833703269267,"honeypot":true,"hpWhy":"RPC gagal saat cek","t":"2026-09-17T20:19:02.155Z"}
+{"pool":"0x42f604012f3e188000826cf48dece3924e093e4055ccb94666c94a31ebf685bf","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:19:12.793Z"}
+{"pool":"0x1d9e47f55980c40750c83c6cb8a7cc08a2d990ca695397203596b0d1a6f50637","filterOk":true,"score":0.8931546681683759,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:20:15.905Z"}
+{"pool":"0xe522d30865977b4957ba3642b39603c6584e7302145c74fc69272b28bb4fb710","filterOk":false,"score":0.3226348898373374,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:20:16.613Z"}
+{"pool":"0x58e324c8455d76979d9d33cb3fd1564e52fb7100e9b8cf5d6075065101da85d7","filterOk":false,"score":0.22852629253318335,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:20:40.971Z"}
+{"pool":"0x2341b5cf6d623114ecc6ad17471762fbefd7ac06d52d85a98676cc9ffb9bcaa4","filterOk":true,"score":0.8084612687079314,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T20:20:44.401Z"}
+{"pool":"0xaeb1997ec323a89af39c05f89ca307de0d0dbd0a366dbd396c0c11d7442c8b91","filterOk":true,"score":0.8569626774351209,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:20:57.611Z"}
+{"pool":"0x93075f6f68ada7514004411f40767cd2525aaae7143279ce10ab6aa5c2a3f7d9","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:20:57.734Z"}
+{"pool":"0x09ec3f2736b7af59b09caab41b02232229f6da33a7852cc2f17ad5695193a025","filterOk":true,"score":0.7723427311205407,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:20:57.813Z"}
+{"pool":"0x520f2535174381f063270458383bbc9097ad85b943d0a7e6cdbbc60be179f85d","filterOk":true,"score":0.49084752083216493,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:20:59.051Z"}
+{"pool":"0xa44e63c0077ad8b5e56d5daa085737ffcc52b88364312337f27e82aa4358a239","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:21:27.855Z"}
+{"pool":"0x9d5196bd259e4fff16a3d4aabe0630661a53c2822bdec29e3dc4c3b2b7d7b6be","filterOk":true,"score":0.7359507520309276,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:21:28.307Z"}
+{"pool":"0xb62d80b6dfcf81ed7d3d2d17a1fed94c4aba2da5460c6707c80a0894501fad35","filterOk":true,"score":0.7829728538760656,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:22:15.568Z"}
+{"pool":"0x695b1c755035213de7933686237493b0ed7cf252b4f0e255a6f5f0345910de81","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:22:17.376Z"}
+{"pool":"0x1629485366f524de055e70016d187dc4d8c8023bfe7e74eb28580f5004da6cc7","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:22:37.898Z"}
+{"pool":"0xfc735ca3363fefaf9bb58d5b2dde4d2b6c33096d93b4ae2e5e88db5f63712807","filterOk":true,"score":0.22852629253318335,"honeypot":true,"hpWhy":"tidak ada pembeli & tidak ada penjual","t":"2026-09-17T20:22:37.975Z"}
+{"pool":"0xab9214adc4565c5934ff99da9e596c8e83b3c5a27ab971531f103d17e5b9ccf2","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:22:38.044Z"}
+{"pool":"0x11414a21d059d2f8b5f26bd9797db386aba36671fb40dd1add7b16cdb8e363f4","filterOk":false,"score":0.10678011519423594,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:22:40.333Z"}
+{"pool":"0x48ddebbaff5ce96b1d088699e0c1600ec334c9341fa8615e88da1f171ca17ab8","filterOk":true,"score":0.6122090994106731,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T20:22:43.289Z"}
+{"pool":"0x55c07bd41d17dd005a9cc03ab7547be9f78a2ea799eb68faaaa92029fac11aad","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:23:39.034Z"}
+{"pool":"0xba79e2472ff89f35fc4e45ddd2900ba779682db840a69bc21ee7db9d341dd981","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:23:39.233Z"}
+{"pool":"0x7130652a2d2502753f48f456196160bb4734e4d884afd0605181f46cc4aed449","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:24:13.914Z"}
+{"pool":"0x3bf77c0473b0923e68c6e22ef7bf426b82aba30133e6765722fc381b1acbd3e7","filterOk":false,"score":0.22366117064416693,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:24:45.187Z"}
+{"pool":"0x8f48b28f776140d68b38e248d0d53ef99d15eb79ecd2417099147e87fe1317bc","filterOk":true,"score":0.4749182900002716,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:24:45.661Z"}
+{"pool":"0x2a4e49b6f4026be2d9c4cc273f389d986256e27b18950a8967d1daa095b27978","filterOk":true,"score":0.35823098883876714,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:25:15.910Z"}
+{"pool":"0xc4aba6f6c5881e63a76254c65788bda6e02796bd5c2bbac0bd2603febd83a809","filterOk":true,"score":0.7793474369230231,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:25:16.266Z"}
+{"pool":"0xe4829a4d2249c44de308d998d54cdc326eaac2fccb1298c38586c657ff43ae65","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:25:40.960Z"}
+{"pool":"0x1627a3be922ecec983d90fb5fd930587b2f9428191d63d609aa8138e787fd2ed","filterOk":true,"score":0.9019467113828356,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:25:48.827Z"}
+{"pool":"0xd920ee1180292fd9da28b4b24558bc3e006a0cc83152a67b867313ec6af54fc5","filterOk":true,"score":0.3569625537089877,"honeypot":true,"hpWhy":"RPC gagal saat cek","t":"2026-09-17T20:25:55.939Z"}
+{"pool":"0x8fcfdac854715b6c49e18ec73a84c4b3d63e834cb2aa784d8626db27f1155446","filterOk":true,"score":0.5454510182143173,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:26:12.982Z"}
+{"pool":"0x9129040e91ad5e92d1f164f9ee6c8558bd8636457b711ce56ff6bad6f312a9ba","filterOk":true,"score":0.8745793849832645,"honeypot":true,"hpWhy":"RPC gagal saat cek","t":"2026-09-17T20:26:15.672Z"}
+{"pool":"0x8cfc04f8e05c32ba4d8cdf6a859662b8e36bbfeab1d8cf6e5b8950d3fe3493de","filterOk":true,"score":0.25726076689708527,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:26:38.854Z"}
+{"pool":"0x8d88f036c1b58c09a1e6c33db5966e24a7aed8913e44b4a5433b00f126831377","filterOk":true,"score":0.41110076405297286,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:26:38.881Z"}
+{"pool":"0xb7bb1c4352b98620d793647c1b5bd983a473d123ed4212c15199b65f780b0f5b","filterOk":true,"score":0.7175196912281603,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T20:26:49.566Z"}
+{"pool":"0x9d7fe842510657412b8378f067eb9fd04fee34e4da0bf2d98c0c4bd3309750ff","filterOk":true,"score":0.6520369711275439,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:27:24.365Z"}
+{"pool":"0x6325ce71c4d87ab6528a2f9ddf5a5049ac5f9e9bc66d7e1dfe0ce083ea032550","filterOk":true,"score":0.5415264448849884,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:27:46.855Z"}
+{"pool":"0xd3e531b5c2eb8835fd19cdb202f4f874907a893975dd3197ef3c7267a7b7c8d4","filterOk":true,"score":0.897518241226438,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:28:47.217Z"}
+{"pool":"0x34813af63d173f5d760312017b132abe0b65ab96109f62d547417414ad512909","filterOk":false,"score":0.22852629253318335,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:28:47.239Z"}
+{"pool":"0xcd60602336d4e264bd01746e1122ae121f67fa30e5aab97148c730f369f3783a","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:28:57.410Z"}
+{"pool":"0xa52e0e2d27cbe8b9b6d9e926f3c1d7d1663981944be69de2dab179544d7aba7c","filterOk":true,"score":0.8718133055761523,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:29:34.027Z"}
+{"pool":"0xfdd1d10d59bad1b0ac6320f4aea60c3ed54fadc5a3df635e60acf1765f32d25c","filterOk":true,"score":0.5306680875101002,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:29:35.265Z"}
+{"pool":"0x5f6c61964fb925e34817f243021295d249eb0c68731387f9f1c946a7dc024f78","filterOk":true,"score":0.6231223783727673,"honeypot":true,"hpWhy":"tidak bisa dibuktikan bisa dijual","t":"2026-09-17T20:29:41.973Z"}
+{"pool":"0x574f26c4e9a655513b6d4d52de1520e57aa877a6ac65e9bef41c98dc003d57dd","filterOk":false,"score":0.20742081147315986,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:30:03.985Z"}
+{"pool":"0x402ed2215ed737b4341fd278cbc9d5537db4b67a91c900a9eae368e10f2b62ea","filterOk":true,"score":0.9077979272586769,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:30:28.817Z"}
+{"pool":"0x2307d42abe766692c20a970fc80517f46d339a7934fd42446535acbe5c267a63","filterOk":false,"score":0.22852629253318335,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:30:39.618Z"}
+{"pool":"0x6acdadfe0b6b1f1a961909c71fa3110ebe0329bb5b308426458a02ff354d6b82","filterOk":false,"score":0.2048489657392502,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:31:20.464Z"}
+{"pool":"0xae1eea7b65885eadccbad864e952b27517811fb38dca803e0845f3225433e2b6","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:31:57.665Z"}
+{"pool":"0xd74635a6f0bf2942cf0d06df61003c5ce903b6610733d2ace6234f4ebc8b1bdb","filterOk":false,"score":0.22852629253318335,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:31:59.686Z"}
+{"pool":"0xf5b92fc783acc1bac92f939e4b0d3842dc75eb59e66d9407f76629a5ff65b741","filterOk":true,"score":0.5613158814759854,"honeypot":true,"hpWhy":"RPC gagal saat cek","t":"2026-09-17T20:32:06.222Z"}
+{"pool":"0xdbbf843b339816fda2852ec317e58fe3322746354fa01209d6b0e92332f1da7e","filterOk":true,"score":0.6772256761737158,"honeypot":true,"hpWhy":"RPC gagal saat cek","t":"2026-09-17T20:32:55.619Z"}
+{"pool":"0x56786a3578cce27e9a424e70e51dfb4239c7941895f3c74d9c57e42a9cef9900","filterOk":false,"score":0.2048489657392502,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:33:34.176Z"}
+{"pool":"0x95dcf7dad69a3f013a2f8e73eb91d25276edee7ca94bac112111e158db2e961f","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:33:36.652Z"}
+{"pool":"0x5714406c639dea864fde5fdf1a93cfe5e5524fc90d6d22653b7dff7e73bdf004","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:34:07.875Z"}
+{"pool":"0x5cfa77660800903a7917df0c889f7cf755474f68f6907636d36971777099d899","filterOk":true,"score":0.22852629253318335,"honeypot":true,"hpWhy":"tidak ada pembeli & tidak ada penjual","t":"2026-09-17T20:34:43.515Z"}
+{"pool":"0xd0da19c5cef16b7455e5b67f602e2dcb0836ff157cab4632403bfa0db828df14","filterOk":true,"score":0.9111359895065146,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:34:43.563Z"}
+{"pool":"0x8f3f558238a93484028b09491b2ed13afd7adbe4f2103861f98e685d8691c08e","filterOk":false,"score":0.2048489657392502,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:35:00.915Z"}
+{"pool":"0xb4d502e4607234f1e7473aace0a36f269f34d3aba9b36c8c5d5d5b1dd0fe7849","filterOk":true,"score":0.6530766705737441,"honeypot":true,"hpWhy":"RPC gagal saat cek","t":"2026-09-17T20:35:06.137Z"}
+{"pool":"0x199c8e7d295b45789ff0bf38e09cab4797fec7ebb6a44ef2c90842e997d39453","filterOk":true,"score":0.8418940381967179,"honeypot":true,"hpWhy":"RPC gagal saat cek","t":"2026-09-17T20:35:11.449Z"}
+{"pool":"0xebdebd014ef265084b1726aca90d79aa7608aa48b9ae05d549c1c5984fef00b9","filterOk":false,"score":0.2048489657392502,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:35:42.062Z"}
+{"pool":"0xfc0812d7e072b1d780b73a3f20566d29952595aeb37eea44d816924ffbbdbf0f","filterOk":true,"score":0.8903746175307286,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:35:43.236Z"}
+{"pool":"0xd5c5b205d8cee12db0925d8c34652c8b1e4f5d8c543e839560888dac0bcc693a","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:36:05.146Z"}
+{"pool":"0xacc166c572e52b84b6fe8627b6f324a08320663962297e4c58d438046a0586f9","filterOk":true,"score":0.537608975936691,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:36:49.652Z"}
+{"pool":"0x56615203fa6f5c47e0f11a08bee9ae6a9428cd6da12e0c5847ca9351958a6d40","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:37:20.258Z"}
+{"pool":"0x2081ed07c16603a1c3bc8fa7d5cccba6075190d8734e044603cf66cdd162964e","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:37:53.963Z"}
+{"pool":"0xd1fcaf11eb2992a3c29efed33dcc9541319ebb1ee88cd06eff19f881cd2c9a85","filterOk":true,"score":0.9050521108124964,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:38:28.561Z"}
+{"pool":"0x1b839c16989925505936af61995310c25fbc5fb85750bb83bd4524b8886d224e","filterOk":true,"score":0.6185391737899643,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:38:28.584Z"}
+{"pool":"0x25ac7712439ed96c2b83a7e8444829b73aa161eee44ce36acea8a101dadcfd62","filterOk":true,"score":0.8856062102953023,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:38:49.194Z"}
+{"pool":"0xdf347105bc1c2aad49c2c2ce42fc8dcc44076809051dae82da2197582817cda4","filterOk":true,"score":0.9192923702679471,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:38:49.201Z"}
+{"pool":"0xc2f621090bd8cd5fa7c4e43779211400cdf3cc19803b1f10fb8e30678a3e185b","filterOk":true,"score":0.8546090239300865,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:38:49.214Z"}
+{"pool":"0xa2070e6de794be339afc984c5531b84fe982bcea658d7e337db2dabbf0d9b6f6","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:39:01.082Z"}
+{"pool":"0x6ec45cd9e479811c3d3023c40f268058319b5130f9d86dc36786759ec8d98235","filterOk":true,"score":0.5926953510228623,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:39:03.302Z"}
+{"pool":"0x4c486a0202b0f3e55208239a8bb00686b39932fbb7d3faba8b8dd13e1bc97aeb","filterOk":false,"score":0.2048489657392502,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:40:07.398Z"}
+{"pool":"0xb59e8df6395092bbab32000c96948f832d45e62a165ae5714c1ff9d7159d51a6","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:40:07.466Z"}
+{"pool":"0xf2eb79b15eea6b6e5ed3f9c55956129d420790a35f02963a01b5d114a9dc4b3b","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:40:07.731Z"}
+{"pool":"0x9144593a98d607fea08fc61be0a891d448497f3f3d3d3cd0056b90cbe678003d","filterOk":true,"score":0.850923804064603,"honeypot":true,"hpWhy":"RPC gagal saat cek","t":"2026-09-17T20:40:39.909Z"}
+{"pool":"0x8feef5a5e884c1c5fe384c7eedbf15dd5cc31643279af4e1db95fca41d9855f6","filterOk":false,"score":0.2048489657392502,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:40:55.571Z"}
+{"pool":"0xaf66670825802a8634f63b58b01bde84bbcd277874118db20eddba25d23b4ecf","filterOk":false,"score":0.0771701985239715,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:41:17.840Z"}
+{"pool":"0x8c75604ff000c527f04b5b201eabb942020631a41177fa4b99c0187230677a3f","filterOk":true,"score":0.897518241226438,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:42:17.155Z"}
+{"pool":"0x2edc74f0c01309d5e8908abbdde2986855eed81c656275924f21f302f5ebb94c","filterOk":true,"score":0.6208344784610051,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:43:19.412Z"}
+{"pool":"0x0692b60041f3747b815dc80b00879d28b2dde1ea044ce47fb4d372c6c0dcad0e","filterOk":true,"score":0.25072546510992627,"honeypot":true,"hpWhy":"RPC gagal saat cek","t":"2026-09-17T20:43:21.557Z"}
+{"pool":"0x98915f62c32fb744a3e8bc40d9bd2491f02b1744234dd93709b3c88a5e9fb3ad","filterOk":true,"score":0.8718133055761523,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:43:43.714Z"}
+{"pool":"0x3a8ad660e93ffac97e6a5ae390323d44d48d69f367a1c35f88450e4846f2d30c","filterOk":false,"score":0.2048489657392502,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:43:44.609Z"}
+{"pool":"0x74125be92a4dc721123bd484d1e4ec6501158908ff6b53eeafdcd8aee267b344","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:44:27.512Z"}
+{"pool":"0xf42ff30d866f1005686795877a96a674d9f5eb8c6bbac1bec65ec55490dd09ac","filterOk":false,"score":0.2048489657392502,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:44:50.288Z"}
+{"pool":"0xa52fe7584ec819370943064067f2ca76480ab214509c84e938e004670e6c9a81","filterOk":true,"score":0.7037487354460955,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:45:18.175Z"}
+{"pool":"0x7db900195c744acefa6d619a90790a01c77c19d8116b1705761a5ccacbef13a4","filterOk":true,"score":0.5940560428620983,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:45:20.526Z"}
+{"pool":"0x9afe7273fd16929a010c7e35f25326eb91560c38f8c25f3d75a9751e9a0f5907","filterOk":true,"score":0.551466107249214,"honeypot":true,"hpWhy":"RPC gagal saat cek","t":"2026-09-17T20:46:01.062Z"}
+{"pool":"0xdcbb63d5ef929e4182a0afb6312bb9cd30a185cd7b9ee8f1cdf906a4c1a8b8ce","filterOk":true,"score":0.8847166618600033,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:46:13.371Z"}
+{"pool":"0xd05321bb84794721387127b81718781c90bd01d0ba6b4611818cd58212d0d2bf","filterOk":true,"score":0.6812234875196878,"honeypot":true,"hpWhy":"RPC gagal saat cek","t":"2026-09-17T20:46:23.097Z"}
+{"pool":"0x4fe598d61dd0fbb87d5f428b46c95d4573db1436f5380339b264932e5f1877d9","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:48:09.616Z"}
+{"pool":"0xc31514bba0de4b3254dc32832851c0947f5bbfb1f16098b2867a6b94053170d8","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:49:55.298Z"}
+{"pool":"0x3c931d88c368587004db54f449ca01ccbcbdc23368780e8abae1eff552fa8c81","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:49:56.765Z"}
+{"pool":"0x9a145c4f59597f18e580d000d71be578b42fbb8826c62da459917af2b3a172d9","filterOk":true,"score":0.38799412252457,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:50:32.164Z"}
+{"pool":"0xc4e876933f10cad7bb673cc63454be85cef0c9d67e3f2034341ebfb205d5a340","filterOk":true,"score":0.8045825797079695,"honeypot":true,"hpWhy":"RPC gagal saat cek","t":"2026-09-17T20:50:39.598Z"}
+{"pool":"0xf1bca30de8bf109ced7f2f39b61c6bebca2cecac8d29517efcc93cb7adc31eb4","filterOk":true,"score":0.4686717990152351,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:51:09.630Z"}
+{"pool":"0xa92593270e7c1b3182ede27aa58ee2c4c9e7fb557e1989e74e37f3095793449d","filterOk":true,"score":0.4997021113493396,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:51:42.195Z"}
+{"pool":"0x6d9af55c4cb0d740dc5237e8fe2d60e017412fb1af4e2d81e948124797e56748","filterOk":true,"score":0.34090239804569544,"honeypot":true,"hpWhy":"tidak ada pembeli & tidak ada penjual","t":"2026-09-17T20:52:16.496Z"}
+{"pool":"0xd3fb99a23707a837161b81c795c9f44e1de2bf94cf0a8b4a21718ca7d84cd4d4","filterOk":false,"score":0.2048489657392502,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:52:48.586Z"}
+{"pool":"0x8d7db6d10d0ba4db148d9497303a56325a8b8f049c37f8db6cf88276339279a5","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:53:38.942Z"}
+{"pool":"0x56eb91a45ef759ff2f207a86fe45d9ede252b374fe0b01b4992dee74c7ad69fe","filterOk":false,"score":0.2048489657392502,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:54:52.033Z"}
+{"pool":"0x01dcb0158f004521742ccbebf792c0d00be3d7aa0524a06340a9d490f0d6263a","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:54:52.713Z"}
+{"pool":"0xb5679e35c8bc870587eb26d04ba3ad3dc8d698f4bde39cd02c33baf1b5d3303a","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:54:56.079Z"}
+{"pool":"0x66cde6c797f87367e35b2bc820aaef4d93f00e329dc36a576e8676d53a374299","filterOk":true,"score":0.4732964705570031,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T20:55:02.236Z"}
+{"pool":"0xe70346e1e36961b21cfc90f4639db673bac14c379ed5e0d96a4230289f9a1b99","filterOk":true,"score":0.31941118697012066,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:55:23.975Z"}
+{"pool":"0x37c9f26839bfe2fef2b7a3adf6f1ddb318713141c216940ca1927d6e9f1064c2","filterOk":true,"score":0.8703039157212916,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:55:25.471Z"}
+{"pool":"0x6e12c6a6c467539307088590450562c71ccd04772b8d6500ba0fa2f55e9c1d35","filterOk":true,"score":0.591722393004727,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:56:06.811Z"}
+{"pool":"0xf2fac96467267b73db7bc1c98efddd44331c4d375d49884589b4b2ea18a0aa31","filterOk":true,"score":0.9015391958465718,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T20:56:41.446Z"}
+{"pool":"0x2d7aad4d41c8514e7de1f65dda04701ff0d8819e81fb517b50de9c5145a43266","filterOk":false,"score":0.2048489657392502,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:56:41.709Z"}
+{"pool":"0x8e8176b343e0e90d8f98d896c0b9b4ebf6301ee8afbc08d064f728c4dbf2009a","filterOk":true,"score":0.34090239804569544,"honeypot":true,"hpWhy":"tidak ada pembeli & tidak ada penjual","t":"2026-09-17T20:57:09.762Z"}
+{"pool":"0x54fad8466182e053555a20f2438fc5bfebd6d5d28691105f5b0ffb9548699f06","filterOk":false,"score":0.2048489657392502,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:57:12.517Z"}
+{"pool":"0x1bc36cd0d7d4014e060e24d316cc63fbb5dd63e38e038d641b61c11028727845","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T20:57:13.880Z"}
+{"pool":"0x63f723e4cfb3121078d9f89304a14e22229c44e989104090dcaa19df6f291858","filterOk":true,"score":0.7169592551783932,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T21:01:16.955Z"}
+{"pool":"0x1f33b7c4433f3889ea0f12865a84a49191e5b873fc1da195a5c1813ac770a0fa","filterOk":true,"score":0.850923804064603,"honeypot":true,"hpWhy":"RPC gagal saat cek","t":"2026-09-17T21:02:49.912Z"}
+{"pool":"0x4cadc1670cf1ebca542a9af47b1b1b09ab397728e6081aa11bb181ba9c1c1a7d","filterOk":true,"score":0.9183470952481839,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T21:04:04.589Z"}
+{"pool":"0x8281041f36aec48266a55d3fc155b099216523767e10db7f757c15d18b68cda7","filterOk":false,"score":0.0771701985239715,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:06:31.028Z"}
+{"pool":"0xabca7c7c2e238f7632b43238acce3516daf23f5a88a7c357eeed34bdb1d8fa06","filterOk":true,"score":0.25624654406660413,"honeypot":true,"hpWhy":"RPC gagal saat cek","t":"2026-09-17T21:06:37.319Z"}
+{"pool":"0x9054b6c48990f5d78e3a5ec75366095f519b57fb526837a6d4930d20cb9e175b","filterOk":true,"score":0.897518241226438,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T21:07:27.956Z"}
+{"pool":"0x8bb1e1ea1fd6b6fcbfcf300fae2078c0e4404733076d8be6d97f4b25ff980293","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:09:01.537Z"}
+{"pool":"0x4a97859eca9e3e71d9ae7df928a26814feffb975315792270b8bf320b45d4590","filterOk":true,"score":0.34090239804569544,"honeypot":true,"hpWhy":"tidak ada pembeli & tidak ada penjual","t":"2026-09-17T21:10:17.707Z"}
+{"pool":"0xc4905e3d6df4420372114403df887f309210b1cb5790b8109e1bc60b1808694d","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:11:08.691Z"}
+{"pool":"0x0d30124a6e66f076115dbef29bc86c50feb1c57b6551bfbc07a8670148b89463","filterOk":true,"score":0.48331023542985707,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T21:11:42.365Z"}
+{"pool":"0x53339611c04c3babedbe9fcb948f979c69e8b319c023ff246472cd0120d24d4b","filterOk":true,"score":0.7290992608558989,"honeypot":true,"hpWhy":"RPC gagal saat cek","t":"2026-09-17T21:11:52.226Z"}
+{"pool":"0x531e6f01298d5d424c14caea722dd74b836fcf65a75ebefeae605f7a7ffc30d0","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:11:53.146Z"}
+{"pool":"0xdc587e8744153a50c7d8152906922519541f4fe67337b5c4e6bbb720bed3c113","filterOk":true,"score":0.8077730975894211,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T21:13:50.484Z"}
+{"pool":"0x7ade42d88fc6cbc87646749b9eaba841a5696b6d08622008737937aec08d99ca","filterOk":true,"score":0.9108362244001168,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T21:14:02.813Z"}
+{"pool":"0xa0a6f7c78065ca0b5eb01adfcdae6fef4263eac389e7f93775bff3b2141ec96e","filterOk":true,"score":0.4512201566090104,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T21:14:02.861Z"}
+{"pool":"0x09d8f2d51abb36752ec75eb5414d39a080a4146a058dcaf4e8b4a6abdda886c6","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:14:39.096Z"}
+{"pool":"0x2bbe9d184c179239879ccbf68ac7906dfe85bc515312255f5d94702e2392ed3d","filterOk":true,"score":0.850923804064603,"honeypot":true,"hpWhy":"tidak bisa dibuktikan bisa dijual","t":"2026-09-17T21:14:50.387Z"}
+{"pool":"0x169739483408044cd1ab5b0d9be8b75bb9736dfe0005bdeb3199f223a4a9bb9b","filterOk":false,"score":0.2887064335216834,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:15:42.593Z"}
+{"pool":"0xc103488ddc697f0d92d63d0065e16f6c72987de9be7461cb57116315d8110069","filterOk":true,"score":0.7355376593912519,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T21:16:32.770Z"}
+{"pool":"0x87155230f8ba908638a84b5e016fb701079c22211b11bd3950ff16c253b86d25","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:16:34.587Z"}
+{"pool":"0x496d8e906f413dddf926532fa73c36520ba76077944f98e830d383a8056f29ef","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:17:16.004Z"}
+{"pool":"0xfde7904a76ff1dccf29a3ee7246d6f1ffcd524c5fbe80c6a0e3f1fa95cb6948c","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:17:16.051Z"}
+{"pool":"0xa26ff8a58bb862df78c028bfc20704241fb61d3b9821cb35ccc5487aeef18196","filterOk":true,"score":0.7037487354460955,"honeypot":true,"hpWhy":"RPC gagal saat cek","t":"2026-09-17T21:17:53.390Z"}
+{"pool":"0xccc8aa8f4d930b47e3e42296229e12432eaf2bb78a3fe9274cd28e9b3463fe1e","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:18:45.544Z"}
+{"pool":"0x26b3ee04bed44c8ea131af3c8223dc80519863c6781d128e425d5d9ee644ae94","filterOk":false,"score":0.11962894660282787,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:19:24.518Z"}
+{"pool":"0x7dc8bfb5fe8431fd5a630e8688a1987abfc28b47e692b3e09bb9f3e65de474b5","filterOk":true,"score":0.6975797026002739,"honeypot":true,"hpWhy":"RPC gagal saat cek","t":"2026-09-17T21:19:32.664Z"}
+{"pool":"0x038a9f58e905cc7198c1415ef2dee962378e56a94446140854033e5aa1a3fcd9","filterOk":true,"score":0.8961701333544986,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T21:20:02.026Z"}
+{"pool":"0xb20a0b96c00ffadcddef342bff797e0d61ed1bb41161ea7c00380c66ddac1709","filterOk":true,"score":0.5277029163765905,"honeypot":true,"hpWhy":"RPC gagal saat cek","t":"2026-09-17T21:20:09.489Z"}
+{"pool":"0x1c1527d9f6bda33569e3ef4ba633ab84b2ad083a1b9ce60841c7dbbcccd5b7cc","filterOk":true,"score":0.5149350753117827,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T21:21:22.196Z"}
+{"pool":"0x7de93d563621a4b63ffb19f88b720f1619a608042753df834f6d5c5fda5c9993","filterOk":false,"score":0.22892674145815928,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:21:23.151Z"}
+{"pool":"0x828b7f1325d02eae372e6546fe05bf45f0834a3248ac0bf8378c2a5d8f7dee3f","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:21:23.563Z"}
+{"pool":"0x9618ac214f1612da78ef6c9220476962d905a9b9ec5427a2209583ecdf76f601","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:21:23.587Z"}
+{"pool":"0xfc1c3ae0396664b224110d5e9d1c5d63d4ec301ac08fb7df2e4b424f1171948f","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:21:23.665Z"}
+{"pool":"0x02c3c9413c7fe8ac17cc778cd49eb9e772a4082f136cd0cf6f5ce0538f257483","filterOk":true,"score":0.3457299999799034,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T21:21:54.936Z"}
+{"pool":"0x2c4b65a41f07637153dab0ca3d9e4ccd91b7a310c3091a032c9f6a430a355d75","filterOk":false,"score":0.19016413967633114,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:22:26.686Z"}
+{"pool":"0xec444959e125f83e5f9e1875f7d217a394afc000b24d18a677a389a309208fcf","filterOk":false,"score":0.11618403102420974,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:22:52.772Z"}
+{"pool":"0x5c39131ac37a4e8998c87220a98f6f7c035af9061acf9c4562292dd085dffb56","filterOk":true,"score":0.4516738854916782,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T21:22:53.451Z"}
+{"pool":"0x77d87f748a397e033ab95d31d0771321371f8eac02eb1ec792967523d3771208","filterOk":true,"score":0.33457440014657924,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T21:22:54.577Z"}
+{"pool":"0x0f4a572a90b008d811601f65123dcd318ab0560676bbbf40c0df99059226b1bf","filterOk":true,"score":0.8847166618600033,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T21:22:55.456Z"}
+{"pool":"0x43df7565bf4084b3cfe3baa895ea9321edf1505fd260b8d69a2e4858efd4e8e3","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:23:12.002Z"}
+{"pool":"0xfffad533840c842d4e35c7e55e9e9c8843d8fcf9d6e22b3e47ddc5e230c2d0bd","filterOk":false,"score":0.27314270644729294,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:23:13.195Z"}
+{"pool":"0xf3f0b627eff7cd7a7fefb547874166ab8a561dde07921004f5b3f64c061173c7","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:23:15.790Z"}
+{"pool":"0x75fb3940e0daa350b03be453529095fe171b0cce15cffe5ab7a21daa0dbe2434","filterOk":false,"score":0.0771701985239715,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:23:29.784Z"}
+{"pool":"0x5ed38ef92941351b3fa38cd7586bc4e8ca99e83ae299d90551d53e3342665c2e","filterOk":true,"score":0.455332702069398,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T21:23:29.982Z"}
+{"pool":"0x4871e5b86095380811641172655a8d5188388a1814fa85476c63f2d6abf50f70","filterOk":false,"score":0.05217254729794302,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:23:49.711Z"}
+{"pool":"0xbdae3d413d940091c5d62ed6030985f2dfb822e9b0a47f2e78ed08a976953e2f","filterOk":true,"score":0.6975797026002739,"honeypot":true,"hpWhy":"RPC gagal saat cek","t":"2026-09-17T21:24:04.852Z"}
+{"pool":"0x3608b9b13839a33795c67114248b50d8efdf9ca291e29e89826ff40349b73ede","filterOk":true,"score":0.4498731164355282,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T21:24:18.356Z"}
+{"pool":"0x61106a0bf1114714985408f1dfadd140234602874476e5b6c24d22e7a1f941b6","filterOk":true,"score":0.7690157491880198,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T21:24:18.792Z"}
+{"pool":"0xfd38db49bfa9228df052f808ce078774cceff886c6fdc35cd8856fcdb57f8012","filterOk":false,"score":0.1746482899082568,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:24:18.984Z"}
+{"pool":"0x28899a75eae38de1369b453add112cfc90efbe46d30ad850eea4c4d85b8eca68","filterOk":true,"score":0.44112026275077226,"honeypot":false,"hpWhy":"simulasi jual lolos","t":"2026-09-17T21:24:19.555Z"}
+{"pool":"0x3c2ce0c53647be31a2a896b45601cb99b495bf64a01e5e11cfa0a06cfe590a24","filterOk":true,"score":0.8045825797079695,"honeypot":true,"hpWhy":"tidak bisa dibuktikan bisa dijual","t":"2026-09-17T21:24:20.059Z"}
+{"pool":"0xb3c7a2b5f6f07f6c861d09386ff40a53765d56de7a46c33fee5d23d766833b6b","filterOk":true,"score":0.5398810567595442,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T21:24:45.570Z"}
+{"pool":"0xe6a45b670d91faaf296f7c629d36e9eecaaa6997bef81e3f034252b773adf390","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:24:57.475Z"}
+{"pool":"0x1fceaf4bc1e824d6257887ad78939e723c6ccaf227241ffbeafa38b1ab19e494","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:25:01.025Z"}
+{"pool":"0x22d51324fb6258741e7d0426d4e8940071a5f63e937e5dbb52d026c79e2d1326","filterOk":false,"score":0.05394610144849223,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:25:36.752Z"}
+{"pool":"0x6a54c5807c860659e1ee290c5a84d1c119fa2d8aebd4a0e879e871bb3eee8fc9","filterOk":true,"score":0.8626649375169303,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T21:26:03.013Z"}
+{"pool":"0xeff2d63e93d16061722a0be13f4b6f825faeddcf5b88b2970ea7ca3060bb9417","filterOk":true,"score":0.7304454306720918,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T21:26:04.201Z"}
+{"pool":"0xf8691e65a2a78f8072ed0528728c14ed94ed7b547b06ab1364771aca22dfd121","filterOk":true,"score":0.554718154474189,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T21:26:40.314Z"}
+{"pool":"0x7f846f89420c2c3291352054581b5712dd4a1c1da81ff7aff14f8b457d185b80","filterOk":true,"score":0.554718154474189,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T21:26:42.296Z"}
+{"pool":"0x601d995859ef51d5d3cd2a63aed255a1cfcb21f650ed8f6da1bfd423b90f2744","filterOk":true,"score":0.554718154474189,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T21:26:49.448Z"}
+{"pool":"0x299edc731d0d7d54d32d88cbd3813849540a160026549ffbab4218a58ccf0dd5","filterOk":true,"score":0.6725621600340067,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T21:26:57.909Z"}
+{"pool":"0xbdc4e8d1e1fff0d2cecf08b27143976ff2f828810b9d937e7419769c9deadbb1","filterOk":false,"score":0.1555179500672902,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:27:08.006Z"}
+{"pool":"0x94428aaea4dee780ffef48104531895349328987c7e31b2fc9e30d6efe201cb2","filterOk":false,"score":0.24260015720241418,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:27:08.069Z"}
+{"pool":"0xe204b77bec866c1cc96c779fb8abbbfdc06e02b38350ae8f93b09002ec092703","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:27:12.792Z"}
+{"pool":"0x0e48ab65fb12387fef9938ea006e3d467cdbaf6f266605b9d481f734af9d349e","filterOk":true,"score":0.786379460779826,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T21:27:19.482Z"}
+{"pool":"0x720424c01f98c567cebc34c716bc8141eb4779b4d7badcc4d14f27086db9a5ac","filterOk":true,"score":0.7585906056252283,"honeypot":true,"hpWhy":"RPC gagal saat cek","t":"2026-09-17T21:27:22.541Z"}
+{"pool":"0xf374c4e760e0dcfe9fab5e7687cdc87cbef8a3dd8b3ae304a9de63439655ee37","filterOk":false,"score":0.15670521866606815,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:28:21.784Z"}
+{"pool":"0x770830959e60435b9a4ba0b6f7f727291c3696c162f1f661ddb0bc9becd590a9","filterOk":true,"score":0.8412899119224693,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T21:28:25.426Z"}
+{"pool":"0xbafe0631b35ebca6a85bc0bdb48e286b9f945a3763690e09c61109db468d8d12","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:29:22.472Z"}
+{"pool":"0xca657964544959da2cb7abf3289a67919b56f5ea1fd921e5a7c501698fced57e","filterOk":false,"score":0.0771701985239715,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:29:38.319Z"}
+{"pool":"0xe11f42d70a312893c4d4179aca802c29c3df2b5d34d37742f8858e1f16097675","filterOk":false,"score":0.17824448328787393,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:29:38.499Z"}
+{"pool":"0xbf2f388ec309e1c9dbd34b429dd9ec7adac2a7c625d2d4b87984cde3238a96ae","filterOk":true,"score":0.8759499175709435,"honeypot":true,"hpWhy":"tidak bisa dibuktikan bisa dijual","t":"2026-09-17T21:29:38.702Z"}
+{"pool":"0x35dbb336749522103c3f3303c5020922e5f08029de5aa6387c836dab4a812ee5","filterOk":true,"score":0.46980595171323675,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T21:29:38.778Z"}
+{"pool":"0x1be690999733e918710f231541b88931e1319ba11f2c920634bf6741488397c4","filterOk":true,"score":0.35109994194919225,"honeypot":true,"hpWhy":"simulasi jual REVERT","t":"2026-09-17T21:30:01.461Z"}
+{"pool":"0x55a3ee90c03c0aa2d06368f0dba1e79378b7a1df3b3ecc4e87902cf892659c6c","filterOk":true,"score":0.5041853282007196,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T21:30:12.956Z"}
+{"pool":"0x32716221b1d9bd5d769aefa5748a1380a648c8301538c5abe2d9d1915042d1b6","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:30:56.377Z"}
+{"pool":"0x4413e590a6f44cbcdd9186e5e63abfb53e3021577cb6af6ed48ac071ffad3a2b","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:31:16.067Z"}
+{"pool":"0x2f8975f6c17d6188b9536b6634b159c41f2f4b494e07780e171f1b3f35304a42","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:31:19.348Z"}
+{"pool":"0x15e574fd6a829e6ad01cc0c70d03f30e8ce385c38921aa914ed31c682072a4de","filterOk":false,"score":0.3403714421877247,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:31:38.769Z"}
+{"pool":"0xc9b6a0acac8ce6654619fb1bffa8129127aedd7240111ab5c4b348b17f4931ca","filterOk":true,"score":0.893610998464908,"honeypot":true,"hpWhy":"tidak bisa dibuktikan bisa dijual","t":"2026-09-17T21:31:39.164Z"}
+{"pool":"0x33f2c0b263187ebf8d842ee8ee9edfd814f9e1fcd7816b7ffd19458ab5821e19","filterOk":false,"score":0.17892394608140377,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:31:39.598Z"}
+{"pool":"0x40431287d997f2b96f58ea6ac77f10ee961128c329799ab1ef3b9af7dfc54c8b","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:31:39.970Z"}
+{"pool":"0x32b6a295506a4fdd9f8c623ae2a2449b1256b44d81837af06488387a0f5a2496","filterOk":true,"score":0.5186879761032923,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T21:31:56.399Z"}
+{"pool":"0x8489b73cc3089e9b1ecc935f2b48fbb141c95577be80a6d1a7109e175ad6e71c","filterOk":true,"score":0.5132315615677948,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T21:32:23.176Z"}
+{"pool":"0x304df8bbed7838211ec1396ca99d0ccfa40dbf59d9e306ab83ba62ec05ecc331","filterOk":true,"score":0.554718154474189,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T21:32:23.403Z"}
+{"pool":"0xcf570f7d69b7d6307736e5278d272fd8085cbdf1ddfbedacb0cd0fa9270d18aa","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:32:24.131Z"}
+{"pool":"0xf1cc981c4c55fb8af3cabcdf4a67bd3ae04d3194a95e660d5c0a882d5ecc3d0a","filterOk":false,"score":0.28840120773225675,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:32:47.945Z"}
+{"pool":"0x78ee96a8779e9654673641b9c568d220b7211115e47325d0024591ca93317ad6","filterOk":true,"score":0.7826057426418364,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T21:32:48.140Z"}
+{"pool":"0x51629c4085868104badaef5a19650d23c8fc8eefc13d1d531e7059980b5f066c","filterOk":false,"score":0.32351133884435035,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:32:58.638Z"}
+{"pool":"0x76410c2f55287791b73939be7a8182b31b48f07a60f5bf62c372c511de92670c","filterOk":true,"score":0.8903746175307286,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T21:33:16.468Z"}
+{"pool":"0x17d5feac8c927a9b51bb7e6e7cae76e7929d09aa3316e00be2a2ff44dee57eb0","filterOk":false,"score":0.14472972622376,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:33:16.514Z"}
+{"pool":"0x89e2e0e6a2e29bf75d5926fa309daf9f6e68878784e4c4fd90e9cda62fd64dd4","filterOk":true,"score":0.554718154474189,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T21:33:16.802Z"}
+{"pool":"0x5803f98cda21a6446270c89f51b9e0e467d713fdb1ca3b26eadec1591c2fd245","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:33:24.976Z"}
+{"pool":"0xccf6299b08b52e8d25ab47aef69195a49f4530e430f93ec4e3dafd4a07bdca0b","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:33:24.999Z"}
+{"pool":"0x085a26f9082cb9171298a768abfb64e8963ed6be0e470b2f6e8bff0069fa8e7d","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:33:25.058Z"}
+{"pool":"0x0d2b0f5999ee45c099ac490c5af73dbbb69431d5f3c5cf9fda0e08acc5415b90","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:33:25.071Z"}
+{"pool":"0x5a88ca3e9a6d563247792026365356195d8a5bf3508acf24f68fcc0560768406","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:33:25.087Z"}
+{"pool":"0x240ed7456f497080b4f5361cf98302dc6eb7e61a008730560c93ef2f55a5d574","filterOk":false,"score":0.0771701985239715,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:34:06.602Z"}
+{"pool":"0x1c13d1a282ae9f101737bdaac8d4569471f9723b9cd75e01980fe612f1aab983","filterOk":true,"score":0.5454510182143173,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T21:34:07.287Z"}
+{"pool":"0x6abfa73fdd046cef3e3c3c5ac8efc15c98dbc24aab233f34e962f788ca3d27c5","filterOk":true,"score":0.4405999153812473,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T21:34:07.522Z"}
+{"pool":"0x8d23e20eccabab52dd86380409d6b567adaaeb2bc60b434df25824b356633dbd","filterOk":false,"score":0.10251498381053982,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:37:05.498Z"}
+{"pool":"0x1e0fc0a9261d32866c97b93e6b15f8bcdbbe5097999c705c5b75f3ae8a5f73f1","filterOk":true,"score":0.9172688006301066,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T21:37:05.502Z"}
+{"pool":"0x7fbaa2f575f3df9d7771a093045119dee3430113a481f13444fe9d1dca744969","filterOk":true,"score":0.6790066928682897,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T21:37:05.575Z"}
+{"pool":"0xc10825b382014bdaa71a2ec8fa2447ae90d45ed9ee8d3a962d6a5fb6ca27c833","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:40:10.147Z"}
+{"pool":"0xd181f21ea694f559f948f8e8a5a2368b74f5c9d4926e0a3fc4d7cf1f161c4d25","filterOk":true,"score":0.5254788843495395,"honeypot":false,"hpWhy":"sudah ada penjual","t":"2026-09-17T21:44:38.072Z"}
+{"pool":"0x7b65a5b68081e3943c36e416198b911c63d27a25c37f8451435d1fba10538d70","filterOk":false,"score":0.2417726135396445,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:44:56.659Z"}
+{"pool":"0x97759290c6fdf5e982ee0f952c13d388c945c7cda95ac1c863a970b99fb92dd6","filterOk":false,"score":0.31941118697012066,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:44:56.984Z"}
+{"pool":"0xedadd1cfa00a9d9b0605fc6388df62427131dfb18acc66fb5f6550526bac70cc","filterOk":false,"score":0.3026922943747631,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:44:57.058Z"}
+{"pool":"0xbfc2e1f27d4bda9ede1352c668e944b4d1269561b55f22915371d1003e711cc0","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:44:59.051Z"}
+{"pool":"0x216c3039195e642a5db7dbbf66d37636e4ab27e4961e5954c22dbea84ec48847","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:45:14.027Z"}
+{"pool":"0x0e76081440252cb0ae4a28640f041868ab23c55f4f994d8472bc66a9e3e4c9f6","filterOk":false,"score":null,"honeypot":null,"hpWhy":null,"t":"2026-09-17T21:45:14.090Z"}

@@ -1,0 +1,10 @@
+TOTAL 2797 baris -> arena_feats.csv
+model dilatih ulang 25x | koin berskor 2729/2797
+peluang 2797 | beli 180 | tutup 180 | lewat jalur roket 0
+tolak: ml 2428, dev 0, honeypot 120, slot penuh 0, eksposur penuh 1, kill 0, kas 0, model belum siap 68
+win 76.1% | PF 3.48 | rug dimakan (ret<0,3) 26
+akun $100 -> $10696.24 (10596%) | DD maks 20.7% | kill tidak
+  u_ds5d: 18 trade | win 56% | PF 0.45 | untung $-5.96
+  u_ds24: 23 trade | win 70% | PF 1.17 | untung $5.02
+  m1: 87 trade | win 84% | PF 4.45 | untung $6989.43
+  m2: 52 trade | win 73% | PF 2.64 | untung $3607.74

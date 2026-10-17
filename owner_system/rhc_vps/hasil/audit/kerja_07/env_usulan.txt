@@ -1,0 +1,66 @@
+# ===== USULAN .env SETELAH AUDIT 07 (eksperimen uji maju) — BUKAN file aktif =====
+# Angka resmi setelan ini (uji maju penuh, mesin a+b+c+d eksekusi nyata, gas nyata semua periode):
+#   $100 -> $10.854,01 | 186 trade | win 71,5% | PF 2,98 | DD maks 24,5% | 0 posisi > 1% likuiditas
+# Pembanding: setelan sekarang dengan MAXPOS=5 = $100 -> $7.387,82 (153 trade, PF 3,07, DD 20,6%).
+# PERINGATAN JUJUR: selisih dolar antar varian yang secara statistik SAMA membentang $3.839-$15.186.
+# Yang terbukti (uji berpasangan, daftar beli dikunci, 19.247 trade mesin) hanyalah perbaikan
+# +0,010 ret per trade. Jangan memperlakukan $10.854 sebagai ramalan.
+
+# --- Jaringan (tidak berubah) ---
+RPC_URLS=https://rpc.mainnet.chain.robinhood.com
+DOH_URL=https://cloudflare-dns.com/dns-query
+
+# --- Masuk ---
+FILTER=1
+QTHR=0.90           # TETAP. Pemilihan ulang di periode lama justru memilih 0,60 yang TERBURUK di m1+m2.
+HONEYPOT=1          # TETAP, dan bot live harus DIPERKETAT sampai sama dengan arena (lihat catatan 3)
+DEV_RULE=1
+LARANG_PEMANASAN=1  # BARU: jangan beli sebelum model punya 30 skor (ambang 0,195 in-sample). 29 beli dibatalkan.
+
+# --- Ukuran & risiko ---
+START_USD=100
+MAX_POS=5           # aturan pemilik. Tidak mengikat lagi dengan exit baru (maks 4 posisi bersamaan).
+EXP_MAX=0.5         # tidak pernah mengikat (0 penolakan); rata-rata eksposur cuma 12% modal
+LP_CAP=0.01         # TETAP 1%. Menaikkan ke 2-5% menaikkan akun tapi MENURUNKAN PF 3,03 -> 2,29,
+                    # dan model dampak harga arena terlalu longgar di ukuran itu -> angka palsu.
+KELLY_MAKS=0.10     # TETAP. 1/4 Kelly murni (tanpa batas) cuma beda +1,4% dan DD sama; batas ini gratis.
+KILL_DD=0.60
+REM=1
+REM_HARIAN=0.15     # BARU: berhenti beli kalau equity < awal hari WIB -15%. Di data ini 0 trade tertolak
+                    # (asuransi gratis, bukan sumber untung).
+
+# --- Keluar (PERUBAHAN INTI) ---
+HZ_LIVE=324000      # TETAP 9 jam. Memperpanjang horizon MEMPERBURUK: ret/trade 1,093 -> 1,033.
+DANGER_TH=0.4       # TETAP. Melonggarkan ke 0,6 signifikan MERUGIKAN (-0,019 ret/trade).
+UP_TH=0.5
+TP_UP=0.5
+TUTUP_SAAT_RUG=1    # BARU: tutup posisi begitu LP >80% ditarik (rugBlk). Uang per trade tidak berubah
+                    # (3 dari 16.400 trade), tapi slot & modal bebas dan status bot jadi jujur.
+TRAIL_PUNCAK=0.40   # BARU: rem darurat, jual kalau turun 40% dari puncak SESUDAH TP1.
+                    # 20% dan 30% lebih buruk / tidak stabil. 40% signifikan positif di ds5d+ds24 DAN m1+m2.
+DUMP_FRAC=0.12      # BARU: ambang "dump besar" 5% -> 12% likuiditas. Di 12.911 trade Agustus BARU:
+                    # ret/trade +0,0102 [0,008..0,012], PF 0,94 -> 1,08. Di m1+m2 gabungan: +0,0117 [0,002..0,025].
+
+# --- Biaya nyata ---
+GAS_USD=0.06
+FAIL_BUY=0.0185
+FAIL_SELL=0.0054
+
+# --- Belajar ---
+RETRAIN_TIAP=100
+RETRAIN_KELUAR=1    # BARU & WAJIB: model p_bahaya/p_naik HARUS dilatih ulang tiap periode.
+                    # Dibekukan (tidak pernah dilatih ulang): akun bukti $5.158 -> $736,94. Ini bukan opsi.
+PYTHON=python
+
+# ================= CATATAN PEMASANGAN =================
+# 1. TUTUP_SAAT_RUG / TRAIL_PUNCAK / DUMP_FRAC / LARANG_PEMANASAN / REM_HARIAN belum dibaca kode bot.
+#    Perlu 2 sambungan kecil (BELUM dikerjakan, bot/ asli tidak disentuh):
+#      bot/v4engine.js  : opsi rugExit, trail, dumpFrac (sudah ada & teruji di
+#                         hasil/audit/kerja_07/pipeline/v4engine.js — salin bagian ber-tag AUDIT07)
+#      bot/paper_live.js: teruskan env -> opsi PoolSim (blok REALISTIC, baris 40-42),
+#                         plus larangan pemanasan & rem harian di sisi akun.
+# 2. Setelah disambung WAJIB: replay data/ags4 harus tetap 75 baris identik saat opsi baru dimatikan
+#    (sudah diverifikasi identik byte di salinan kerja_07).
+# 3. Honeypot: arena menolak koin yang "belum ada yang berhasil jual di menit-1"; bot live hanya eth_call.
+#    Melonggarkan arena ke aturan bot (HONEY=0) merusak periode sepi: ds24 +$1,47 -> -$6,56, win 36%.
+#    Arahnya PERKETAT bot, bukan longgarkan arena.

@@ -1,0 +1,34 @@
+{
+ "dibuat": "2026-09-20T13:22:05.157Z",
+ "sumber": [
+  "../hasil/uji_maju_final/trade_final178_lengkap.json"
+ ],
+ "ekuitas_awal_buku": 100,
+ "ekuitas_sekarang": 12746.3,
+ "laba_bersih": 12646.3,
+ "kelipatan": 127.46,
+ "trade": 178,
+ "win_rate": 75.8,
+ "profit_factor": 3.72,
+ "drawdown_maks_persen": 12.4,
+ "hari_dagang": 6,
+ "hari_untung": 5,
+ "minggu_dagang": 3,
+ "minggu_untung": 2,
+ "hari_terbaik": {
+  "kunci": "2026-09-14",
+  "trade": 59,
+  "pnl": 8305.13,
+  "menang": 47,
+  "ekuitas_akhir": 8917.53,
+  "win": 79.7
+ },
+ "hari_terburuk": {
+  "kunci": "2026-09-06",
+  "trade": 18,
+  "pnl": -2.71,
+  "menang": 11,
+  "ekuitas_akhir": 97.29,
+  "win": 61.1
+ }
+}

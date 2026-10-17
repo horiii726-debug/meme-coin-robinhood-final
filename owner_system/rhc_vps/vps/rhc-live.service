@@ -1,0 +1,24 @@
+[Unit]
+Description=Bot RHC paper-live (Rust, MODE KERTAS - tanpa transaksi)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=rhc
+Group=rhc
+WorkingDirectory=/opt/rhc/bot
+ExecStartPre=/bin/rm -f /opt/rhc/bot/rust_live/stop.txt
+ExecStart=/usr/local/bin/rhc-live live --bot /opt/rhc/bot --env /opt/rhc/bot/.env
+Restart=always
+RestartSec=10
+# batas sumber daya: bot tidak boleh menelan seluruh VPS
+MemoryMax=3G
+Nice=5
+NoNewPrivileges=true
+ProtectSystem=strict
+ReadWritePaths=/opt/rhc/bot
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

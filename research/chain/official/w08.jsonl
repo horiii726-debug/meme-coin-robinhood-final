@@ -1,0 +1,95 @@
+{"pool":"0x64eddbd563ad9e9464301fc177c42701d1dce56df10a987def877ca0e19aeae7","pos":987.9172,"kembali":797.7075,"ret":0.8074639113151332,"alasan":"dump >=5% LP","masuk":79423532,"keluar":79425597}
+{"pool":"0x84259cefa8de2ca5b433676641abf111723704b9435b0f849f20fb44db13fe04","pos":168.7551,"kembali":330.3660,"ret":1.9576651929310636,"alasan":"model bahaya","masuk":79439606,"keluar":79440338}
+{"pool":"0x7bfa8474c8c0a30abae4bd49cd25d283ff2acbece00643d692aff7cc8f4a2a94","pos":184.8144,"kembali":0.0000,"ret":-0.0011362751456830424,"alasan":"model bahaya","masuk":79446911,"keluar":79447512}
+{"pool":"0x6ebdd4061d486540a51eb8ba5477be66e32dc12c0ae42e66c948fb56ca9fe177","pos":1029.6844,"kembali":1736.7264,"ret":1.6866589161223184,"alasan":"tanda pucuk","masuk":79457638,"keluar":79475774}
+{"pool":"0x29216c8f8581aba76ee07afb200a069e06777865e0f712f64c7946e1f6578de5","pos":655.4259,"kembali":2021.0924,"ret":3.0836320587279213,"alasan":"tanda pucuk","masuk":79474732,"keluar":79476418}
+{"pool":"0x6e78aeb79a3c0bfbd80d22c377227c5a49f16ebed266f92ab1dc4d2151ae8e20","pos":414.2765,"kembali":396.8845,"ret":0.9580181957179678,"alasan":"stop -40%","masuk":79574593,"keluar":79575914}
+{"pool":"0xe62c350ed0ee024f15d6fb821273d8f22b5b8d555e364f8b0b6f54403adf6281","pos":169.0793,"kembali":286.4464,"ret":1.694154654219914,"alasan":"model bahaya","masuk":79579433,"keluar":79580025}
+{"pool":"0x319abb215ec979ca9e778968c1ca933b258129efd8ca4cbae22f8efc164dc8b9","pos":212.5927,"kembali":425.0380,"ret":1.999306508046113,"alasan":"model bahaya","masuk":79592634,"keluar":79593581}
+{"pool":"0x8bd711292920ad03aaa277a9fc59e480b5684a1ac7a60ff068e7d75d2ef362bf","pos":738.0644,"kembali":1302.4120,"ret":1.764631838314791,"alasan":"dump >=5% LP","masuk":79582667,"keluar":79597594}
+{"pool":"0x11af79143557569ba2f6ac344ff1f7d2efaf3144d4aaa91b145bf6304548c10d","pos":187.5330,"kembali":240.5646,"ret":1.2827858628607594,"alasan":"model bahaya","masuk":79601742,"keluar":79601973}
+{"pool":"0x9d29550ca512e73043cfcc1c2fa1d5e85e31c17610ffbf6ab14df9dfa9eb1b2b","pos":232.3800,"kembali":335.2371,"ret":1.4426248684157172,"alasan":"model bahaya","masuk":79624550,"keluar":79626655}
+{"pool":"0x4804d13ad696a4ab17b46d4a364d2b1e81f939d599cce0d4a3ac784a20148190","pos":169.8636,"kembali":281.5239,"ret":1.6573528474409926,"alasan":"model bahaya","masuk":79631141,"keluar":79631747}
+{"pool":"0xf302d2591e30c620f56087f8162b75db6178abda91b943580aa7102996f604ff","pos":188.3235,"kembali":285.9659,"ret":1.518481874067612,"alasan":"model bahaya","masuk":79642425,"keluar":79643146}
+{"pool":"0x62635953eb99d78ad2260076284b93dc6e88173da78b345b05df8cee276ecaf5","pos":213.3448,"kembali":420.0213,"ret":1.9687438359053853,"alasan":"model bahaya","masuk":79657538,"keluar":79658476}
+{"pool":"0x77223b9bb57ef33ecc4271c3dfd65e80a51764e7a367fd6535ea5b50453758ef","pos":188.1080,"kembali":285.6400,"ret":1.5184896466433397,"alasan":"model bahaya","masuk":79668772,"keluar":79669479}
+{"pool":"0x987f308edfe322604b5d884f646c161d22586c9035fea219ff4a49ad4ac5704f","pos":169.8943,"kembali":277.0426,"ret":1.630676538816123,"alasan":"model bahaya","masuk":79677431,"keluar":79678030}
+{"pool":"0x8a303af4af451079f3abf873362c9c8d82d4862b26957851b5677dc5dddc5bf3","pos":170.0655,"kembali":278.5882,"ret":1.6381224583061462,"alasan":"model bahaya","masuk":79699402,"keluar":79700002}
+{"pool":"0xa83be61c4b368867f16f7f923971873692123cfae7776df528ca3ea89d11922b","pos":166.2091,"kembali":280.8382,"ret":1.689668475923756,"alasan":"model bahaya","masuk":79722200,"keluar":79722837}
+{"pool":"0x973d8b09db59012a1fc35177c7d235cd61f74943fa2e93dcf7d797208a6ea182","pos":165.5049,"kembali":285.9696,"ret":1.7278617862825771,"alasan":"model bahaya","masuk":79763286,"keluar":79763972}
+{"pool":"0x41b22d2a5c0aa28d083571daf8316c354c1bc46749fc0c3fd54fadd444eaf1e3","pos":188.5380,"kembali":286.2180,"ret":1.5180919505718375,"alasan":"model bahaya","masuk":79816240,"keluar":79816819}
+{"pool":"0xe070c338fde6c4f7fb1075ce8cebc0ffa9adec61a69f210692e73c8268c0de6f","pos":169.4958,"kembali":282.3667,"ret":1.665922105553528,"alasan":"model bahaya","masuk":79827800,"keluar":79828436}
+{"pool":"0xac0e31fa1ce3ae69cd8648d440ffe54ddf56414ad077653018e160cd09c4c3fa","pos":232.3212,"kembali":330.0507,"ret":1.4206655255597993,"alasan":"model bahaya","masuk":79834264,"keluar":79836171}
+{"pool":"0x2d87d071a02129c51be10098ada2f1b166a75842d95eb08f2b03b013a88964a4","pos":188.8189,"kembali":286.7126,"ret":1.5184533613994384,"alasan":"model bahaya","masuk":79847416,"keluar":79848140}
+{"pool":"0x62a37ac717e5b5834a246fe536386345acb69d123fe7d65bec0e979ca05e01f2","pos":416.5310,"kembali":402.2611,"ret":0.9657410465084161,"alasan":"stop -40%","masuk":79852616,"keluar":79853937}
+{"pool":"0xfbf5de3cdb4166ac1a2210b27a78ad96a41adf89c371d16665daf477529852aa","pos":170.3278,"kembali":296.4735,"ret":1.7406051002589775,"alasan":"model bahaya","masuk":79885848,"keluar":79886516}
+{"pool":"0x55ad390e6d159030584c08ff0b289d917c0f821e45ee9716c75b97930d528f2e","pos":190.7951,"kembali":289.5996,"ret":1.517856979168862,"alasan":"model bahaya","masuk":79897050,"keluar":79897617}
+{"pool":"0x1dc24cc9b77bb5ea6edfcf0fab05b681f3f00b0d36131d2827b8728b997e01d7","pos":168.6394,"kembali":280.1585,"ret":1.6612868422844052,"alasan":"model bahaya","masuk":79908420,"keluar":79909042}
+{"pool":"0xa6792162f263e34e31817222e470b9fbb28b4d5f47cdd64be8395d56219bb7e7","pos":232.3642,"kembali":344.6618,"ret":1.4832823719930657,"alasan":"model bahaya","masuk":79914585,"keluar":79916390}
+{"pool":"0xe8c59b555c12263a2c2bbebc61733f2632460c6c6486ac8be39cfcd923c95ff6","pos":212.6643,"kembali":0.0000,"ret":-0.0007053369312845019,"alasan":"akhir data","masuk":79617025,"keluar":79940395}
+{"pool":"0xdbfb57ba08f3dacb7fc6521f38364a482dc3460000bd959e8e1d512824b1d47c","pos":186.1096,"kembali":290.6447,"ret":1.5616855824626141,"alasan":"model bahaya","masuk":79942158,"keluar":79942579}
+{"pool":"0x9ad3cae9fc3cfcc78e89332cb751b9f57d893026ff8deb33cd626369ed30824d","pos":167.3007,"kembali":0.0000,"ret":-0.000896589365732517,"alasan":"akhir data","masuk":79648357,"keluar":79971727}
+{"pool":"0xee940cbbc590db35cb89eed83a5cacdd61005edd534c3104400ef25735a4b4ad","pos":168.5472,"kembali":306.9236,"ret":1.8209948194167576,"alasan":"model bahaya","masuk":79983275,"keluar":79983981}
+{"pool":"0x2c820c944193e5e023a59019c5a87a564e3707c77906a113b2abdef2ed061249","pos":167.4230,"kembali":167.3630,"ret":0.9996416263925297,"alasan":"beli gagal","masuk":80012929,"keluar":80012929}
+{"pool":"0xddd1de2a260aedeb5023ab21cc39e2d90990188ff26d3f2caad9ddedf7efe655","pos":169.3560,"kembali":276.1728,"ret":1.6307234112748579,"alasan":"model bahaya","masuk":80046156,"keluar":80046786}
+{"pool":"0xe0ca747342102c6061e3ff997cd729c3a5f0197f3d8fc5dc552e5734a67693f8","pos":186.8215,"kembali":289.2367,"ret":1.5481978202661557,"alasan":"model bahaya","masuk":80057489,"keluar":80058086}
+{"pool":"0x6c1c11949f359023fac547982f23a3feabbb49801991caf6001bc4e8f8a73229","pos":214.5070,"kembali":426.1103,"ret":1.9864635414141458,"alasan":"model bahaya","masuk":80069150,"keluar":80070090}
+{"pool":"0xbe3a0c11120cd43cc257d5266e14967f9660b777da19eca0fddc88d8517717b2","pos":168.7817,"kembali":272.5742,"ret":1.6149511814158726,"alasan":"model bahaya","masuk":80108514,"keluar":80109143}
+{"pool":"0xc4f3d0284d376a7a2cb0f498046ef9385aa4e63b87a6195a1d48f0ac88cd05e2","pos":801.7614,"kembali":1036.7036,"ret":1.293032492459007,"alasan":"dump >=5% LP","masuk":80108234,"keluar":80114556}
+{"pool":"0xd9639511c5cc1fcba2a60f019b5668017135c684c70a7ea508c7669903e6bb8a","pos":215.5313,"kembali":430.1199,"ret":1.9956256695164132,"alasan":"model bahaya","masuk":80129088,"keluar":80130029}
+{"pool":"0x6adec78c2ad4b6df94955bd10b1f49bb8e602fde4f541b93e488452590f20fc0","pos":1073.4934,"kembali":1213.5733,"ret":1.130489772852987,"alasan":"dump >=5% LP","masuk":80132593,"keluar":80147473}
+{"pool":"0xfee1d7ec8055e6be86a755a1672552bf5bd1a7479c95b1f7dc624937ad454363","pos":314.1709,"kembali":709.5423,"ret":2.2584599714488864,"alasan":"tanda pucuk","masuk":80181131,"keluar":80186291}
+{"pool":"0xca888265d6c37ede1bcbfbdc05aff3c04cfe69bf342fa088b7a1ed8a766a9857","pos":188.9265,"kembali":290.0933,"ret":1.5354821725820613,"alasan":"model bahaya","masuk":80186562,"keluar":80187140}
+{"pool":"0x1d2e8fd412b9d260d24acab2289acb62a2febf19f3374362647d4150add75321","pos":169.5283,"kembali":279.8808,"ret":1.650938937064507,"alasan":"model bahaya","masuk":80198062,"keluar":80198669}
+{"pool":"0x763c921a22aa17d91511f4f95955e44bbba84c4e7bf7f94d2d7d32f0b1c535ce","pos":651.6384,"kembali":800.1023,"ret":1.2278317811407928,"alasan":"dump >=5% LP","masuk":80220878,"keluar":80231266}
+{"pool":"0x70662432041d8a2dbbab0aa385299fa5559bc95ab2c7f4ed2490c8c9af05b258","pos":169.6364,"kembali":285.2909,"ret":1.6817791301049483,"alasan":"model bahaya","masuk":80250055,"keluar":80250656}
+{"pool":"0x20034f2a832e25a27cdc4f6d70e3de976b5a08e426044a01ce86ab21c89a586d","pos":171.2435,"kembali":0.0000,"ret":-0.0008759457833999866,"alasan":"akhir data","masuk":79939895,"keluar":80263265}
+{"pool":"0xd1b7b68a752e6d4f676e0f2360df05687320cb3d2db6727f61d2425b0faa94c0","pos":169.9291,"kembali":309.5053,"ret":1.8213795861812538,"alasan":"model bahaya","masuk":80286952,"keluar":80287640}
+{"pool":"0xd5be57ac2ca84a2e7a48b909f5391fe3400d29879f5a52c3df3e81251b5a5e23","pos":167.5628,"kembali":0.0000,"ret":-0.0008951869450187457,"alasan":"akhir data","masuk":79967789,"keluar":80291159}
+{"pool":"0xcbf7120c64dcc5eefe114e6dc4d7b6a9eb6a8a69369c235af2add03ca5d7b91b","pos":985.7963,"kembali":1424.2199,"ret":1.4447406641535054,"alasan":"dump >=5% LP","masuk":80286494,"keluar":80315812}
+{"pool":"0x218111abc63438c0992ced2f3d2a5ce00b46217cd88075591fa1155f55a30ac4","pos":797.3451,"kembali":1859.1214,"ret":2.3316394197917134,"alasan":"tanda pucuk","masuk":80322287,"keluar":80334356}
+{"pool":"0x61eee7012feb13e116fc55149e968246ec2740574376f9182887290f09e2489e","pos":331.6996,"kembali":56.2007,"ret":0.16943256647266924,"alasan":"dump >=5% LP","masuk":80395971,"keluar":80396743}
+{"pool":"0x904ed041ea2f32fadef77764fc11b7797544e4e50efd7712037c95ddc69a4df3","pos":202.0464,"kembali":351.9663,"ret":1.7420075198659102,"alasan":"model bahaya","masuk":80399862,"keluar":80400632}
+{"pool":"0x089349905af47cb7a14b1422130269ddbd9e238e09d24224193231e3fff50e0d","pos":836.0467,"kembali":0.0000,"ret":-0.00017941580752575133,"alasan":"akhir data","masuk":80099727,"keluar":80423097}
+{"pool":"0xbbb0fbf52b38cfd09cdf02a951f53d59df8b248092694b7a09f6af49fa296cf1","pos":201.8518,"kembali":256.5944,"ret":1.2712020233435943,"alasan":"model bahaya","masuk":80425195,"keluar":80425478}
+{"pool":"0xe8007c2ae6e8497ca529aa8c6562da036be62dbfe4bbed1fec3d4f64e705003e","pos":234.3398,"kembali":325.8911,"ret":1.3906773429403594,"alasan":"model bahaya","masuk":80430929,"keluar":80432179}
+{"pool":"0x53f19b8d95e5f7a4fe6cda43e6bbbd3eb90c9c84af55104c6b9e15995fc437d2","pos":190.1964,"kembali":288.9117,"ret":1.5190172639683752,"alasan":"model bahaya","masuk":80466298,"keluar":80466991}
+{"pool":"0x657fa1a11329a4c5f703aafa52a19ab79e78b8bf6cafb72597e7686280abb648","pos":237.5059,"kembali":330.5657,"ret":1.3918209112063114,"alasan":"model bahaya","masuk":80484266,"keluar":80485593}
+{"pool":"0x75d7228ac8941f03759df8db95e08e2da854b7caf988cffb92806f4305c258b9","pos":169.2596,"kembali":329.8690,"ret":1.9488942352152347,"alasan":"model bahaya","masuk":80493815,"keluar":80494534}
+{"pool":"0xe53a7334c2bac1ed070112b6d7236ff4cd47d709fddba9ccc2c1a2af8729f551","pos":174.0610,"kembali":255.9781,"ret":1.470622778616242,"alasan":"model bahaya","masuk":80498367,"keluar":80498729}
+{"pool":"0x781841e9ad6f17ca27520e740bec7acff58494c74179301c5abbd2941f7d5288","pos":233.4890,"kembali":325.2311,"ret":1.3929184295801753,"alasan":"model bahaya","masuk":80506449,"keluar":80507651}
+{"pool":"0x6a781f34bb6f664bed9d5e251460fd4dba4ea5fc1b081967c87b0d1f30ff6c98","pos":215.5125,"kembali":215.4525,"ret":0.9997215938554253,"alasan":"beli gagal","masuk":80517912,"keluar":80517912}
+{"pool":"0x8e1edc5fec79507dedf55cda9b1d6a20275ad960b6c0b2e54985860e4c6d8ca8","pos":188.7070,"kembali":240.2088,"ret":1.2729190566530733,"alasan":"model bahaya","masuk":80529050,"keluar":80529224}
+{"pool":"0x94a4541502da2b78a40912aea90f09482906a9bcf71be517af57655ae182dec3","pos":168.4088,"kembali":284.4304,"ret":1.6889278304720494,"alasan":"model bahaya","masuk":80535638,"keluar":80536244}
+{"pool":"0x2564d097862a5c8ae6b92c1a354daa5dbacf96a1bc51f49a78d204610839b957","pos":187.5927,"kembali":0.0000,"ret":-0.0007996044647413713,"alasan":"akhir data","masuk":80242664,"keluar":80566034}
+{"pool":"0x1d10d8a4e4fef7cd0a1f2366686802f6b67eafc1fc611eeb24a3b18fc3f8598d","pos":237.3835,"kembali":330.3503,"ret":1.3916310772976226,"alasan":"model bahaya","masuk":80692587,"keluar":80693788}
+{"pool":"0x264764b3963c398fdf25603c962a51b5cf62de25deeb103d4446668b8a233704","pos":218.1482,"kembali":395.8877,"ret":1.8147648595784411,"alasan":"model bahaya","masuk":80696001,"keluar":80696829}
+{"pool":"0x8b8da387990cb63d88e56450065f708e9c44bad1b8253cb176781e3657882fbd","pos":187.4142,"kembali":276.6235,"ret":1.4760008273576948,"alasan":"model bahaya","masuk":80712817,"keluar":80713199}
+{"pool":"0x6c6d5ee4458fad53eeed4649e36361d90d534b0818e12583e76fa7064f179dd7","pos":1085.5718,"kembali":924.8341,"ret":0.8519327220798361,"alasan":"dump >=5% LP","masuk":80709977,"keluar":80715540}
+{"pool":"0xa4302845628dd47ec06f616b34d3f88e9a42ce15ebafb93e3c54a1de3266b57e","pos":216.1888,"kembali":422.8909,"ret":1.956118390723774,"alasan":"model bahaya","masuk":80720191,"keluar":80721131}
+{"pool":"0x1b48702ab4a4bc6047be53c40b8d0c0efe55020967c2635e45a053b853f67f65","pos":964.9984,"kembali":964.9384,"ret":0.9999378237303996,"alasan":"beli gagal","masuk":80722774,"keluar":80722774}
+{"pool":"0xbca45562db4b8b4266e15c927cf3e22503bdf71cb5c743f788f43258679b8495","pos":235.3155,"kembali":330.8557,"ret":1.4060087130782393,"alasan":"model bahaya","masuk":80727055,"keluar":80728437}
+{"pool":"0x4a73821c2586551e0a5343c1696d26c5eb66db091de5e7efea167f9b88b721f4","pos":187.0829,"kembali":284.6942,"ret":1.5217542487861184,"alasan":"model bahaya","masuk":80740373,"keluar":80741081}
+{"pool":"0x56e77872912cb8d62307db692b90e624e312a10943420452ec85a61c62a63ba5","pos":237.6562,"kembali":329.6921,"ret":1.3872646807407771,"alasan":"model bahaya","masuk":80753037,"keluar":80754242}
+{"pool":"0xcbed6d1401d78136d5a709b34f158f91be292e5beed17d4fbe05bd89beaa3137","pos":249.8831,"kembali":0.0000,"ret":-0.0006002807561766515,"alasan":"akhir data","masuk":80465056,"keluar":80788426}
+{"pool":"0x9325ea01fbecc473aaa7610b64cc2642c7d16e439f6946dec485aa703715297d","pos":168.8114,"kembali":295.3768,"ret":1.7497445831817322,"alasan":"model bahaya","masuk":80821239,"keluar":80821843}
+{"pool":"0x8c0f37f5e1c7c0b53fff365b8be475e2851d560050001c3fc6242f63bedb05db","pos":213.2778,"kembali":213.2178,"ret":0.9997186767505153,"alasan":"beli gagal","masuk":80827377,"keluar":80827377}
+{"pool":"0xe7a53916712bbb2a606513f9fe63d0121458e5767329c5fa5a48f3fce8c3a659","pos":766.8615,"kembali":1136.0749,"ret":1.4814603879736814,"alasan":"dump >=5% LP","masuk":80821461,"keluar":80829325}
+{"pool":"0x981fb2f6d27ba4d7264f8ccece0b066cb5047937ccda7cb0b3629ed3a60c6487","pos":178.6237,"kembali":294.0488,"ret":1.6461914861351181,"alasan":"model bahaya","masuk":80857954,"keluar":80858389}
+{"pool":"0x56c401641f13e581c5e5e7525d38ba959c12fe5b6412234cc6e8a91a417039cd","pos":247.2714,"kembali":500.9396,"ret":2.025869803936342,"alasan":"model bahaya","masuk":80895983,"keluar":80897160}
+{"pool":"0xe985b4a56feeb15d2d52bffaffca22ad03a55a35f3ebdd43ce0dcf356724edc9","pos":208.0823,"kembali":320.2348,"ret":1.5389815854708802,"alasan":"model bahaya","masuk":80901885,"keluar":80902523}
+{"pool":"0x9fc777aa2e5e28fec47ce70c422d6aee5b3f6d076d633226ec0c308b397fa86b","pos":272.7393,"kembali":525.4273,"ret":1.9264813199103834,"alasan":"model bahaya","masuk":80914130,"keluar":80915183}
+{"pool":"0xc2fb6f90d7889fb3481281e637389be7a488290c40e6b086df0054314172fba7","pos":352.8102,"kembali":430.8828,"ret":1.2212879491170916,"alasan":"model bahaya","masuk":80935723,"keluar":80936846}
+{"pool":"0xf992e37fe8f237950d46470816c0983c61a5e1ce8376acaca74fbc9f82fd8cfc","pos":294.2537,"kembali":381.6624,"ret":1.2970523721100442,"alasan":"model bahaya","masuk":80977327,"keluar":80978540}
+{"pool":"0x5548779c8fc3a591c4b060175b9c99faed57b24346e430719060462be0419b59","pos":337.2978,"kembali":687.5605,"ret":2.0384375006814572,"alasan":"model bahaya","masuk":80992319,"keluar":80993671}
+{"pool":"0x76773b092cc4637d7a0f7f1ffaab9b689a4c334dc998d02730245fa8b24921d6","pos":243.7865,"kembali":337.9198,"ret":1.3861303311777793,"alasan":"model bahaya","masuk":81013911,"keluar":81015416}
+{"pool":"0xd61cd46b6d008e79f85c2da77e28fc129fceba617598c7105cd33c833af9bf78","pos":252.0850,"kembali":458.4630,"ret":1.81868442753721,"alasan":"model bahaya","masuk":81028443,"keluar":81029389}
+{"pool":"0x430cfeb832208d0d1ad8e91aa1c0e555fe1c5aac0d3f7097e348e936a7f5af5c","pos":369.6936,"kembali":601.2362,"ret":1.6263096851001715,"alasan":"model bahaya","masuk":81034878,"keluar":81037824}
+{"pool":"0xca97563daee98662a4a0d6de2d873864b2ce4bb3dfc17a68892447dde61792d2","pos":212.5568,"kembali":311.2004,"ret":1.464081361372567,"alasan":"model bahaya","masuk":81043487,"keluar":81044740}
+{"pool":"0x9f0bba926298a3471fd7bd83ffd51fc35dc7c02f1262df2b35f23e8ae875c27f","pos":227.9891,"kembali":432.5502,"ret":1.897240863098853,"alasan":"model bahaya","masuk":81051113,"keluar":81052025}
+{"pool":"0xae87d7706f83bee376629191a824747375f820855fef32832d73af3acda75f00","pos":275.8071,"kembali":534.3387,"ret":1.9373641890761528,"alasan":"model bahaya","masuk":81060588,"keluar":81061646}
+{"pool":"0x15a026d1d6242ed57f961b37bc29ab40636ed0e2ac4000e6cce525e4dd4b8262","pos":285.1513,"kembali":442.5437,"ret":1.5519612748196479,"alasan":"model bahaya","masuk":81072503,"keluar":81073435}
+{"pool":"0xbe4b699e0a6a772ad5f6007ffb8debeb9eb3eb15c34d5a7b4b9fc1918bee2b87","pos":354.4093,"kembali":440.9209,"ret":1.2441008956447857,"alasan":"model bahaya","masuk":81075698,"keluar":81076933}
+{"pool":"0xc3a1f3667c2b9919c02429a0f95bf16a391344fefa568538f92411b55bd95aef","pos":201.3203,"kembali":391.0773,"ret":1.942562867761277,"alasan":"model bahaya","masuk":81085333,"keluar":81086157}
+{"pool":"0xe3a7828a7d54323dcd58cfcf9e1a2f3cfefc80032d95ddd9a66e09202d082ed1","pos":223.0970,"kembali":435.6624,"ret":1.9527937281480856,"alasan":"model bahaya","masuk":81094784,"keluar":81095713}
+{"pool":"0x05cc6d090403bb0bf7a638a77114531191f0ca177d73e578d1c1645f2a472cd7","pos":268.6730,"kembali":359.4294,"ret":1.3377949860051,"alasan":"model bahaya","masuk":81108686,"keluar":81109903}

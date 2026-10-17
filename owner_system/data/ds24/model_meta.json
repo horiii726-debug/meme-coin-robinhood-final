@@ -1,0 +1,69 @@
+{
+  "features": [
+    "lp_entry_usd",
+    "lp_end_w_usd",
+    "lp_peak_w_usd",
+    "lp_growth",
+    "lp_adds_w",
+    "lp_removes_w",
+    "lp_rem_frac_w",
+    "n_swap_w",
+    "n_buy_w",
+    "n_sell_w",
+    "buy_sell_cnt_ratio",
+    "buyvol_usd_w",
+    "sellvol_usd_w",
+    "flow_imbalance",
+    "netflow_over_lp",
+    "buy_size_med_usd",
+    "buy_size_mean_usd",
+    "sell_size_med_usd",
+    "max_buy_usd",
+    "max_buy_over_lp",
+    "n_tx_w",
+    "swaps_per_tx",
+    "bundled_frac",
+    "lag_first_swap",
+    "gap_med_blocks",
+    "gap_std_blocks",
+    "swaps_per_min",
+    "accel_2nd_half",
+    "ret_w",
+    "vol_logret_w",
+    "maxdd_w",
+    "up_move_frac",
+    "fee_init",
+    "fee_med_w",
+    "fee_dynamic",
+    "has_hook",
+    "tick_spacing",
+    "quote_is_usdg",
+    "dev_n_prev",
+    "dev_rate2",
+    "dev_rate11",
+    "dev_has11",
+    "dev_has101",
+    "dev_avg_mult",
+    "launch_density_10m",
+    "hook_beforeSwap",
+    "quote_eth"
+  ],
+  "report": {
+    "p100": {
+      "threshold_mult": 2.0,
+      "base_rate": 0.3955414012738854,
+      "auc_insample": 0.9467716674387312
+    },
+    "p400": {
+      "threshold_mult": 5.0,
+      "base_rate": 0.14331210191082802,
+      "auc_insample": 0.9426831887649731
+    },
+    "p1000": {
+      "threshold_mult": 11.0,
+      "base_rate": 0.04713375796178344,
+      "auc_insample": 0.9632217444717446
+    }
+  },
+  "trained_rows": 1570
+}

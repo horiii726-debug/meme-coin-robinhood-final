@@ -1,0 +1,9 @@
+[Unit]
+Description=Jalankan penjaga bot RHC tiap 2 menit
+
+[Timer]
+OnBootSec=3min
+OnUnitActiveSec=2min
+
+[Install]
+WantedBy=timers.target

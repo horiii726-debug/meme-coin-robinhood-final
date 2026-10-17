@@ -1,0 +1,70 @@
+{
+ "ags1": {
+  "swap_lewat_600": 0,
+  "swap_offset_min": 117,
+  "transfer_lewat_600": 0,
+  "transfer_offset_max": 592
+ },
+ "ags4": {
+  "swap_lewat_600": 0,
+  "swap_offset_min": 0,
+  "transfer_lewat_600": 0,
+  "transfer_offset_max": 599
+ },
+ "u_ds5d": {
+  "swap_lewat_600": 0,
+  "swap_offset_min": 0,
+  "transfer_lewat_600": 0,
+  "transfer_offset_max": 600
+ },
+ "u_ds24": {
+  "swap_lewat_600": 0,
+  "swap_offset_min": 0,
+  "transfer_lewat_600": 0,
+  "transfer_offset_max": 600
+ },
+ "m1": {
+  "swap_lewat_600": 0,
+  "swap_offset_min": 0,
+  "transfer_lewat_600": 0,
+  "transfer_offset_max": 600
+ },
+ "m2": {
+  "swap_lewat_600": 0,
+  "swap_offset_min": 0,
+  "transfer_lewat_600": 0,
+  "transfer_offset_max": 600
+ },
+ "model_keluar": {
+  "W1->ags4": {
+   "awal_uji": 40834000,
+   "label_terakhir": 25920307,
+   "aman": true,
+   "note": "p_bahaya walk-forward W1: dilatih HANYA dari state_ags1.csv"
+  },
+  "W2->ds5d": {
+   "awal_uji": 55566162,
+   "label_terakhir": 41182025,
+   "aman": true,
+   "note": "p_bahaya walk-forward W2: dilatih HANYA dari state_ags1.csv, state_ags4.csv"
+  },
+  "W3->ds24": {
+   "awal_uji": 59886162,
+   "label_terakhir": 56228367,
+   "aman": true,
+   "note": "p_bahaya walk-forward W3: dilatih HANYA dari state_ags1.csv, state_ags4.csv, state_ds5d.csv"
+  },
+  "W4->m1": {
+   "awal_uji": 61866030,
+   "label_terakhir": 60747370,
+   "aman": true,
+   "note": "p_bahaya walk-forward W4: dilatih HANYA dari state_ags1.csv, state_ags4.csv, state_ds5d.csv, state_ds24.csv"
+  },
+  "W5->m2": {
+   "awal_uji": 64401245,
+   "label_terakhir": 63599810,
+   "aman": true,
+   "note": "p_bahaya walk-forward W5: dilatih HANYA dari state_ags1.csv, state_ags4.csv, state_ds5d.csv, state_ds24.csv, state_m1.csv"
+  }
+ }
+}

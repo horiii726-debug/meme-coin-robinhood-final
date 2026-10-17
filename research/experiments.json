@@ -1,0 +1,27 @@
+{
+ "data_note": "3,178 coins, windows w00-w02 (18-23 Sep), counterfactual per coin, same costs and 3 s latency as the bot",
+ "exit_rules": [
+  {"rule": "Sistem sekarang (model bahaya + naik)", "win": 0.476, "mean": 1.144, "pf": 1.72},
+  {"rule": "Exit saat transaksi beli:jual 60 dtk <= 1:1", "win": 0.301, "mean": 0.960, "pf": 0.84},
+  {"rule": "Sama, minimal hold 60 dtk", "win": 0.354, "mean": 0.967, "pf": 0.88},
+  {"rule": "<= 1:1 ATAU aktivitas melambat", "win": 0.400, "mean": 1.056, "pf": 1.24},
+  {"rule": "Hold sampai <= 1:1 DAN melambat", "win": 0.241, "mean": 0.869, "pf": 0.69}
+ ],
+ "entry_filters": [
+  {"filter": "Semua koin", "n": 3178, "win": 0.476, "mean": 1.144, "pf": 1.72},
+  {"filter": "Transaksi beli:jual >= 3:1", "n": 2185, "win": 0.505, "mean": 1.141, "pf": 1.68},
+  {"filter": "Transaksi beli:jual 1-3", "n": 839, "win": 0.421, "mean": 1.179, "pf": 1.97},
+  {"filter": "Ramai (>= 3 transaksi / 10 dtk)", "n": 1661, "win": 0.544, "mean": 1.100, "pf": 1.61},
+  {"filter": "Rapat (jeda median <= 1 dtk)", "n": 1283, "win": 0.405, "mean": 1.017, "pf": 1.09},
+  {"filter": "Berakselerasi (paruh 2 >= 2x paruh 1)", "n": 521, "win": 0.643, "mean": 1.286, "pf": 2.67},
+  {"filter": "Kombinasi: >= 3:1 + ramai + akselerasi", "n": 865, "win": 0.688, "mean": 1.190, "pf": 2.31}
+ ],
+ "moonshot_note": "17 koin mencapai >= 10x: exit sistem rata-rata 13.4x, exit momentum 1:1 rata-rata 1.0x",
+ "qfv": {"points": 12670, "days": 10, "base_up2": 0.0377, "base_up10": 0.00237, "us_per_point": 18.7,
+  "auc": [
+   {"radar": "Rumus quantum QFV", "auc2": 0.573, "auc10": 0.527},
+   {"radar": "Rasio volume 5 mnt / 1 jam", "auc2": 0.669, "auc10": 0.487},
+   {"radar": "Jumlah transaksi 5 mnt terakhir", "auc2": 0.778, "auc10": 0.567},
+   {"radar": "Akselerasi transaksi", "auc2": 0.653, "auc10": 0.479}],
+  "signal": {"n": 33, "hit2": 0.0606, "hit10": 0.0303, "catch10": 0.033}}
+}

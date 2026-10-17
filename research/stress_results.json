@@ -1,0 +1,70 @@
+[
+ {
+  "scenario": "baseline (3 s latency, owner's costs)",
+  "settings": {},
+  "end": 83154.23,
+  "max_dd": 28.0,
+  "trades": 1159
+ },
+ {
+  "scenario": "our sells move the price",
+  "settings": {
+   "SELL_IMPACT": "1"
+  },
+  "end": 79120.67,
+  "max_dd": 28.0,
+  "trades": 1158
+ },
+ {
+  "scenario": "latency 5 s",
+  "settings": {
+   "LAT_BLOCKS": "50"
+  },
+  "end": 80999.18,
+  "max_dd": 28.1,
+  "trades": 1148
+ },
+ {
+  "scenario": "latency 10 s",
+  "settings": {
+   "LAT_BLOCKS": "100"
+  },
+  "end": 85191.16,
+  "max_dd": 24.1,
+  "trades": 1131
+ },
+ {
+  "scenario": "gas busy $0.21/tx + approve $0.06",
+  "settings": {
+   "GAS_USD": "0.21",
+   "APPROVE_USD": "0.06"
+  },
+  "end": 81970.96,
+  "max_dd": 28.1,
+  "trades": 1159
+ },
+ {
+  "scenario": "10% buys + 10% sells fail",
+  "settings": {
+   "FAIL_BUY": "0.10",
+   "FAIL_SELL": "0.10"
+  },
+  "end": 62891.69,
+  "max_dd": 29.0,
+  "trades": 1163
+ },
+ {
+  "scenario": "all of the above combined",
+  "settings": {
+   "SELL_IMPACT": "1",
+   "LAT_BLOCKS": "100",
+   "GAS_USD": "0.21",
+   "APPROVE_USD": "0.06",
+   "FAIL_BUY": "0.10",
+   "FAIL_SELL": "0.10"
+  },
+  "end": 59215.59,
+  "max_dd": 31.9,
+  "trades": 1149
+ }
+]

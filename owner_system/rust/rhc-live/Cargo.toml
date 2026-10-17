@@ -1,0 +1,26 @@
+[package]
+name = "rhc-live"
+version = "0.1.0"
+edition = "2021"
+description = "Bot paper-live RHC dalam Rust (port paper_live.js). MODE KERTAS: tidak ada transaksi, tidak ada kunci dompet."
+
+[[bin]]
+name = "rhc-live"
+path = "src/main.rs"
+
+[[bin]]
+name = "cek_net"
+path = "src/bin/cek_net.rs"
+
+[dependencies]
+port_engine = { path = "../port_engine" }
+port_features = { path = "../port_features" }
+serde_json = { version = "1", features = ["float_roundtrip"] }
+num-bigint = "0.5"
+num-traits = "0.2"
+native-tls = "=0.2.12"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1

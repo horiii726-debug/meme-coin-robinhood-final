@@ -1,0 +1,10 @@
+SELESAI: pool 3 | trade 6 | potret model 8
+SELESAI: pool 26 | trade 75 | potret model 173
+SELESAI: pool 138 | trade 387 | potret model 7113
+SELESAI: pool 583 | trade 1620 | potret model 10440
+SELESAI: pool 1504 | trade 4047 | potret model 30919
+SELESAI: pool 934 | trade 2406 | potret model 19536
+../../../data/m2 baris: 783 | lewat: 19
+TOTAL 2797 baris -> arena_feats.csv
+model dilatih ulang 25x | koin berskor 2727/2797
+SELESAI dasar

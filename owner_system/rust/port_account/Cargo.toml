@@ -1,0 +1,27 @@
+[package]
+name = "port_account"
+version = "0.1.0"
+edition = "2021"
+description = "Port Rust dari pipeline/arena.js (simulator akun). Hasil harus identik dengan JS."
+
+[lib]
+name = "port_account"
+path = "src/lib.rs"
+
+[[bin]]
+name = "arena"
+path = "src/main.rs"
+
+[[bin]]
+name = "v8sort_check"
+path = "src/bin/v8sort_check.rs"
+
+[dependencies]
+# float_roundtrip: angka JSON diurai dengan pembulatan benar (sama dengan JSON.parse)
+serde_json = { version = "1", features = ["float_roundtrip"] }
+ryu = "1"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1

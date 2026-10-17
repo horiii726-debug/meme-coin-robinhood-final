@@ -1,0 +1,13 @@
+   1 |        281 |       435 |        688 |        948 |       1344
+   2 |       2612 |      6832 |      11833 |      17188 |      22776
+   3 |      10432 |     17393 |      20718 |      23474 |      26114
+   4 |      15005 |     19745 |      22371 |      24799 |      26647
+   5 |      15929 |     20240 |      22809 |      25181 |      27090
+   6 |      16283 |     20743 |      23336 |      25567 |      27492
+   7 |      16385 |     20859 |      23569 |      25869 |      27786
+
+peluang RUGI setelah 7 hari : 0.0%
+peluang akun tinggal <50%      : 0.0%
+kill switch menyala rata2      : 0.00 kali per jalur | pernah kena 0.0% jalur
+drawdown: tengah 48.5% | 95% terburuk 61.4%
+trade per jalur: tengah 312

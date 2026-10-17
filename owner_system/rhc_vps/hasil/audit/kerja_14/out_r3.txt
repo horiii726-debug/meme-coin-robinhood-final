@@ -1,0 +1,159 @@
+aturan                                           n   PnL/$1    med   win%  dini  telat    10x dkt     mnt
+
+### PILIH ['ags1', 'ags4', 'u_ds5d', 'u_ds24']
+REF trail 30% (dipilih ronde 1)                636    296.2  0.952   36.8    79    232    7/31       16.5
+REF trail 15%                                  636    260.0  0.954   41.4   130    230    4/31       14.2
+TAHAN r3 keluar dd0.1 bila r3>0.7, paksa dd0.3   636    323.5  0.953   40.9   117    220    6/31       13.5
+TAHAN r3 keluar dd0.1 bila r3>1.0, paksa dd0.3   636    331.4  0.953   39.3   110    223    6/31       14.2
+TAHAN r3 keluar dd0.1 bila r3>1.5, paksa dd0.3   636    323.6  0.952   38.2    95    228    6/31       16.0
+TAHAN r3 keluar dd0.1 bila r3>0.7, paksa dd0.4   636    268.6  0.953   40.9   118    222    4/31       13.5
+TAHAN r3 keluar dd0.1 bila r3>1.0, paksa dd0.4   636    296.8  0.952   38.8   106    228    4/31       14.8
+TAHAN r3 keluar dd0.1 bila r3>1.5, paksa dd0.4   636    282.9  0.952   35.7    81    237    4/31       18.2
+TAHAN r3 keluar dd0.1 bila r3>0.7, paksa dd0.5   636    251.3  0.953   40.7   118    223    3/31       13.5
+TAHAN r3 keluar dd0.1 bila r3>1.0, paksa dd0.5   636    280.0  0.952   37.9   104    232    3/31       14.8
+TAHAN r3 keluar dd0.1 bila r3>1.5, paksa dd0.5   636    260.8  0.950   34.0    74    258    2/31       20.0
+TAHAN r3 keluar dd0.1 bila r3>0.7, paksa dd0.6   636    246.3  0.953   40.7   117    222    4/31       13.5
+TAHAN r3 keluar dd0.1 bila r3>1.0, paksa dd0.6   636    274.3  0.952   37.7   103    231    3/31       14.8
+TAHAN r3 keluar dd0.1 bila r3>1.5, paksa dd0.6   636    255.7  0.946   33.3    70    255    4/31       21.0
+TAHAN r3 keluar dd0.15 bila r3>0.7, paksa dd0.3   636    326.2  0.953   40.1   107    221    6/31       14.5
+TAHAN r3 keluar dd0.15 bila r3>1.0, paksa dd0.3   636    331.0  0.952   38.7   100    225    6/31       15.8
+TAHAN r3 keluar dd0.15 bila r3>1.5, paksa dd0.3   636    329.1  0.952   38.2    90    228    6/31       16.5
+TAHAN r3 keluar dd0.15 bila r3>0.7, paksa dd0.4   636    271.3  0.953   40.1   108    223    4/31       14.5
+TAHAN r3 keluar dd0.15 bila r3>1.0, paksa dd0.4   636    296.2  0.952   38.2    96    230    4/31       16.0
+TAHAN r3 keluar dd0.15 bila r3>1.5, paksa dd0.4   636    288.7  0.952   35.7    76    237    4/31       18.2
+TAHAN r3 keluar dd0.15 bila r3>0.7, paksa dd0.5   636    254.0  0.953   39.9   108    224    3/31       14.5
+TAHAN r3 keluar dd0.15 bila r3>1.0, paksa dd0.5   636    279.4  0.952   37.3    94    234    3/31       16.0
+TAHAN r3 keluar dd0.15 bila r3>1.5, paksa dd0.5   636    266.6  0.950   34.0    69    258    2/31       20.0
+TAHAN r3 keluar dd0.15 bila r3>0.7, paksa dd0.6   636    249.0  0.953   39.9   107    223    4/31       14.5
+TAHAN r3 keluar dd0.15 bila r3>1.0, paksa dd0.6   636    273.7  0.952   37.1    93    233    3/31       16.0
+TAHAN r3 keluar dd0.15 bila r3>1.5, paksa dd0.6   636    261.5  0.946   33.3    65    255    4/31       21.0
+TAHAN r3 keluar dd0.2 bila r3>0.7, paksa dd0.3   636    314.5  0.953   39.5    99    220    6/31       16.0
+TAHAN r3 keluar dd0.2 bila r3>1.0, paksa dd0.3   636    307.8  0.952   38.2    91    228    6/31       16.5
+TAHAN r3 keluar dd0.2 bila r3>1.5, paksa dd0.3   636    304.0  0.952   37.6    84    230    6/31       16.5
+TAHAN r3 keluar dd0.2 bila r3>0.7, paksa dd0.4   636    259.5  0.953   39.5   100    222    4/31       16.0
+TAHAN r3 keluar dd0.2 bila r3>1.0, paksa dd0.4   636    273.0  0.952   37.7    87    233    4/31       16.5
+TAHAN r3 keluar dd0.2 bila r3>1.5, paksa dd0.4   636    263.5  0.952   35.1    70    239    4/31       18.5
+TAHAN r3 keluar dd0.2 bila r3>0.7, paksa dd0.5   636    242.2  0.953   39.3   100    223    3/31       16.0
+TAHAN r3 keluar dd0.2 bila r3>1.0, paksa dd0.5   636    256.2  0.952   36.8    85    237    3/31       16.5
+TAHAN r3 keluar dd0.2 bila r3>1.5, paksa dd0.5   636    241.4  0.948   33.3    63    260    2/31       20.5
+TAHAN r3 keluar dd0.2 bila r3>0.7, paksa dd0.6   636    237.3  0.953   39.3    99    222    4/31       16.0
+TAHAN r3 keluar dd0.2 bila r3>1.0, paksa dd0.6   636    250.5  0.952   36.6    84    236    3/31       16.5
+TAHAN r3 keluar dd0.2 bila r3>1.5, paksa dd0.6   636    236.3  0.944   32.7    59    257    4/31       22.2
+TAHAN rsp keluar dd0.1 bila rsp>0.7, paksa dd0.3   636    277.2  0.954   42.1   134    225    4/31       13.5
+TAHAN rsp keluar dd0.1 bila rsp>1.0, paksa dd0.3   636    277.6  0.954   41.7   131    227    4/31       14.0
+TAHAN rsp keluar dd0.1 bila rsp>1.5, paksa dd0.3   636    324.5  0.953   40.1   114    223    6/31       15.2
+TAHAN rsp keluar dd0.1 bila rsp>0.7, paksa dd0.4   636    222.6  0.954   42.1   134    226    3/31       13.5
+TAHAN rsp keluar dd0.1 bila rsp>1.0, paksa dd0.4   636    221.8  0.954   41.7   129    228    3/31       14.0
+TAHAN rsp keluar dd0.1 bila rsp>1.5, paksa dd0.4   636    276.2  0.952   37.4   106    235    3/31       16.8
+TAHAN rsp keluar dd0.1 bila rsp>0.7, paksa dd0.5   636    205.8  0.954   42.0   134    227    2/31       13.5
+TAHAN rsp keluar dd0.1 bila rsp>1.0, paksa dd0.5   636    206.5  0.954   41.2   128    230    2/31       14.0
+TAHAN rsp keluar dd0.1 bila rsp>1.5, paksa dd0.5   636    270.4  0.952   36.2   100    253    2/31       19.5
+TAHAN rsp keluar dd0.1 bila rsp>0.7, paksa dd0.6   636    205.8  0.954   42.0   134    227    2/31       13.5
+TAHAN rsp keluar dd0.1 bila rsp>1.0, paksa dd0.6   636    206.2  0.954   41.2   127    230    2/31       14.0
+TAHAN rsp keluar dd0.1 bila rsp>1.5, paksa dd0.6   636    248.2  0.951   35.2    97    253    2/31       20.8
+TAHAN rsp keluar dd0.15 bila rsp>0.7, paksa dd0.3   636    280.8  0.954   41.0   126    230    4/31       14.5
+TAHAN rsp keluar dd0.15 bila rsp>1.0, paksa dd0.3   636    285.5  0.954   40.9   120    228    4/31       14.5
+TAHAN rsp keluar dd0.15 bila rsp>1.5, paksa dd0.3   636    330.9  0.953   39.5   100    223    6/31       16.0
+TAHAN rsp keluar dd0.15 bila rsp>0.7, paksa dd0.4   636    226.2  0.954   41.0   126    231    3/31       14.5
+TAHAN rsp keluar dd0.15 bila rsp>1.0, paksa dd0.4   636    229.7  0.954   40.9   118    229    3/31       14.5
+TAHAN rsp keluar dd0.15 bila rsp>1.5, paksa dd0.4   636    282.6  0.952   36.8    92    235    3/31       17.0
+TAHAN rsp keluar dd0.15 bila rsp>0.7, paksa dd0.5   636    209.4  0.954   40.9   126    232    2/31       14.5
+TAHAN rsp keluar dd0.15 bila rsp>1.0, paksa dd0.5   636    214.4  0.953   40.4   117    231    2/31       14.5
+TAHAN rsp keluar dd0.15 bila rsp>1.5, paksa dd0.5   636    267.8  0.952   35.5    86    254    1/31       19.5
+TAHAN rsp keluar dd0.15 bila rsp>0.7, paksa dd0.6   636    209.4  0.954   40.9   126    232    2/31       14.5
+TAHAN rsp keluar dd0.15 bila rsp>1.0, paksa dd0.6   636    214.1  0.953   40.4   116    231    2/31       14.5
+TAHAN rsp keluar dd0.15 bila rsp>1.5, paksa dd0.6   636    241.4  0.950   34.6    83    254    1/31       21.0
+TAHAN rsp keluar dd0.2 bila rsp>0.7, paksa dd0.3   636    280.5  0.953   39.9   110    224    4/31       16.0
+TAHAN rsp keluar dd0.2 bila rsp>1.0, paksa dd0.3   636    277.4  0.953   39.8   107    225    4/31       16.0
+TAHAN rsp keluar dd0.2 bila rsp>1.5, paksa dd0.3   636    309.9  0.952   38.5    93    225    6/31       16.5
+TAHAN rsp keluar dd0.2 bila rsp>0.7, paksa dd0.4   636    225.9  0.953   39.9   110    225    3/31       16.0
+TAHAN rsp keluar dd0.2 bila rsp>1.0, paksa dd0.4   636    221.0  0.953   39.6   105    227    3/31       16.0
+TAHAN rsp keluar dd0.2 bila rsp>1.5, paksa dd0.4   636    261.3  0.952   35.8    84    237    3/31       18.2
+TAHAN rsp keluar dd0.2 bila rsp>0.7, paksa dd0.5   636    209.1  0.953   39.8   110    226    2/31       16.0
+TAHAN rsp keluar dd0.2 bila rsp>1.0, paksa dd0.5   636    205.7  0.953   39.2   104    229    2/31       16.0
+TAHAN rsp keluar dd0.2 bila rsp>1.5, paksa dd0.5   636    246.5  0.951   34.6    78    256    1/31       20.2
+TAHAN rsp keluar dd0.2 bila rsp>0.7, paksa dd0.6   636    209.1  0.953   39.8   110    226    2/31       16.0
+TAHAN rsp keluar dd0.2 bila rsp>1.0, paksa dd0.6   636    205.4  0.952   39.2   103    229    2/31       16.0
+TAHAN rsp keluar dd0.2 bila rsp>1.5, paksa dd0.6   636    220.1  0.947   33.6    75    256    1/31       23.0
+KONTROL acak p=0.01                            636     60.4  0.907   28.3   101    266    4/31       19.2
+KONTROL acak p=0.03                            636     79.8  0.939   32.1   149    249    1/31        9.0
+KONTROL ambang acak (r3 diacak)                636    273.8  0.953   40.4   118    224    4/31       14.5
+
+### BUKTI ['m1', 'm2']
+REF trail 30% (dipilih ronde 1)               1749    549.2  0.956   45.9   151    544    9/30        7.5
+REF trail 15%                                 1749    458.3  1.060   51.3   332    526    8/30        6.0
+TAHAN r3 keluar dd0.1 bila r3>0.7, paksa dd0.3  1749    503.2  1.059   51.3   308    499    8/30        6.0
+TAHAN r3 keluar dd0.1 bila r3>1.0, paksa dd0.3  1749    500.4  0.974   48.6   273    524    9/30        7.0
+TAHAN r3 keluar dd0.1 bila r3>1.5, paksa dd0.3  1749    567.7  0.961   47.2   168    537    8/30        7.5
+TAHAN r3 keluar dd0.1 bila r3>0.7, paksa dd0.4  1749    509.5  1.059   51.3   309    499    8/30        6.0
+TAHAN r3 keluar dd0.1 bila r3>1.0, paksa dd0.4  1749    537.4  0.962   47.8   269    530    9/30        7.0
+TAHAN r3 keluar dd0.1 bila r3>1.5, paksa dd0.4  1749    589.1  0.955   44.8   133    558    9/30        8.0
+TAHAN r3 keluar dd0.1 bila r3>0.7, paksa dd0.5  1749    525.0  1.059   51.3   308    498    9/30        6.0
+TAHAN r3 keluar dd0.1 bila r3>1.0, paksa dd0.5  1749    531.3  0.962   47.9   267    536    9/30        7.0
+TAHAN r3 keluar dd0.1 bila r3>1.5, paksa dd0.5  1749    583.4  0.955   44.3   119    587    7/30        8.0
+TAHAN r3 keluar dd0.1 bila r3>0.7, paksa dd0.6  1749    529.5  1.059   51.3   308    498    9/30        6.0
+TAHAN r3 keluar dd0.1 bila r3>1.0, paksa dd0.6  1749    536.7  0.962   47.9   266    534    9/30        7.0
+TAHAN r3 keluar dd0.1 bila r3>1.5, paksa dd0.6  1749    539.7  0.954   44.1   113    578    7/30        8.5
+TAHAN r3 keluar dd0.15 bila r3>0.7, paksa dd0.3  1749    506.4  1.020   50.4   281    513    7/30        6.5
+TAHAN r3 keluar dd0.15 bila r3>1.0, paksa dd0.3  1749    508.9  0.970   48.3   248    531    8/30        7.0
+TAHAN r3 keluar dd0.15 bila r3>1.5, paksa dd0.3  1749    557.4  0.960   46.9   166    541    8/30        7.5
+TAHAN r3 keluar dd0.15 bila r3>0.7, paksa dd0.4  1749    512.7  1.020   50.4   282    513    7/30        6.5
+TAHAN r3 keluar dd0.15 bila r3>1.0, paksa dd0.4  1749    545.9  0.961   47.5   244    537    8/30        7.0
+TAHAN r3 keluar dd0.15 bila r3>1.5, paksa dd0.4  1749    578.8  0.955   44.5   131    562    9/30        8.0
+TAHAN r3 keluar dd0.15 bila r3>0.7, paksa dd0.5  1749    528.2  1.020   50.4   281    512    8/30        6.5
+TAHAN r3 keluar dd0.15 bila r3>1.0, paksa dd0.5  1749    539.8  0.961   47.5   242    543    8/30        7.0
+TAHAN r3 keluar dd0.15 bila r3>1.5, paksa dd0.5  1749    573.1  0.955   44.1   117    591    7/30        8.0
+TAHAN r3 keluar dd0.15 bila r3>0.7, paksa dd0.6  1749    532.7  1.020   50.4   281    512    8/30        6.5
+TAHAN r3 keluar dd0.15 bila r3>1.0, paksa dd0.6  1749    545.2  0.961   47.5   241    541    8/30        7.0
+TAHAN r3 keluar dd0.15 bila r3>1.5, paksa dd0.6  1749    529.3  0.954   43.9   111    582    7/30        8.5
+TAHAN r3 keluar dd0.2 bila r3>0.7, paksa dd0.3  1749    546.8  0.980   49.2   227    519    9/30        7.0
+TAHAN r3 keluar dd0.2 bila r3>1.0, paksa dd0.3  1749    545.5  0.962   47.7   200    533    9/30        7.0
+TAHAN r3 keluar dd0.2 bila r3>1.5, paksa dd0.3  1749    554.2  0.957   46.7   161    540    9/30        7.5
+TAHAN r3 keluar dd0.2 bila r3>0.7, paksa dd0.4  1749    552.9  0.980   49.2   228    519    9/30        7.0
+TAHAN r3 keluar dd0.2 bila r3>1.0, paksa dd0.4  1749    584.5  0.960   46.9   193    539    9/30        7.0
+TAHAN r3 keluar dd0.2 bila r3>1.5, paksa dd0.4  1749    575.6  0.955   44.3   126    561   10/30        8.0
+TAHAN r3 keluar dd0.2 bila r3>0.7, paksa dd0.5  1749    564.1  0.980   49.2   227    518   10/30        7.0
+TAHAN r3 keluar dd0.2 bila r3>1.0, paksa dd0.5  1749    573.5  0.960   47.0   192    546    8/30        7.0
+TAHAN r3 keluar dd0.2 bila r3>1.5, paksa dd0.5  1749    569.3  0.954   43.8   113    591    7/30        8.0
+TAHAN r3 keluar dd0.2 bila r3>0.7, paksa dd0.6  1749    568.6  0.980   49.2   227    518   10/30        7.0
+TAHAN r3 keluar dd0.2 bila r3>1.0, paksa dd0.6  1749    580.2  0.958   47.0   190    543    9/30        7.0
+TAHAN r3 keluar dd0.2 bila r3>1.5, paksa dd0.6  1749    528.6  0.954   43.6   106    581    8/30        8.5
+TAHAN rsp keluar dd0.1 bila rsp>0.7, paksa dd0.3  1749    416.6  1.080   52.2   383    537    6/30        5.0
+TAHAN rsp keluar dd0.1 bila rsp>1.0, paksa dd0.3  1749    418.3  1.060   51.3   373    539    6/30        5.0
+TAHAN rsp keluar dd0.1 bila rsp>1.5, paksa dd0.3  1749    520.5  0.988   49.4   272    513    6/30        6.5
+TAHAN rsp keluar dd0.1 bila rsp>0.7, paksa dd0.4  1749    414.0  1.080   52.2   384    537    6/30        5.0
+TAHAN rsp keluar dd0.1 bila rsp>1.0, paksa dd0.4  1749    419.4  1.058   51.1   373    536    6/30        5.0
+TAHAN rsp keluar dd0.1 bila rsp>1.5, paksa dd0.4  1749    546.1  0.963   48.0   258    526    6/30        7.0
+TAHAN rsp keluar dd0.1 bila rsp>0.7, paksa dd0.5  1749    414.0  1.080   52.2   384    537    6/30        5.0
+TAHAN rsp keluar dd0.1 bila rsp>1.0, paksa dd0.5  1749    417.4  1.058   51.1   374    540    6/30        5.0
+TAHAN rsp keluar dd0.1 bila rsp>1.5, paksa dd0.5  1749    541.0  0.961   47.6   256    549    6/30        7.0
+TAHAN rsp keluar dd0.1 bila rsp>0.7, paksa dd0.6  1749    414.0  1.080   52.2   384    537    6/30        5.0
+TAHAN rsp keluar dd0.1 bila rsp>1.0, paksa dd0.6  1749    416.7  1.056   51.0   375    540    6/30        5.0
+TAHAN rsp keluar dd0.1 bila rsp>1.5, paksa dd0.6  1749    529.6  0.961   47.3   254    545    6/30        7.0
+TAHAN rsp keluar dd0.15 bila rsp>0.7, paksa dd0.3  1749    471.1  1.040   50.8   321    526    7/30        6.0
+TAHAN rsp keluar dd0.15 bila rsp>1.0, paksa dd0.3  1749    480.9  1.004   50.1   306    523    7/30        6.0
+TAHAN rsp keluar dd0.15 bila rsp>1.5, paksa dd0.3  1749    525.2  0.970   48.4   240    527    7/30        7.0
+TAHAN rsp keluar dd0.15 bila rsp>0.7, paksa dd0.4  1749    468.5  1.040   50.8   322    526    7/30        6.0
+TAHAN rsp keluar dd0.15 bila rsp>1.0, paksa dd0.4  1749    481.8  0.998   49.9   306    520    7/30        6.0
+TAHAN rsp keluar dd0.15 bila rsp>1.5, paksa dd0.4  1749    549.0  0.960   46.8   226    541    7/30        7.0
+TAHAN rsp keluar dd0.15 bila rsp>0.7, paksa dd0.5  1749    468.5  1.040   50.8   322    526    7/30        6.0
+TAHAN rsp keluar dd0.15 bila rsp>1.0, paksa dd0.5  1749    479.8  0.995   49.9   307    524    7/30        6.0
+TAHAN rsp keluar dd0.15 bila rsp>1.5, paksa dd0.5  1749    545.1  0.956   46.4   223    565    7/30        7.0
+TAHAN rsp keluar dd0.15 bila rsp>0.7, paksa dd0.6  1749    468.5  1.040   50.8   322    526    7/30        6.0
+TAHAN rsp keluar dd0.15 bila rsp>1.0, paksa dd0.6  1749    479.1  0.994   49.8   308    524    7/30        6.0
+TAHAN rsp keluar dd0.15 bila rsp>1.5, paksa dd0.6  1749    533.5  0.956   46.1   222    561    7/30        7.0
+TAHAN rsp keluar dd0.2 bila rsp>0.7, paksa dd0.3  1749    545.9  0.986   49.4   242    516    9/30        7.0
+TAHAN rsp keluar dd0.2 bila rsp>1.0, paksa dd0.3  1749    549.4  0.976   48.9   240    518    9/30        7.0
+TAHAN rsp keluar dd0.2 bila rsp>1.5, paksa dd0.3  1749    558.6  0.962   47.7   201    527    9/30        7.0
+TAHAN rsp keluar dd0.2 bila rsp>0.7, paksa dd0.4  1749    543.3  0.986   49.4   243    516    9/30        7.0
+TAHAN rsp keluar dd0.2 bila rsp>1.0, paksa dd0.4  1749    549.9  0.974   48.7   240    515    9/30        7.0
+TAHAN rsp keluar dd0.2 bila rsp>1.5, paksa dd0.4  1749    582.9  0.956   46.1   185    540    9/30        7.0
+TAHAN rsp keluar dd0.2 bila rsp>0.7, paksa dd0.5  1749    543.3  0.986   49.4   243    516    9/30        7.0
+TAHAN rsp keluar dd0.2 bila rsp>1.0, paksa dd0.5  1749    547.9  0.974   48.7   241    519    9/30        7.0
+TAHAN rsp keluar dd0.2 bila rsp>1.5, paksa dd0.5  1749    576.1  0.955   45.7   184    567    8/30        7.5
+TAHAN rsp keluar dd0.2 bila rsp>0.7, paksa dd0.6  1749    543.3  0.986   49.4   243    516    9/30        7.0
+TAHAN rsp keluar dd0.2 bila rsp>1.0, paksa dd0.6  1749    547.2  0.972   48.6   242    519    9/30        7.0
+TAHAN rsp keluar dd0.2 bila rsp>1.5, paksa dd0.6  1749    562.5  0.955   45.3   182    564    8/30        7.5
+KONTROL acak p=0.01                           1749    236.1  0.954   41.9   221    623    2/30        7.0
+KONTROL acak p=0.03                           1749    279.9  0.956   45.2   375    617    5/30        5.5
+KONTROL ambang acak (r3 diacak)               1749    547.1  1.012   50.4   280    520    9/30        6.5

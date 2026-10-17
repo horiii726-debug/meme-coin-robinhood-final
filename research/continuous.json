@@ -1,0 +1,56 @@
+[
+ {
+  "system": "cont_official",
+  "end": 84445.64,
+  "dd": 24.2,
+  "trades": 1155,
+  "win": 78.0,
+  "pf": "2.55",
+  "rejects": "{\"dev pernah rug\": 13, \"eksposur penuh\": 3, \"honeypot (belum ada penjual)\": 379, \"ml\": 13628, \"slot penuh\": 22, \"tanpa keputusan\": 5857}"
+ },
+ {
+  "system": "cont_official_retrain",
+  "end": 78368.77,
+  "dd": 21.0,
+  "trades": 1268,
+  "win": 83.9,
+  "pf": "3.39",
+  "rejects": "{\"dev pernah rug\": 5, \"eksposur penuh\": 3, \"honeypot (belum ada penjual)\": 291, \"ml\": 13630, \"slot penuh\": 3, \"tanpa keputusan\": 5857}"
+ },
+ {
+  "system": "cont_sysA",
+  "end": 140123.06,
+  "dd": 25.2,
+  "trades": 2367,
+  "win": 72.7,
+  "pf": "1.97",
+  "rejects": "{\"dev pernah rug\": 25, \"honeypot (belum ada penjual)\": 712, \"ml\": 12096, \"tanpa keputusan\": 5857}"
+ },
+ {
+  "system": "cont_sysA_retrain",
+  "end": 161557.85,
+  "dd": 25.2,
+  "trades": 2496,
+  "win": 78.0,
+  "pf": "2.50",
+  "rejects": "{\"dev pernah rug\": 24, \"honeypot (belum ada penjual)\": 553, \"ml\": 12127, \"tanpa keputusan\": 5857}"
+ },
+ {
+  "system": "cont_sysA_retrain_k2",
+  "end": 161557.85,
+  "dd": 25.2,
+  "trades": 2496,
+  "win": 78.0,
+  "pf": "2.50",
+  "rejects": "{\"dev pernah rug\": 24, \"honeypot (belum ada penjual)\": 553, \"ml\": 12127, \"tanpa keputusan\": 5857}"
+ },
+ {
+  "system": "cont_official_k2",
+  "end": 84445.64,
+  "dd": 24.2,
+  "trades": 1155,
+  "win": 78.0,
+  "pf": "2.55",
+  "rejects": "{\"dev pernah rug\": 13, \"eksposur penuh\": 3, \"honeypot (belum ada penjual)\": 379, \"ml\": 13628, \"slot penuh\": 22, \"tanpa keputusan\": 5857}"
+ }
+]

@@ -1,0 +1,65 @@
+{
+ "updated": "2026-09-20T08:01:13.810Z",
+ "mode": "KERTAS (tanpa transaksi)",
+ "last_block": 40850079,
+ "tip": 40854208,
+ "lag_blocks": 4129,
+ "eth_usd": 2123.15,
+ "pools_tracked": 11,
+ "v4_open": 10,
+ "uptime_min": 1.7,
+ "last_error": "",
+ "filter": {
+  "ambil": 0,
+  "lewati": 0,
+  "ambang": 0.9
+ },
+ "pengaman": {
+  "honeypot_dilewati": 0,
+  "ditolak_reputasi_dev": 0,
+  "cek_rpc_gagal": 0,
+  "mode_aman": "mati",
+  "dilewati_rpc_mati": 0,
+  "data_basi": 1,
+  "slot_penuh": 6,
+  "eksposur_penuh": 0,
+  "batas_eksposur": "50%",
+  "maks_posisi": 10,
+  "kill_switch": "mati (batas 60%)",
+  "dilewati_kill": 0
+ },
+ "akun": {
+  "modal_awal": 100,
+  "equity_harga_beli": 102.64,
+  "equity_harga_pasar": 102.51,
+  "nilai_posisi_sekarang": 20.11,
+  "drawdown_pasar": 0.1,
+  "kas": 82.41,
+  "terpakai": 20.23,
+  "posisi_terbuka": 10,
+  "trade_selesai": 1,
+  "win_rate": 100,
+  "drawdown_maks": 0,
+  "kelly": 0.02
+ },
+ "results": {
+  "v4": {
+   "trade": 1,
+   "win_rate": 100,
+   "pf": null,
+   "pnl": 2.64
+  },
+  "v3": {
+   "trade": 1,
+   "win_rate": 100,
+   "pf": null,
+   "pnl": 1.7
+  },
+  "v2": {
+   "trade": 1,
+   "win_rate": 100,
+   "pf": null,
+   "pnl": 5.6
+  }
+ }
+}

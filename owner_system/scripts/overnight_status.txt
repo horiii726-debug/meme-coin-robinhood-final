@@ -1,0 +1,2 @@
+[01:12:38] === PIPELINE v3 (streaming) DIMULAI ===
+[01:12:38] RAM sistem 7,9 GB -> semua langkah dibatasi heap <=3 GB

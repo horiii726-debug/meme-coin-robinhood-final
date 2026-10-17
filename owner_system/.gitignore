@@ -1,0 +1,20 @@
+# data mentah besar (>100 MB tidak diterima GitHub) — unduh ulang dengan rhc-live unduh
+**/target/
+node_modules/
+*.csv
+!**/arena_feats*.csv
+!**/acak_*.csv
+**/swaps*.json
+**/transfers.json
+**/store/
+**/arsip_store_*/
+**/rust_live*/
+*.tar.gz
+*.pkl
+*.npy
+*.log
+.env
+**/.env
+data_b/*/
+rhc_vps/data/*/
+**/nul

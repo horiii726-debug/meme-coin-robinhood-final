@@ -1,0 +1,9 @@
+[
+ "<b>Hasil utama (data baru 18 Sep–16 Okt, satu akun kontinu):</b> Sistem A + retrain $100 → $161.558 (DD 25%); sistem resmi $100 → $84.446 (DD 24%). Oktober saja (setelan & model belum pernah melihatnya): Sistem A + retrain $95.049 vs resmi $50.460.",
+ "<b>Bukan hoki:</b> filter ML AUC 0,74 di 14.920 koin baru (p = 0,0001); 0 dari 100 bot pemilih acak menyamai bot asli; urutan hari diacak 100× tetap untung di 94–99% urutan.",
+ "<b>Risiko nyata:</b> kalau akun mulai tepat sebelum periode jelek (7–9 Okt), Sistem A rugi di 6 dari 100 urutan (resmi 1 dari 100). Monte Carlo: kalau setiap trade 20% lebih jelek, 76% jalur Sistem A pernah turun >50%; kalau 30% lebih jelek, sistem rugi. Eksekusi live harus mendekati backtest.",
+ "<b>Bug ditemukan di bot:</b> setelah rentetan rugi, fraksi Kelly jatuh ke 1% dan rem drawdown 25% membuat posisi < $0,25 → bot berhenti trading selamanya (Kelly hanya belajar dari trade yang dieksekusi). Setelan KELLY_MIN ditambahkan; batas 2% mencegah macet tapi tidak mencegah rugi di awal yang jelek.",
+ "<b>Model:</b> model bahaya terbukti menambah laba; model naik tidak (efek −0,009, tidak signifikan di 28 hari). Ganti ke LightGBM/XGBoost/ensemble gagal di Oktober. Retrain rutin menaikkan akurasi (AUC Okt 0,69 → 0,74).",
+ "<b>Koin yang dilewati:</b> 93% pool baru tidak pernah dilihat bot (bukan pair ETH, fee >0,5%, hook). Koin WETH: tidak menguntungkan di uji pertama; fee 1%: sedikit positif. Efek terbesar: filter 10% terlalu ketat.",
+ "<b>Belum layak uang asli:</b> belum ada paper live panjang, persaingan bot belum dimodelkan. Langkah: pasang Sistem A + retrain otomatis di VPS, paper live 2 minggu, bandingkan dengan backtest tiap hari, lalu uang kecil ($20–50) dengan kill switch."
+]

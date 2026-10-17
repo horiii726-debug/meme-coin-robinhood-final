@@ -1,0 +1,2 @@
+{"last":40839245,"tip":40839245,"lag":0,"err":"","aman":"mati","basi":0,"akun":{"modal_awal":100,"equity_harga_beli":100,"equity_harga_pasar":101.54,"nilai_posisi_sekarang":11.54,"drawdown_pasar":0,"kas":90,"terpakai":10,"posisi_terbuka":5,"trade_selesai":0,"win_rate":null,"drawdown_maks":0,"kelly":0.02},"v4":{"trade":0,"win_rate":null,"pf":null,"pnl":0}}
+{"start":40835500,"last":40840191}
