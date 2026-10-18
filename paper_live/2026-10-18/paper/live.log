@@ -1,0 +1,1309 @@
+[2026-10-18T07:03:34] MULAI paper trading (rhc-live 1.0) dari blok 91580220 (tip 91580220). Mode kertas: tidak ada transaksi.
+[2026-10-18T07:03:34] putar ulang 1 event sejak blok 0 -> 0 trade tutup total, 0 posisi terbuka, kas $100.00. Lanjut dari blok 91580220.
+[2026-10-18T07:03:34] catatan: latih ulang dijalankan terjadwal oleh latih_ulang.py (gerbang mutu); bot memuat model baru otomatis.
+[2026-10-18T07:03:51] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:03:54] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:04:05] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:04:17] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:04:30] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:04:34] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:04:38] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:04:43] radar: 78857 meta pool v4 dimuat sekaligus
+[2026-10-18T07:04:54] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:05:06] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:05:23] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:05:26] radar: 579 meta pabrik 0xe0c4ceb9 dimuat sekaligus
+[2026-10-18T07:05:28] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:05:33] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:05:42] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:05:46] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:05:50] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:05:54] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:06:03] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:06:07] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:06:14] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:06:18] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:06:21] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:06:25] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:06:28] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:06:32] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:06:35] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:06:39] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:06:42] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:06:53] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:06:57] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:07:04] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:07:07] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:07:12] radar: 119163 meta pabrik 0x8bceaa40 dimuat sekaligus
+[2026-10-18T07:07:20] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:07:25] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:07:33] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:07:45] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:07:56] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:08:00] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:08:04] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:08:10] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:08:13] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:08:23] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:08:36] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:08:46] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:08:58] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:09:09] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:09:21] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:09:33] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:09:44] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:09:57] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:10:13] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:10:24] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:10:37] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:10:40] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:10:52] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:11:03] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:11:19] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:11:23] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:11:26] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:11:31] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:11:34] SARING 0x344d5845 | skor 0.128 tolak(ml) | dev 0xad07e2 | penjual menit-1 0 | LP $48196 | skor ke-1
+[2026-10-18T07:11:34] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:11:45] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:11:59] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:12:22] radar: 444551 meta pabrik 0x1f7d7550 dimuat sekaligus
+[2026-10-18T07:12:43] radar: 0 meta pabrik 0xaa5865dc dimuat sekaligus
+[2026-10-18T07:13:24] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:13:31] SARING 0xcd19f4f4 | skor 0.144 tolak(ml) | dev 0x7489f8 | penjual menit-1 0 | LP $48203 | skor ke-2
+[2026-10-18T07:14:20] radar: 0 meta pabrik 0x1ac9db4a dimuat sekaligus
+[2026-10-18T07:15:17] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:15:30] SARING 0xf0df80db | skor 0.132 tolak(ml) | dev 0x7739eb | penjual menit-1 0 | LP $48148 | skor ke-3
+[2026-10-18T07:15:31] radar: 0 meta pabrik 0x5481864d dimuat sekaligus
+[2026-10-18T07:15:42] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:16:15] radar: 0 meta pabrik 0x16494a80 dimuat sekaligus
+[2026-10-18T07:16:35] radar: 300 meta pabrik 0xece6ecd6 dimuat sekaligus
+[2026-10-18T07:16:39] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:16:56] radar: 11282 meta pabrik 0xe51960f1 dimuat sekaligus
+[2026-10-18T07:17:27] radar: 84 meta pabrik 0x0ec554f0 dimuat sekaligus
+[2026-10-18T07:17:28] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:17:37] radar: 0 meta pabrik 0xf03875b5 dimuat sekaligus
+[2026-10-18T07:18:06] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:18:42] SARING 0x07c6e67e | skor 0.128 tolak(ml) | dev 0xfc74f3 | penjual menit-1 0 | LP $48125 | skor ke-4
+[2026-10-18T07:18:57] SARING 0xde37a971 | skor 0.235 tolak(ml) | dev 0x82d350 | penjual menit-1 0 | LP $17057 | skor ke-5
+[2026-10-18T07:19:28] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:19:47] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:20:04] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:20:15] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:20:38] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:20:52] SARING 0xb9df7e0c | skor 0.622 tolak(ml) | dev 0xdf7047 | penjual menit-1 4 | LP $24689 | skor ke-6
+[2026-10-18T07:21:04] radar: 407 meta pabrik 0x0bfbcf9f dimuat sekaligus
+[2026-10-18T07:21:20] SARING 0x583cdb1e | skor 0.128 tolak(ml) | dev 0xfefb76 | penjual menit-1 0 | LP $48147 | skor ke-7
+[2026-10-18T07:21:25] radar: 11 meta pabrik 0xc802a440 dimuat sekaligus
+[2026-10-18T07:21:28] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:22:00] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:22:35] radar: 74 meta pabrik 0x221a6239 dimuat sekaligus
+[2026-10-18T07:22:57] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:23:09] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:23:29] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:24:17] radar: 9 meta pabrik 0x9a8442cb dimuat sekaligus
+[2026-10-18T07:24:17] radar: 31 meta pabrik 0xea561e05 dimuat sekaligus
+[2026-10-18T07:24:38] radar: 337 meta pabrik 0x02a84c1b dimuat sekaligus
+[2026-10-18T07:24:41] SARING 0xd55ebb06 | skor 0.128 tolak(ml) | dev 0xeb2f16 | penjual menit-1 0 | LP $48144 | skor ke-8
+[2026-10-18T07:24:46] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:25:53] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:26:22] radar: 30 meta pabrik 0x649fee51 dimuat sekaligus
+[2026-10-18T07:26:22] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:26:36] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:26:42] radar: 120 meta pabrik 0xe7fef2bc dimuat sekaligus
+[2026-10-18T07:27:04] SARING 0x77a90674 | skor 0.115 tolak(ml) | dev 0x9de577 | penjual menit-1 0 | LP $48088 | skor ke-9
+[2026-10-18T07:27:14] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:27:18] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:27:44] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:28:21] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:28:35] radar: 0 meta pabrik 0xdedb8090 dimuat sekaligus
+[2026-10-18T07:28:39] SARING 0x3162b36e | skor 0.036 tolak(ml) | dev 0xbb9443 | penjual menit-1 0 | LP $12064 | skor ke-10
+[2026-10-18T07:28:50] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:29:16] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:29:41] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:29:47] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:30:02] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:30:11] SARING 0x4e61cb8b | skor 0.306 tolak(ml) | dev 0x7d25dd | penjual menit-1 0 | LP $50415 | skor ke-11
+[2026-10-18T07:30:28] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:30:48] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:31:09] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:31:29] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:31:49] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:32:03] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:32:17] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:32:22] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:32:35] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:32:38] radar: 0 meta pabrik 0x21fd9ab0 dimuat sekaligus
+[2026-10-18T07:33:24] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:33:44] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:34:10] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:34:18] SARING 0x4972ac37 | skor 0.342 tolak(ml) | dev 0x90b4d4 | penjual menit-1 0 | LP $61158 | skor ke-12
+[2026-10-18T07:34:27] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:34:39] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:35:00] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:35:25] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:35:44] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:36:09] radar: 26 meta pabrik 0x002ec978 dimuat sekaligus
+[2026-10-18T07:36:13] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:36:39] radar: 24 meta pabrik 0x3f9010f8 dimuat sekaligus
+[2026-10-18T07:36:40] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:36:53] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:37:14] SARING 0x56991d22 | skor 0.301 tolak(ml) | dev 0x673ab0 | penjual menit-1 9 | LP $57569 | skor ke-13
+[2026-10-18T07:37:29] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:37:50] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:38:11] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:38:21] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:38:40] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:39:00] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:39:26] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:39:36] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:39:55] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:40:16] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:40:41] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:41:01] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:41:05] SARING 0x8d41a580 | skor 0.396 tolak(ml) | dev 0xbb6c6d | penjual menit-1 1 | LP $20244 | skor ke-14
+[2026-10-18T07:41:22] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:41:43] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:42:02] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:42:22] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:42:42] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:43:02] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:43:06] SARING 0x93f2adee | skor 0.662 tolak(ml) | dev 0x54cfb8 | penjual menit-1 6 | LP $31935 | skor ke-15
+[2026-10-18T07:43:27] radar: 0 meta pabrik 0x6fdf38f9 dimuat sekaligus
+[2026-10-18T07:43:31] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:43:47] SARING 0xe626d129 | skor 0.422 tolak(ml) | dev 0xe2b76d | penjual menit-1 2 | LP $68392 | skor ke-16
+[2026-10-18T07:43:51] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:44:16] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:44:27] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:44:44] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:45:05] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:45:22] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:45:36] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:45:48] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:46:08] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:46:37] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:46:58] SARING 0x7c9722b4 | skor 0.350 tolak(ml) | dev 0x534338 | penjual menit-1 11 | LP $59313 | skor ke-17
+[2026-10-18T07:46:58] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:47:24] radar: 21 meta pabrik 0xba04837d dimuat sekaligus
+[2026-10-18T07:47:31] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:47:52] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:48:16] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:48:35] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:49:00] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:49:15] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:49:36] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:49:56] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:50:16] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:50:32] putar ulang 893 event sejak blok 91580223 -> 0 trade tutup total, 0 posisi terbuka, kas $100.00. Lanjut dari blok 91607056.
+[2026-10-18T07:50:32] catatan: latih ulang dijalankan terjadwal oleh latih_ulang.py (gerbang mutu); bot memuat model baru otomatis.
+[2026-10-18T07:50:42] radar: 10251 meta pool v4 dimuat sekaligus
+[2026-10-18T07:51:46] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:52:03] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:53:14] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:54:38] radar: 1 meta pabrik 0x58f497d3 dimuat sekaligus
+[2026-10-18T07:55:22] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:57:41] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:58:04] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:58:21] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T07:58:27] radar: 0 meta pabrik 0x43b2bf9f dimuat sekaligus
+[2026-10-18T07:59:09] SARING 0xce12da1d | skor 0.414 tolak(ml) | dev 0x3777ad | penjual menit-1 22 | LP $20799 | skor ke-18
+[2026-10-18T07:59:11] SARING 0x13c565f8 | skor 0.504 tolak(ml) | dev 0x25a7ee | penjual menit-1 1 | LP $17700 | skor ke-19
+[2026-10-18T07:59:17] SARING 0x7118777e | skor 0.351 tolak(ml) | dev 0x3736df | penjual menit-1 22 | LP $17634 | skor ke-20
+[2026-10-18T07:59:40] SARING 0xcc9e619a | skor 0.424 tolak(ml) | dev 0xac844c | penjual menit-1 19 | LP $29201 | skor ke-21
+[2026-10-18T08:00:59] SARING 0xdb894e81 | skor 0.431 tolak(ml) | dev 0xbe333d | penjual menit-1 20 | LP $28895 | skor ke-22
+[2026-10-18T08:02:06] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T08:02:15] SARING 0x0871cf6f | skor 0.508 tolak(ml) | dev 0x9a9724 | penjual menit-1 279 | LP $126924 | skor ke-23
+[2026-10-18T08:02:17] SARING 0x6dd29817 | skor 0.493 tolak(ml) | dev 0x3739d3 | penjual menit-1 13 | LP $25254 | skor ke-24
+[2026-10-18T08:02:20] SARING 0x5e66c714 | skor 0.063 tolak(ml) | dev 0x18e557 | penjual menit-1 0 | LP $48117 | skor ke-25
+[2026-10-18T08:03:17] SARING 0x5465ee94 | skor 0.386 tolak(ml) | dev 0xeb011b | penjual menit-1 22 | LP $24696 | skor ke-26
+[2026-10-18T08:03:48] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T08:04:22] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T08:05:28] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T08:09:17] SARING 0x024211e9 | skor 0.415 tolak(ml) | dev 0xb37dad | penjual menit-1 21 | LP $19924 | skor ke-27
+[2026-10-18T08:09:18] SARING 0xa4743d15 | skor 0.409 tolak(ml) | dev 0xffd4af | penjual menit-1 21 | LP $19966 | skor ke-28
+[2026-10-18T08:09:32] SARING 0x877023ad | skor 0.410 tolak(ml) | dev 0x22b5fc | penjual menit-1 19 | LP $27897 | skor ke-29
+[2026-10-18T08:09:39] SARING 0xeb4a8eb8 | skor 0.167 tolak(ml) | dev 0xa1ae18 | penjual menit-1 0 | LP $48128 | skor ke-30
+[2026-10-18T08:09:52] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T08:10:21] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T08:10:25] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T08:10:42] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T08:10:45] radar: 11 meta pabrik 0xd479e71c dimuat sekaligus
+[2026-10-18T08:10:45] radar: 3 meta pabrik 0xaa5f8c18 dimuat sekaligus
+[2026-10-18T08:10:49] SARING 0x8a719ad8 | skor 0.449 LOLOS | dev 0xb31c24 | penjual menit-1 1 | LP $27059 | skor ke-31
+[2026-10-18T08:11:21] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T08:11:46] radar: 1 meta pabrik 0x5a29c120 dimuat sekaligus
+[2026-10-18T08:12:06] SARING 0x233eac8f | skor 0.095 tolak(ml) | dev 0xb814e5 | penjual menit-1 0 | LP $48111 | skor ke-32
+[2026-10-18T08:12:08] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T08:14:08] radar: 1 meta pabrik 0xa95da9b9 dimuat sekaligus
+[2026-10-18T08:14:35] SARING 0x76b1d08a | skor 0.416 tolak(ml) | dev 0x635c17 | penjual menit-1 14 | LP $61440 | skor ke-33
+[2026-10-18T08:14:41] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T08:15:03] SARING 0x22d5fd68 | skor 0.656 LOLOS | dev 0x1715dc | penjual menit-1 4 | LP $19823 | skor ke-34
+[2026-10-18T08:15:08] TUTUP 0x8a719ad8 +26% | akun $2.00 -> $2.53 (+0.53) | 4 mnt | model bahaya
+[2026-10-18T08:16:41] TUTUP 0x22d5fd68 +81% | akun $2.00 -> $3.62 (+1.62) | 2 mnt | model bahaya
+[2026-10-18T08:16:46] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T08:17:22] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T08:18:17] radar: 1 meta pabrik 0x13667b7c dimuat sekaligus
+[2026-10-18T08:18:39] SARING 0xa3839430 | skor 0.233 tolak(ml) | dev 0xb99dcb | penjual menit-1 0 | LP $50001 | skor ke-35
+[2026-10-18T08:18:43] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T08:19:09] SARING 0xd1faac97 | skor 0.425 tolak(ml) | dev 0x878e86 | penjual menit-1 20 | LP $23104 | skor ke-36
+[2026-10-18T08:19:10] SARING 0x207a2327 | skor 0.432 LOLOS | dev 0xaa5bce | penjual menit-1 19 | LP $18563 | skor ke-37
+[2026-10-18T08:19:18] SARING 0x785270f0 | skor 0.398 tolak(ml) | dev 0x668581 | penjual menit-1 20 | LP $29839 | skor ke-38
+[2026-10-18T08:20:27] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T08:22:14] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T08:23:22] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T08:23:45] radar: 1 meta pabrik 0x29d8ac87 dimuat sekaligus
+[2026-10-18T08:24:08] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T08:24:16] radar: 14 meta pabrik 0xcefc5da4 dimuat sekaligus
+[2026-10-18T08:24:26] TUTUP 0x207a2327 +90% | akun $2.04 -> $3.89 (+1.85) | 5 mnt | tanda pucuk
+[2026-10-18T08:25:10] SARING 0x0df40603 | skor 0.395 tolak(ml) | dev 0x9f2615 | penjual menit-1 54 | LP $15989 | skor ke-39
+[2026-10-18T08:29:10] SARING 0x1ec7e5d2 | skor 0.427 tolak(ml) | dev 0x7a4342 | penjual menit-1 22 | LP $17458 | skor ke-40
+[2026-10-18T08:29:12] SARING 0x129d9529 | skor 0.421 tolak(ml) | dev 0x95a97f | penjual menit-1 20 | LP $20163 | skor ke-41
+[2026-10-18T08:29:16] SARING 0x067458ea | skor 0.443 LOLOS | dev 0x19e5ca | penjual menit-1 21 | LP $30540 | skor ke-42
+[2026-10-18T08:29:22] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T08:29:48] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T08:30:24] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T08:30:40] SARING 0xea274726 | skor 0.345 tolak(ml) | dev 0xe4f074 | penjual menit-1 54 | LP $15794 | skor ke-43
+[2026-10-18T08:31:09] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T08:31:40] SARING 0x19eac7c0 | skor 0.444 LOLOS | dev 0xac9abd | penjual menit-1 0 | LP $21675 | skor ke-44
+[2026-10-18T08:31:49] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T08:33:19] SARING 0xe0bcc8ae | skor 0.667 LOLOS | dev 0x2fb606 | penjual menit-1 5 | LP $24456 | skor ke-45
+[2026-10-18T08:33:24] SARING 0x8aa403e8 | skor 0.170 tolak(ml) | dev 0x442f4c | penjual menit-1 0 | LP $48164 | skor ke-46
+[2026-10-18T08:34:08] radar: 40 meta pabrik 0xe7206eca dimuat sekaligus
+[2026-10-18T08:35:10] TUTUP 0xe0bcc8ae +26% | akun $2.08 -> $2.62 (+0.54) | 2 mnt | model bahaya
+[2026-10-18T08:35:11] SARING 0x082471b4 | skor 0.106 tolak(ml) | dev 0x1bdcb6 | penjual menit-1 0 | LP $48192 | skor ke-47
+[2026-10-18T08:35:18] TUTUP 0x067458ea -38% | akun $2.08 -> $1.30 (-0.78) | 6 mnt | rug terdeteksi
+[2026-10-18T08:35:42] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T08:36:07] SARING 0x778d8674 | skor 0.343 tolak(ml) | dev 0x4fa53c | penjual menit-1 52 | LP $15996 | skor ke-48
+[2026-10-18T08:36:21] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T08:36:25] SARING 0xccb594a6 | skor 0.384 tolak(ml) | dev 0x38b5e1 | penjual menit-1 2 | LP $67114 | skor ke-49
+[2026-10-18T08:36:36] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T08:36:40] SARING 0xa09cc718 | skor 0.381 tolak(ml) | dev 0xbf4a9d | penjual menit-1 21 | LP $27270 | skor ke-50
+[2026-10-18T08:37:06] SARING 0x9bf2cc6c | skor 0.185 tolak(ml) | dev 0x80f94f | penjual menit-1 0 | LP $164462 | skor ke-51
+[2026-10-18T08:37:38] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T08:38:50] SARING 0xc878d499 | skor 0.534 LOLOS | dev 0x194e4c | penjual menit-1 1 | LP $30271 | skor ke-52
+[2026-10-18T08:39:12] SARING 0x7c1b69bc | skor 0.416 tolak(ml) | dev 0xddbf2a | penjual menit-1 21 | LP $19234 | skor ke-53
+[2026-10-18T08:39:12] SARING 0xee325a76 | skor 0.412 tolak(ml) | dev 0x72c8e7 | penjual menit-1 22 | LP $20758 | skor ke-54
+[2026-10-18T08:39:14] SARING 0xa9e4d5e8 | skor 0.352 tolak(ml) | dev 0xd501a7 | penjual menit-1 22 | LP $28930 | skor ke-55
+[2026-10-18T08:39:42] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T08:41:03] SARING 0xff1938b9 | skor 0.361 tolak(ml) | dev 0x3a6533 | penjual menit-1 23 | LP $29195 | skor ke-56
+[2026-10-18T08:41:10] TUTUP 0xc878d499 +77% | akun $2.07 -> $3.66 (+1.59) | 2 mnt | model bahaya
+[2026-10-18T08:41:16] SARING 0xb4d51bdb | skor 0.423 tolak(ml) | dev 0x805e56 | penjual menit-1 20 | LP $20848 | skor ke-57
+[2026-10-18T08:41:37] SARING 0xf259c36c | skor 0.310 tolak(ml) | dev 0x94dbbf | penjual menit-1 51 | LP $15535 | skor ke-58
+[2026-10-18T08:42:36] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T08:42:41] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T08:43:04] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T08:43:46] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T08:44:24] SARING 0x93c3522a | skor 0.420 tolak(ml) | dev 0xb4865d | penjual menit-1 22 | LP $20459 | skor ke-59
+[2026-10-18T08:44:44] SARING 0x0bec17e2 | skor 0.105 tolak(ml) | dev 0x10dd05 | penjual menit-1 0 | LP $48172 | skor ke-60
+[2026-10-18T08:45:14] SARING 0x20e3690e | skor 0.276 tolak(ml) | dev 0x482d32 | penjual menit-1 0 | LP $16 | skor ke-61
+[2026-10-18T08:45:30] SARING 0x1b6267af | skor 0.130 tolak(ml) | dev 0x454b2d | penjual menit-1 0 | LP $48151 | skor ke-62
+[2026-10-18T08:46:20] SARING 0xc71d8123 | skor 0.115 tolak(ml) | dev 0x623e78 | penjual menit-1 0 | LP $48139 | skor ke-63
+[2026-10-18T08:47:04] SARING 0x27146563 | skor 0.356 tolak(ml) | dev 0x35fb7e | penjual menit-1 55 | LP $14983 | skor ke-64
+[2026-10-18T08:47:06] SARING 0x4b09e19c | skor 0.459 LOLOS | dev 0x6f86bb | penjual menit-1 8 | LP $61596 | skor ke-65
+[2026-10-18T08:48:10] TUTUP 0x4b09e19c +37% | akun $2.11 -> $2.88 (+0.78) | 1 mnt | dump >=5% LP
+[2026-10-18T08:48:28] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T08:49:14] SARING 0x65496038 | skor 0.424 tolak(ml) | dev 0x60d6ce | penjual menit-1 21 | LP $20459 | skor ke-66
+[2026-10-18T08:49:14] SARING 0x34f5df53 | skor 0.412 tolak(ml) | dev 0x79beff | penjual menit-1 20 | LP $21340 | skor ke-67
+[2026-10-18T08:49:37] SARING 0xd8805035 | skor 0.403 tolak(ml) | dev 0x5450dc | penjual menit-1 18 | LP $30017 | skor ke-68
+[2026-10-18T08:50:31] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T08:52:32] SARING 0xc4cb5650 | skor 0.321 tolak(ml) | dev 0xd0210c | penjual menit-1 52 | LP $16101 | skor ke-69
+[2026-10-18T08:53:02] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T08:54:44] SARING 0x6e9b2cbb | skor 0.300 tolak(ml) | dev 0xed5024 | penjual menit-1 0 | LP $14835 | skor ke-70
+[2026-10-18T08:55:22] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T08:55:38] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T08:56:22] SARING 0x4d4969c9 | skor 0.370 tolak(ml) | dev 0x1fe427 | penjual menit-1 0 | LP $17492 | skor ke-71
+[2026-10-18T08:58:00] SARING 0xd99b1aaa | skor 0.340 tolak(ml) | dev 0xe7124d | penjual menit-1 55 | LP $15510 | skor ke-72
+[2026-10-18T08:58:08] SARING 0xa3c8cd88 | skor 0.647 LOLOS | dev 0xd00e18 | penjual menit-1 5 | LP $26485 | skor ke-73
+[2026-10-18T08:58:20] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T08:59:10] SARING 0x0a242db6 | skor 0.416 tolak(ml) | dev 0xca3b46 | penjual menit-1 22 | LP $21403 | skor ke-74
+[2026-10-18T08:59:12] SARING 0x59b4725c | skor 0.413 tolak(ml) | dev 0x774f42 | penjual menit-1 21 | LP $19890 | skor ke-75
+[2026-10-18T08:59:20] SARING 0x81dcdc78 | skor 0.432 LOLOS | dev 0x5f7c7e | penjual menit-1 22 | LP $31939 | skor ke-76
+[2026-10-18T09:00:11] TUTUP 0xa3c8cd88 +23% | akun $2.12 -> $2.62 (+0.49) | 2 mnt | model bahaya
+[2026-10-18T09:01:58] SARING 0x49b5a3ee | skor 0.391 tolak(ml) | dev 0x5a82c9 | penjual menit-1 2 | LP $66657 | skor ke-77
+[2026-10-18T09:02:03] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T09:02:13] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T09:02:21] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T09:02:25] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T09:03:27] SARING 0x977529ca | skor 0.328 tolak(ml) | dev 0x537415 | penjual menit-1 52 | LP $15403 | skor ke-78
+[2026-10-18T09:04:37] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T09:05:26] SARING 0x67797384 | skor 0.147 tolak(ml) | dev 0x8e8cc3 | penjual menit-1 0 | LP $16487 | skor ke-79
+[2026-10-18T09:05:50] TUTUP 0x81dcdc78 +47% | akun $2.12 -> $3.13 (+1.00) | 6 mnt | model bahaya
+[2026-10-18T09:07:10] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T09:08:47] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T09:08:54] SARING 0xcb83b4f9 | skor 0.350 tolak(ml) | dev 0xe5a5e9 | penjual menit-1 59 | LP $15396 | skor ke-80
+[2026-10-18T09:09:11] SARING 0x3f18461e | skor 0.385 tolak(ml) | dev 0xbeeaf2 | penjual menit-1 13 | LP $18310 | skor ke-81
+[2026-10-18T09:09:11] SARING 0x43f4969d | skor 0.399 tolak(ml) | dev 0x482df1 | penjual menit-1 10 | LP $18665 | skor ke-82
+[2026-10-18T09:09:15] SARING 0x0b8483e4 | skor 0.451 LOLOS | dev 0x084f3e | penjual menit-1 11 | LP $27248 | skor ke-83
+[2026-10-18T09:09:59] SARING 0xdf1f7662 | skor 0.406 tolak(ml) | dev 0xf1ba0d | penjual menit-1 11 | LP $18044 | skor ke-84
+[2026-10-18T09:10:02] SARING 0xfa4232fa | skor 0.403 tolak(ml) | dev 0xb7fd46 | penjual menit-1 10 | LP $19241 | skor ke-85
+[2026-10-18T09:10:11] SARING 0xa96a2a37 | skor 0.405 tolak(ml) | dev 0x502dfc | penjual menit-1 9 | LP $26910 | skor ke-86
+[2026-10-18T09:10:48] SARING 0xc03e41f5 | skor 0.389 tolak(ml) | dev 0x24c817 | penjual menit-1 20 | LP $20404 | skor ke-87
+[2026-10-18T09:10:53] SARING 0x31c5d7e9 | skor 0.426 tolak(ml) | dev 0xb07803 | penjual menit-1 21 | LP $21363 | skor ke-88
+[2026-10-18T09:11:11] SARING 0x56057f97 | skor 0.431 LOLOS | dev 0x6849d4 | penjual menit-1 22 | LP $30437 | skor ke-89
+[2026-10-18T09:12:12] TUTUP 0x56057f97 +17% | akun $2.15 -> $2.51 (+0.36) | 1 mnt | model bahaya
+[2026-10-18T09:12:38] radar: 17 meta pabrik 0xd09ecb37 dimuat sekaligus
+[2026-10-18T09:14:12] SARING 0x3a19cf72 | skor 0.318 tolak(ml) | dev 0xde96e2 | penjual menit-1 1 | LP $19739 | skor ke-90
+[2026-10-18T09:14:12] radar: 3 meta pabrik 0x4d41822c dimuat sekaligus
+[2026-10-18T09:14:24] SARING 0x4d1dcbe8 | skor 0.386 tolak(ml) | dev 0xb26098 | penjual menit-1 53 | LP $16292 | skor ke-91
+[2026-10-18T09:15:03] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T09:15:23] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T09:15:48] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T09:16:06] SARING 0x228f4698 | skor 0.321 tolak(ml) | dev 0x7bf09e | penjual menit-1 0 | LP $27356 | skor ke-92
+[2026-10-18T09:17:46] SARING 0x515762d5 | skor 0.248 tolak(ml) | dev 0x8656ff | penjual menit-1 0 | LP $14713 | skor ke-93
+[2026-10-18T09:18:04] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T09:18:33] SARING 0x619e580f | skor 0.317 tolak(ml) | dev 0x482d32 | penjual menit-1 0 | LP $14 | skor ke-94
+[2026-10-18T09:19:01] SARING 0xaef7e417 | skor 0.429 LOLOS | dev 0x3492fc | penjual menit-1 22 | LP $22788 | skor ke-95
+[2026-10-18T09:19:05] SARING 0x68ccbb9b | skor 0.399 tolak(ml) | dev 0x99d284 | penjual menit-1 20 | LP $19628 | skor ke-96
+[2026-10-18T09:19:12] SARING 0x13ed05f3 | skor 0.383 tolak(ml) | dev 0x03783f | penjual menit-1 21 | LP $30186 | skor ke-97
+[2026-10-18T09:19:19] SARING 0x9cd616ce | skor 0.644 LOLOS | dev 0xd254d7 | penjual menit-1 5 | LP $21927 | skor ke-98
+[2026-10-18T09:19:46] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T09:19:54] SARING 0xe2bf76ce | skor 0.270 tolak(ml) | dev 0x2e41d6 | penjual menit-1 54 | LP $15363 | skor ke-99
+[2026-10-18T09:20:27] radar: 2 meta pabrik 0x2f171c69 dimuat sekaligus
+[2026-10-18T09:21:03] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T09:21:13] TUTUP 0x9cd616ce +29% | akun $2.16 -> $2.79 (+0.63) | 2 mnt | model bahaya
+[2026-10-18T09:21:21] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T09:23:11] radar: 0 meta pabrik 0xe27ea15d dimuat sekaligus
+[2026-10-18T09:23:22] radar: 0 meta pabrik 0xd8495e39 dimuat sekaligus
+[2026-10-18T09:23:24] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T09:23:28] SARING 0x6e375459 | skor 0.401 tolak(ml) | dev 0xe142ff | penjual menit-1 20 | LP $29760 | skor ke-100
+[2026-10-18T09:24:07] TUTUP 0xaef7e417 +94% | akun $2.16 -> $4.19 (+2.03) | 5 mnt | tanda pucuk
+[2026-10-18T09:25:16] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T09:25:22] SARING 0xac306cca | skor 0.310 tolak(ml) | dev 0xffa882 | penjual menit-1 55 | LP $16139 | skor ke-100
+[2026-10-18T09:26:58] radar: 0 meta pabrik 0x28a57a40 dimuat sekaligus
+[2026-10-18T09:27:24] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T09:27:31] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T09:29:10] SARING 0xf1cb66b5 | skor 0.408 tolak(ml) | dev 0x28a525 | penjual menit-1 24 | LP $19172 | skor ke-100
+[2026-10-18T09:29:12] SARING 0x5354c7a7 | skor 0.422 tolak(ml) | dev 0xa212b2 | penjual menit-1 22 | LP $20838 | skor ke-100
+[2026-10-18T09:29:19] SARING 0x06541136 | skor 0.413 tolak(ml) | dev 0xbc6488 | penjual menit-1 21 | LP $30218 | skor ke-100
+[2026-10-18T09:29:44] radar: 6 meta pabrik 0x8f419898 dimuat sekaligus
+[2026-10-18T09:30:50] SARING 0xd6caee8e | skor 0.321 tolak(ml) | dev 0xe0ac6f | penjual menit-1 57 | LP $15885 | skor ke-100
+[2026-10-18T09:31:14] SARING 0x0c54a77a | skor 0.417 tolak(ml) | dev 0xb5be2f | penjual menit-1 19 | LP $29876 | skor ke-100
+[2026-10-18T09:31:53] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T09:33:08] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T09:33:34] SARING 0xe1123928 | skor 0.368 tolak(ml) | dev 0x2c5777 | penjual menit-1 22 | LP $29587 | skor ke-100
+[2026-10-18T09:33:37] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T09:34:04] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T09:34:19] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T09:35:02] SARING 0x0f1ba479 | skor 0.424 tolak(ml) | dev 0xf43764 | penjual menit-1 22 | LP $23523 | skor ke-100
+[2026-10-18T09:35:26] SARING 0x8be5d441 | skor 0.509 LOLOS | dev 0x55884e | penjual menit-1 1 | LP $25050 | skor ke-100
+[2026-10-18T09:36:14] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T09:36:18] SARING 0xdf20f228 | skor 0.353 tolak(ml) | dev 0x401976 | penjual menit-1 55 | LP $15504 | skor ke-100
+[2026-10-18T09:36:35] TUTUP 0x8be5d441 -107% | akun $2.21 -> $0.00 (-2.21) | 1 mnt | rug terdeteksi
+[2026-10-18T09:38:55] SARING 0x34ec1c83 | skor 0.648 LOLOS | dev 0x7140f4 | penjual menit-1 4 | LP $22364 | skor ke-100
+[2026-10-18T09:39:02] SARING 0x99b27ab0 | skor 0.394 tolak(ml) | dev 0x71cbd1 | penjual menit-1 22 | LP $19052 | skor ke-100
+[2026-10-18T09:39:02] SARING 0x6f97cb99 | skor 0.419 tolak(ml) | dev 0x47f186 | penjual menit-1 23 | LP $22269 | skor ke-100
+[2026-10-18T09:39:11] SARING 0x5b4a2345 | skor 0.399 tolak(ml) | dev 0x0dde08 | penjual menit-1 21 | LP $30045 | skor ke-100
+[2026-10-18T09:40:03] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T09:40:10] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T09:40:33] TUTUP 0x34ec1c83 +71% | akun $2.17 -> $3.72 (+1.55) | 2 mnt | model bahaya
+[2026-10-18T09:40:41] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T09:40:59] SARING 0x62176b2d | skor 0.358 tolak(ml) | dev 0x030e13 | penjual menit-1 14 | LP $47218 | skor ke-100
+[2026-10-18T09:41:41] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T09:41:45] SARING 0x2f735ea9 | skor 0.395 tolak(ml) | dev 0xf0a59c | penjual menit-1 22 | LP $19263 | skor ke-100
+[2026-10-18T09:41:45] SARING 0xdb1361e3 | skor 0.400 tolak(ml) | dev 0x80ebca | penjual menit-1 21 | LP $20489 | skor ke-100
+[2026-10-18T09:41:48] SARING 0x80817205 | skor 0.380 tolak(ml) | dev 0xf59664 | penjual menit-1 55 | LP $15784 | skor ke-100
+[2026-10-18T09:41:54] SARING 0xd77e8c83 | skor 0.362 tolak(ml) | dev 0x906975 | penjual menit-1 22 | LP $29427 | skor ke-100
+[2026-10-18T09:43:46] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T09:45:55] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T09:47:16] SARING 0x9bd50634 | skor 0.293 tolak(ml) | dev 0x4cec61 | penjual menit-1 53 | LP $15490 | skor ke-100
+[2026-10-18T09:47:21] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T09:47:42] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T09:49:08] SARING 0x7e90d0f4 | skor 0.408 tolak(ml) | dev 0xd68efc | penjual menit-1 20 | LP $20451 | skor ke-100
+[2026-10-18T09:49:09] SARING 0x0acd87be | skor 0.404 tolak(ml) | dev 0xc0e9c0 | penjual menit-1 20 | LP $20231 | skor ke-100
+[2026-10-18T09:49:14] SARING 0xc468aa9e | skor 0.358 tolak(ml) | dev 0xf6e709 | penjual menit-1 20 | LP $29019 | skor ke-100
+[2026-10-18T09:49:37] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T09:51:28] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T09:52:44] SARING 0xf51d81ea | skor 0.305 tolak(ml) | dev 0xde2b1e | penjual menit-1 56 | LP $15876 | skor ke-100
+[2026-10-18T09:53:21] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T09:53:34] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T09:53:56] SARING 0x53857b59 | skor 0.788 LOLOS | dev 0x6fb411 | penjual menit-1 0 | LP $82456 | skor ke-100
+[2026-10-18T09:54:59] SARING 0xc215e136 | skor 0.147 tolak(ml) | dev 0x719849 | penjual menit-1 0 | LP $16561 | skor ke-100
+[2026-10-18T09:58:13] SARING 0x0d01ed14 | skor 0.320 tolak(ml) | dev 0xc6f060 | penjual menit-1 56 | LP $16023 | skor ke-100
+[2026-10-18T09:58:54] SARING 0xe7da291b | skor 0.545 LOLOS | dev 0x3a9ca1 | penjual menit-1 6 | LP $31814 | skor ke-100
+[2026-10-18T09:59:03] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T09:59:07] SARING 0x2e14d86d | skor 0.426 LOLOS | dev 0xfdea60 | penjual menit-1 21 | LP $21143 | skor ke-100
+[2026-10-18T09:59:07] SARING 0x8c05abfc | skor 0.416 tolak(ml) | dev 0xf0407a | penjual menit-1 20 | LP $30311 | skor ke-100
+[2026-10-18T09:59:08] SARING 0x11b5b97e | skor 0.406 tolak(ml) | dev 0x35901c | penjual menit-1 20 | LP $20530 | skor ke-100
+[2026-10-18T09:59:21] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T09:59:52] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:00:03] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:00:46] TUTUP 0xe7da291b +37% | akun $2.20 -> $3.01 (+0.81) | 2 mnt | model bahaya
+[2026-10-18T10:01:43] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:03:39] SARING 0x7fbc6976 | skor 0.367 tolak(ml) | dev 0xcbcea3 | penjual menit-1 57 | LP $15790 | skor ke-100
+[2026-10-18T10:03:53] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:04:21] TUTUP 0x2e14d86d +74% | akun $2.20 -> $3.82 (+1.62) | 5 mnt | tanda pucuk
+[2026-10-18T10:05:58] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:09:06] SARING 0xf87342ea | skor 0.310 tolak(ml) | dev 0x1adde5 | penjual menit-1 53 | LP $15592 | skor ke-100
+[2026-10-18T10:09:07] SARING 0x9629d343 | skor 0.356 tolak(ml) | dev 0xfbcb81 | penjual menit-1 20 | LP $19068 | skor ke-100
+[2026-10-18T10:09:10] SARING 0x42111fa5 | skor 0.389 tolak(ml) | dev 0x5fe2c3 | penjual menit-1 21 | LP $19495 | skor ke-100
+[2026-10-18T10:09:23] SARING 0x78580bc5 | skor 0.404 tolak(ml) | dev 0xd7c438 | penjual menit-1 21 | LP $30257 | skor ke-100
+[2026-10-18T10:09:58] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:11:50] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:12:03] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:12:20] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:12:36] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:13:54] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:14:38] SARING 0x99d5863a | skor 0.296 tolak(ml) | dev 0xc65a86 | penjual menit-1 56 | LP $15417 | skor ke-100
+[2026-10-18T10:15:01] SARING 0x3822ca29 | skor 0.660 LOLOS | dev 0x2745bf | penjual menit-1 6 | LP $19641 | skor ke-100
+[2026-10-18T10:15:46] TUTUP 0x3822ca29 -107% | akun $2.25 -> $0.00 (-2.25) | 1 mnt | rug terdeteksi
+[2026-10-18T10:15:52] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:18:20] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:18:25] SARING 0x618e3aa2 | skor 0.455 LOLOS | dev 0xcbcf28 | penjual menit-1 1 | LP $20473 | skor ke-100
+[2026-10-18T10:18:36] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:19:10] SARING 0x35f56f2a | skor 0.396 tolak(ml) | dev 0xabd1c8 | penjual menit-1 21 | LP $19862 | skor ke-100
+[2026-10-18T10:19:10] SARING 0xf4776534 | skor 0.402 tolak(ml) | dev 0x945ecf | penjual menit-1 19 | LP $19190 | skor ke-100
+[2026-10-18T10:19:42] SARING 0x6a0ef4a6 | skor 0.371 tolak(ml) | dev 0xaec5ab | penjual menit-1 22 | LP $29035 | skor ke-100
+[2026-10-18T10:19:58] TUTUP 0x618e3aa2 +71% | akun $2.20 -> $3.78 (+1.57) | 1 mnt | model bahaya
+[2026-10-18T10:20:14] SARING 0x9dd2eb84 | skor 0.316 tolak(ml) | dev 0x808ea3 | penjual menit-1 55 | LP $15039 | skor ke-100
+[2026-10-18T10:20:30] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:21:06] SARING 0x812b22d3 | skor 0.415 tolak(ml) | dev 0x0c00cf | penjual menit-1 21 | LP $20824 | skor ke-100
+[2026-10-18T10:22:34] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:24:23] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:25:03] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:25:21] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:25:36] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:25:40] SARING 0x04231291 | skor 0.301 tolak(ml) | dev 0x329512 | penjual menit-1 55 | LP $15906 | skor ke-100
+[2026-10-18T10:26:25] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:27:03] SARING 0xc9f8f3ae | skor 0.396 tolak(ml) | dev 0xce79b4 | penjual menit-1 23 | LP $18876 | skor ke-100
+[2026-10-18T10:28:52] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:29:04] SARING 0xbb769b61 | skor 0.412 tolak(ml) | dev 0xd543d3 | penjual menit-1 19 | LP $21327 | skor ke-100
+[2026-10-18T10:29:04] SARING 0x1eb4ab0e | skor 0.412 tolak(ml) | dev 0x0c7cef | penjual menit-1 20 | LP $20664 | skor ke-100
+[2026-10-18T10:29:12] SARING 0xf725bc1f | skor 0.366 tolak(ml) | dev 0xdf8f4c | penjual menit-1 21 | LP $29541 | skor ke-100
+[2026-10-18T10:31:06] SARING 0x48b2ff32 | skor 0.318 tolak(ml) | dev 0x861655 | penjual menit-1 55 | LP $15501 | skor ke-100
+[2026-10-18T10:31:21] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:31:25] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:32:46] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:34:19] SARING 0xaae5cdf3 | skor 0.694 LOLOS | dev 0x5e8500 | penjual menit-1 4 | LP $24802 | skor ke-100
+[2026-10-18T10:34:45] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:36:13] SARING 0xbb705fb7 | skor 0.378 tolak(ml) | dev 0x30dad5 | penjual menit-1 21 | LP $29056 | skor ke-100
+[2026-10-18T10:36:19] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:36:30] TUTUP 0xaae5cdf3 +97% | akun $2.23 -> $4.41 (+2.17) | 2 mnt | model bahaya
+[2026-10-18T10:36:37] SARING 0x7d79334d | skor 0.374 tolak(ml) | dev 0xfb40c1 | penjual menit-1 53 | LP $15570 | skor ke-100
+[2026-10-18T10:37:37] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:37:47] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:38:04] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:38:22] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:38:28] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:39:12] SARING 0x9d69241e | skor 0.417 tolak(ml) | dev 0x11304a | penjual menit-1 3 | LP $15395 | skor ke-100
+[2026-10-18T10:39:16] SARING 0xdf8c8f9d | skor 0.414 tolak(ml) | dev 0x3bef7b | penjual menit-1 5 | LP $15916 | skor ke-100
+[2026-10-18T10:39:33] SARING 0xdebe922f | skor 0.444 LOLOS | dev 0xc00456 | penjual menit-1 2 | LP $25307 | skor ke-100
+[2026-10-18T10:39:34] SARING 0xacec7255 | skor 0.385 tolak(ml) | dev 0x9d40c1 | penjual menit-1 9 | LP $75755 | skor ke-100
+[2026-10-18T10:39:39] SARING 0xc8c3b05e | skor 0.406 tolak(ml) | dev 0xff251b | penjual menit-1 21 | LP $20601 | skor ke-100
+[2026-10-18T10:39:48] SARING 0xfc912cd8 | skor 0.412 tolak(ml) | dev 0xad451f | penjual menit-1 22 | LP $20489 | skor ke-100
+[2026-10-18T10:40:05] SARING 0x06930f30 | skor 0.410 tolak(ml) | dev 0x0c1a9f | penjual menit-1 8 | LP $26765 | skor ke-100
+[2026-10-18T10:40:13] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:40:42] radar: 4 meta pabrik 0xf4f0ff0d dimuat sekaligus
+[2026-10-18T10:40:52] SARING 0x075a9736 | skor 0.367 tolak(ml) | dev 0xf1b560 | penjual menit-1 21 | LP $30765 | skor ke-100
+[2026-10-18T10:41:35] SARING 0x1d163bbf | skor 0.444 LOLOS | dev 0x524c2a | penjual menit-1 6 | LP $16855 | skor ke-100
+[2026-10-18T10:42:08] SARING 0xb9e1438e | skor 0.378 tolak(ml) | dev 0xfda05a | penjual menit-1 53 | LP $15078 | skor ke-100
+[2026-10-18T10:42:09] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:42:14] SARING 0x66f0c09e | skor 0.423 tolak(ml) | dev 0xf5588a | penjual menit-1 19 | LP $21800 | skor ke-100
+[2026-10-18T10:44:04] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:44:13] SARING 0xbad648d4 | skor 0.411 tolak(ml) | dev 0xbfcb97 | penjual menit-1 21 | LP $20090 | skor ke-100
+[2026-10-18T10:44:21] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:44:36] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:44:41] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:46:15] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:47:39] SARING 0x54d4dea3 | skor 0.305 tolak(ml) | dev 0xf8c7db | penjual menit-1 53 | LP $15633 | skor ke-100
+[2026-10-18T10:47:46] SARING 0x4cff91bc | skor 0.287 tolak(ml) | dev 0xef9a97 | penjual menit-1 5 | LP $4838 | skor ke-100
+[2026-10-18T10:47:55] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:48:32] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:49:14] SARING 0xe0d98a25 | skor 0.398 tolak(ml) | dev 0x2e6889 | penjual menit-1 22 | LP $20073 | skor ke-100
+[2026-10-18T10:49:15] SARING 0xb5ce57cd | skor 0.404 tolak(ml) | dev 0x157278 | penjual menit-1 13 | LP $17553 | skor ke-100
+[2026-10-18T10:49:18] SARING 0x63dbabfb | skor 0.341 tolak(ml) | dev 0x374b98 | penjual menit-1 24 | LP $28513 | skor ke-100
+[2026-10-18T10:50:03] SARING 0xbb1cb559 | skor 0.363 tolak(ml) | dev 0x144951 | penjual menit-1 11 | LP $76899 | skor ke-100
+[2026-10-18T10:50:08] SARING 0x718eac9e | skor 0.403 tolak(ml) | dev 0x69258e | penjual menit-1 28 | LP $20759 | skor ke-100
+[2026-10-18T10:50:30] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:50:36] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:50:41] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:50:47] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:51:03] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:51:09] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:51:20] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:53:06] SARING 0x8c09ecfb | skor 0.372 tolak(ml) | dev 0x2f8b18 | penjual menit-1 56 | LP $15292 | skor ke-100
+[2026-10-18T10:54:14] SARING 0x66394db6 | skor 0.406 tolak(ml) | dev 0x1dc238 | penjual menit-1 1 | LP $21209 | skor ke-100
+[2026-10-18T10:54:58] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:55:10] SARING 0xdab1fb73 | skor 0.415 tolak(ml) | dev 0x00d176 | penjual menit-1 21 | LP $30443 | skor ke-100
+[2026-10-18T10:56:25] SARING 0x91afb31f | skor 0.349 tolak(ml) | dev 0xf1e8fc | penjual menit-1 0 | LP $27345 | skor ke-100
+[2026-10-18T10:57:03] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:57:07] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:57:22] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:57:41] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:57:58] SARING 0x1394170b | skor 0.214 tolak(ml) | dev 0x32ee5b | penjual menit-1 0 | LP $14726 | skor ke-100
+[2026-10-18T10:58:34] SARING 0x5663f4cf | skor 0.318 tolak(ml) | dev 0x98199d | penjual menit-1 53 | LP $15895 | skor ke-100
+[2026-10-18T10:58:44] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T10:59:25] SARING 0xcb5e8de1 | skor 0.426 LOLOS | dev 0x7b01ca | penjual menit-1 11 | LP $17536 | skor ke-100
+[2026-10-18T10:59:26] SARING 0x30bc86a6 | skor 0.390 tolak(ml) | dev 0xdd826b | penjual menit-1 24 | LP $19432 | skor ke-100
+[2026-10-18T10:59:35] SARING 0x2266c043 | skor 0.271 tolak(ml) | dev 0xb8a9b5 | penjual menit-1 1 | LP $17345 | skor ke-100
+[2026-10-18T10:59:51] SARING 0x5f083786 | skor 0.352 tolak(ml) | dev 0xb48c22 | penjual menit-1 21 | LP $29030 | skor ke-100
+[2026-10-18T11:00:16] SARING 0xe999f299 | skor 0.409 tolak(ml) | dev 0x80e11e | penjual menit-1 21 | LP $19965 | skor ke-100
+[2026-10-18T11:00:43] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:01:25] SARING 0x6097b2ff | skor 0.576 LOLOS | dev 0x4e816a | penjual menit-1 7 | LP $26068 | skor ke-100
+[2026-10-18T11:01:50] SARING 0x21a5349d | skor 0.399 tolak(ml) | dev 0x9e23f4 | penjual menit-1 22 | LP $29762 | skor ke-100
+[2026-10-18T11:02:06] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:02:20] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:03:03] SARING 0xf5d4fc2c | skor 0.366 tolak(ml) | dev 0xb74b5f | penjual menit-1 14 | LP $104690 | skor ke-100
+[2026-10-18T11:03:21] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:03:30] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:03:46] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:03:55] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:04:03] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:04:06] TUTUP 0x6097b2ff +62% | akun $2.28 -> $3.68 (+1.40) | 3 mnt | model bahaya
+[2026-10-18T11:04:07] SARING 0x636f5ae6 | skor 0.176 tolak(ml) | dev 0xc7941b | penjual menit-1 26 | LP $13657 | skor ke-100
+[2026-10-18T11:04:17] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:05:08] SARING 0x86af97f5 | skor 0.426 LOLOS | dev 0xb5e60a | penjual menit-1 7 | LP $17361 | skor ke-100
+[2026-10-18T11:05:46] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:05:50] SARING 0x628296ab | skor 0.442 LOLOS | dev 0xfc3e2a | penjual menit-1 7 | LP $16876 | skor ke-100
+[2026-10-18T11:06:25] SARING 0x91ac78de | skor 0.469 LOLOS | dev 0xc3d3e1 | penjual menit-1 5 | LP $17308 | skor ke-100
+[2026-10-18T11:07:01] SARING 0x5006a143 | skor 0.427 LOLOS | dev 0xe868cb | penjual menit-1 22 | LP $22377 | skor ke-100
+[2026-10-18T11:08:17] TUTUP 0x5006a143 -30% | akun $2.31 -> $1.62 (-0.69) | 1 mnt | rug terdeteksi
+[2026-10-18T11:09:33] SARING 0x297882d7 | skor 0.403 tolak(ml) | dev 0x169e9d | penjual menit-1 22 | LP $19186 | skor ke-100
+[2026-10-18T11:09:33] SARING 0xb418d828 | skor 0.416 tolak(ml) | dev 0x0e29b3 | penjual menit-1 21 | LP $22680 | skor ke-100
+[2026-10-18T11:09:39] SARING 0x865a93a4 | skor 0.359 tolak(ml) | dev 0x0a907c | penjual menit-1 20 | LP $28604 | skor ke-100
+[2026-10-18T11:10:09] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:10:20] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:10:25] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:12:19] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:12:37] SARING 0x55bb36c4 | skor 0.371 tolak(ml) | dev 0xbbe5cf | penjual menit-1 1 | LP $21071 | skor ke-100
+[2026-10-18T11:12:39] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:14:32] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:14:36] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:14:40] SARING 0xf96b0474 | skor 0.424 LOLOS | dev 0xf44912 | penjual menit-1 1 | LP $27519 | skor ke-100
+[2026-10-18T11:16:03] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:16:22] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:16:26] SARING 0x017eb02c | skor 0.664 LOLOS | dev 0x72d3a0 | penjual menit-1 4 | LP $17710 | skor ke-100
+[2026-10-18T11:16:29] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:16:36] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:16:41] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:17:40] TUTUP 0x017eb02c +68% | akun $2.29 -> $3.86 (+1.56) | 1 mnt | model bahaya
+[2026-10-18T11:18:28] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:19:13] SARING 0xf54a4d15 | skor 0.411 tolak(ml) | dev 0x9011c5 | penjual menit-1 21 | LP $22479 | skor ke-100
+[2026-10-18T11:19:16] SARING 0x9caf6d9b | skor 0.415 tolak(ml) | dev 0x29d382 | penjual menit-1 23 | LP $19495 | skor ke-100
+[2026-10-18T11:19:20] SARING 0x698a06cc | skor 0.377 tolak(ml) | dev 0x2258bd | penjual menit-1 21 | LP $28734 | skor ke-100
+[2026-10-18T11:20:09] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:20:52] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:22:20] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:22:36] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:22:47] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:25:08] SARING 0xe659bf44 | skor 0.445 LOLOS | dev 0xd4e1cc | penjual menit-1 1 | LP $18656 | skor ke-100
+[2026-10-18T11:25:22] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:27:10] SARING 0x18d89343 | skor 0.531 LOLOS | dev 0x6de58f | penjual menit-1 3 | LP $24561 | skor ke-100
+[2026-10-18T11:27:29] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:29:01] SARING 0x796d6280 | skor 0.397 tolak(ml) | dev 0x5f0e57 | penjual menit-1 20 | LP $18130 | skor ke-100
+[2026-10-18T11:29:03] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:29:07] SARING 0xb8e7b4c9 | skor 0.426 LOLOS | dev 0x41fd64 | penjual menit-1 10 | LP $17824 | skor ke-100
+[2026-10-18T11:29:15] SARING 0x281fd452 | skor 0.447 LOLOS | dev 0xe7f299 | penjual menit-1 1 | LP $20011 | skor ke-100
+[2026-10-18T11:29:21] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:29:24] SARING 0x7d1b48ed | skor 0.358 tolak(ml) | dev 0x0c9dfc | penjual menit-1 22 | LP $29295 | skor ke-100
+[2026-10-18T11:29:30] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:29:34] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:29:51] SARING 0x0e6654a5 | skor 0.407 tolak(ml) | dev 0x364b28 | penjual menit-1 22 | LP $21638 | skor ke-100
+[2026-10-18T11:31:13] SARING 0x67a3abbf | skor 0.661 LOLOS | dev 0xe55236 | penjual menit-1 4 | LP $29919 | skor ke-100
+[2026-10-18T11:31:13] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:32:56] SARING 0x193652bf | skor 0.360 tolak(ml) | dev 0x555741 | penjual menit-1 13 | LP $110491 | skor ke-100
+[2026-10-18T11:33:29] TUTUP 0x67a3abbf +86% | akun $2.32 -> $4.33 (+2.01) | 2 mnt | model bahaya
+[2026-10-18T11:34:58] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:36:04] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:38:08] SARING 0xcd22a4ea | skor 0.436 LOLOS | dev 0x7cdc50 | penjual menit-1 1 | LP $16153 | skor ke-100
+[2026-10-18T11:39:09] SARING 0x7497822f | skor 0.117 tolak(ml) | dev 0x5e1ddf | penjual menit-1 0 | LP $14488 | skor ke-100
+[2026-10-18T11:39:09] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:39:13] SARING 0x93c240e5 | skor 0.427 LOLOS | dev 0xee9a2f | penjual menit-1 21 | LP $21325 | skor ke-100
+[2026-10-18T11:39:28] SARING 0xbd4485ad | skor 0.367 tolak(ml) | dev 0xc44379 | penjual menit-1 21 | LP $29347 | skor ke-100
+[2026-10-18T11:39:31] SARING 0x350d9757 | skor 0.384 tolak(ml) | dev 0x5f8f5b | penjual menit-1 22 | LP $19250 | skor ke-100
+[2026-10-18T11:39:47] TUTUP 0x93c240e5 -38% | akun $2.36 -> $1.47 (-0.89) | 1 mnt | rug terdeteksi
+[2026-10-18T11:39:51] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:40:02] SARING 0x705d5ea5 | skor 0.617 LOLOS | dev 0x438135 | penjual menit-1 5 | LP $21985 | skor ke-100
+[2026-10-18T11:41:03] SARING 0xf60b3ba1 | skor 0.367 tolak(ml) | dev 0xec07d5 | penjual menit-1 21 | LP $20685 | skor ke-100
+[2026-10-18T11:41:29] SARING 0x1ac61194 | skor 0.763 LOLOS | dev 0x2d71a1 | penjual menit-1 0 | LP $28971 | skor ke-100
+[2026-10-18T11:41:36] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:41:55] TUTUP 0x705d5ea5 +30% | akun $2.35 -> $3.05 (+0.70) | 2 mnt | model bahaya
+[2026-10-18T11:42:03] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:42:11] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:42:22] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:42:51] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:43:34] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:43:52] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:44:16] SARING 0x9edacc30 | skor 0.419 tolak(ml) | dev 0x032f50 | penjual menit-1 20 | LP $21538 | skor ke-100
+[2026-10-18T11:44:28] SARING 0x6072fc6a | skor 0.451 LOLOS | dev 0x40e1ec | penjual menit-1 21 | LP $30890 | skor ke-100
+[2026-10-18T11:46:03] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:47:24] SARING 0x7c3a7d14 | skor 0.185 tolak(ml) | dev 0x5bb99c | penjual menit-1 0 | LP $164734 | skor ke-100
+[2026-10-18T11:48:00] TUTUP 0x6072fc6a -35% | akun $2.36 -> $1.54 (-0.82) | 3 mnt | rug terdeteksi
+[2026-10-18T11:48:03] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:48:36] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:49:09] SARING 0x6c95e37f | skor 0.375 tolak(ml) | dev 0xdc321e | penjual menit-1 20 | LP $19923 | skor ke-100
+[2026-10-18T11:49:17] SARING 0x5b143038 | skor 0.411 tolak(ml) | dev 0xcf1247 | penjual menit-1 23 | LP $21436 | skor ke-100
+[2026-10-18T11:49:22] SARING 0x9d65fa66 | skor 0.365 tolak(ml) | dev 0x0828e3 | penjual menit-1 19 | LP $29431 | skor ke-100
+[2026-10-18T11:49:55] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:50:05] SARING 0x5e7e7746 | skor 0.395 tolak(ml) | dev 0x09535d | penjual menit-1 10 | LP $92223 | skor ke-100
+[2026-10-18T11:52:29] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:54:30] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:54:47] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:55:03] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:55:11] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:56:59] SARING 0x2783574d | skor 0.406 tolak(ml) | dev 0xeb81aa | penjual menit-1 1 | LP $25080 | skor ke-100
+[2026-10-18T11:57:33] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T11:59:18] SARING 0x529ac172 | skor 0.117 tolak(ml) | dev 0xaadc8a | penjual menit-1 0 | LP $14484 | skor ke-100
+[2026-10-18T11:59:19] SARING 0x06f051ce | skor 0.374 tolak(ml) | dev 0x99e934 | penjual menit-1 7 | LP $16981 | skor ke-100
+[2026-10-18T11:59:20] SARING 0xa89da469 | skor 0.665 LOLOS | dev 0xb91cec | penjual menit-1 4 | LP $22663 | skor ke-100
+[2026-10-18T11:59:21] SARING 0xd58a5ccf | skor 0.370 tolak(ml) | dev 0x8cffbe | penjual menit-1 20 | LP $29435 | skor ke-100
+[2026-10-18T11:59:38] SARING 0x55da0bb1 | skor 0.387 tolak(ml) | dev 0x60d0b1 | penjual menit-1 19 | LP $20704 | skor ke-100
+[2026-10-18T11:59:48] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:00:01] SARING 0xf92c1112 | skor 0.349 tolak(ml) | dev 0x2d71a1 | penjual menit-1 0 | LP $29023 | skor ke-100
+[2026-10-18T12:00:01] SARING 0x537d6390 | skor 0.403 tolak(ml) | dev 0xcddb50 | penjual menit-1 22 | LP $19069 | skor ke-100
+[2026-10-18T12:01:00] TUTUP 0xa89da469 +63% | akun $2.34 -> $3.82 (+1.48) | 2 mnt | model bahaya
+[2026-10-18T12:01:09] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:01:23] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:01:37] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:01:47] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:02:05] SARING 0xf5b4e87b | skor 0.316 tolak(ml) | dev 0xb3366f | penjual menit-1 1 | LP $56370 | skor ke-100
+[2026-10-18T12:02:09] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:03:22] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:04:25] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:05:38] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:06:30] SARING 0x40e5aa58 | skor 0.357 tolak(ml) | dev 0x2d71a1 | penjual menit-1 0 | LP $29014 | skor ke-100
+[2026-10-18T12:07:22] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:07:42] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:07:49] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:07:59] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:08:04] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:09:06] SARING 0x136b0d57 | skor 0.400 tolak(ml) | dev 0x6e2cde | penjual menit-1 22 | LP $19921 | skor ke-100
+[2026-10-18T12:09:09] SARING 0xb5446a3c | skor 0.408 tolak(ml) | dev 0xe44775 | penjual menit-1 22 | LP $20190 | skor ke-100
+[2026-10-18T12:09:19] SARING 0x8a4c3159 | skor 0.365 tolak(ml) | dev 0x61621b | penjual menit-1 20 | LP $28854 | skor ke-100
+[2026-10-18T12:09:40] SARING 0x87621f6d | skor 0.377 tolak(ml) | dev 0x3c5fad | penjual menit-1 0 | LP $49501 | skor ke-100
+[2026-10-18T12:09:54] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:10:46] SARING 0x251f0459 | skor 0.383 tolak(ml) | dev 0x0ab97c | penjual menit-1 1 | LP $49441 | skor ke-100
+[2026-10-18T12:10:52] SARING 0x6ff4c442 | skor 0.594 LOLOS | dev 0xc0409c | penjual menit-1 32 | LP $32653 | skor ke-100
+[2026-10-18T12:11:37] SARING 0xdfea3f6d | skor 0.167 tolak(ml) | dev 0x5dd7fe | penjual menit-1 1 | LP $51234 | skor ke-100
+[2026-10-18T12:11:55] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:12:59] SARING 0x832818a1 | skor 0.407 tolak(ml) | dev 0xab520f | penjual menit-1 2 | LP $62489 | skor ke-100
+[2026-10-18T12:13:46] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:13:50] TUTUP 0x6ff4c442 +121% | akun $2.37 -> $5.25 (+2.88) | 3 mnt | tanda pucuk
+[2026-10-18T12:13:55] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:14:03] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:14:23] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:15:07] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:16:56] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:17:26] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:17:29] SARING 0xb10aba3e | skor 0.145 tolak(ml) | dev 0x8d8218 | penjual menit-1 0 | LP $164954 | skor ke-100
+[2026-10-18T12:17:31] SARING 0x92db2871 | skor 0.668 LOLOS | dev 0x4d242d | penjual menit-1 19 | LP $121991 | skor ke-100
+[2026-10-18T12:19:09] SARING 0x4b6c2c34 | skor 0.408 tolak(ml) | dev 0xa6f2f3 | penjual menit-1 20 | LP $20028 | skor ke-100
+[2026-10-18T12:19:10] SARING 0xd4496603 | skor 0.354 tolak(ml) | dev 0xcf3d39 | penjual menit-1 20 | LP $19582 | skor ke-100
+[2026-10-18T12:19:15] SARING 0x21b06720 | skor 0.368 tolak(ml) | dev 0x9b6c4c | penjual menit-1 19 | LP $29531 | skor ke-100
+[2026-10-18T12:19:17] SARING 0x164887d4 | skor 0.500 LOLOS | dev 0xc2daf7 | penjual menit-1 6 | LP $31547 | skor ke-100
+[2026-10-18T12:19:45] SARING 0x26f239ee | skor 0.254 tolak(ml) | dev 0xc95a9f | penjual menit-1 2 | LP $53797 | skor ke-100
+[2026-10-18T12:20:03] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:20:18] TUTUP 0x92db2871 -29% | akun $2.43 -> $1.73 (-0.70) | 3 mnt | dump >=5% LP
+[2026-10-18T12:20:21] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:20:29] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:20:39] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:24:16] TUTUP 0x164887d4 +79% | akun $2.43 -> $4.36 (+1.93) | 5 mnt | model bahaya
+[2026-10-18T12:26:22] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:26:36] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:26:46] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:27:03] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:27:49] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:29:10] SARING 0xbde1580d | skor 0.394 tolak(ml) | dev 0x037051 | penjual menit-1 19 | LP $19372 | skor ke-100
+[2026-10-18T12:29:12] SARING 0x7430d3ff | skor 0.454 LOLOS | dev 0xf772f1 | penjual menit-1 8 | LP $16972 | skor ke-100
+[2026-10-18T12:29:13] SARING 0x2b2545f1 | skor 0.461 LOLOS | dev 0x6d4409 | penjual menit-1 10 | LP $26438 | skor ke-100
+[2026-10-18T12:29:56] SARING 0x6e6d447b | skor 0.415 tolak(ml) | dev 0x6f2646 | penjual menit-1 6 | LP $16601 | skor ke-100
+[2026-10-18T12:30:03] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:30:06] SARING 0xe0deb569 | skor 0.440 LOLOS | dev 0xc48274 | penjual menit-1 9 | LP $27013 | skor ke-100
+[2026-10-18T12:30:07] SARING 0x2320094f | skor 0.314 tolak(ml) | dev 0x8bda03 | penjual menit-1 2 | LP $13768 | skor ke-100
+[2026-10-18T12:30:33] SARING 0xfe26a87d | skor 0.456 LOLOS | dev 0x334a34 | penjual menit-1 6 | LP $16572 | skor ke-100
+[2026-10-18T12:30:56] SARING 0x32e49cfb | skor 0.433 tolak(ml) | dev 0x864173 | penjual menit-1 10 | LP $26901 | skor ke-100
+[2026-10-18T12:31:12] SARING 0xc8cfa57f | skor 0.405 tolak(ml) | dev 0x984704 | penjual menit-1 23 | LP $20999 | skor ke-100
+[2026-10-18T12:31:53] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:31:56] SARING 0x63ca2faf | skor 0.427 tolak(ml) | dev 0xce761b | penjual menit-1 22 | LP $31213 | skor ke-100
+[2026-10-18T12:33:04] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:33:30] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:33:42] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:34:13] SARING 0xb6a8f2ab | skor 0.368 tolak(ml) | dev 0x120936 | penjual menit-1 0 | LP $49202 | skor ke-100
+[2026-10-18T12:34:55] SARING 0x6da56476 | skor 0.258 tolak(ml) | dev 0x0a262c | penjual menit-1 1 | LP $57995 | skor ke-100
+[2026-10-18T12:35:19] SARING 0x3dba8cc2 | skor 0.344 tolak(ml) | dev ? | penjual menit-1 3 | LP $63467 | skor ke-100
+[2026-10-18T12:35:22] SARING 0x71622403 | skor 0.543 LOLOS | dev 0x6820bf | penjual menit-1 3 | LP $17676 | skor ke-100
+[2026-10-18T12:35:34] error: net: http 429 
+[2026-10-18T12:35:52] error: net: http 429 
+[2026-10-18T12:35:55] error: net: http 429 
+[2026-10-18T12:35:59] error: net: http 429 
+[2026-10-18T12:36:20] error: net: http 429 
+[2026-10-18T12:36:23] error: net: http 429 
+[2026-10-18T12:36:27] error: net: http 429 
+[2026-10-18T12:36:30] error: net: http 429 
+[2026-10-18T12:36:33] error: net: http 429 
+[2026-10-18T12:36:37] error: net: http 429 
+[2026-10-18T12:36:56] error: net: http 429 
+[2026-10-18T12:36:59] error: net: http 429 
+[2026-10-18T12:37:03] SARING 0xa984a01f | skor 0.502 LOLOS | dev 0x4c5756 | penjual menit-1 6 | LP $65833 | skor ke-100
+[2026-10-18T12:37:09] SARING 0xf71e51f7 | skor 0.035 tolak(ml) | dev 0x836f53 | penjual menit-1 0 | LP $3885 | skor ke-100
+[2026-10-18T12:37:17] error: net: http 429 
+[2026-10-18T12:37:21] error: net: http 429 
+[2026-10-18T12:37:24] error: net: http 429 
+[2026-10-18T12:37:28] error: net: http 429 
+[2026-10-18T12:37:31] error: net: http 429 
+[2026-10-18T12:37:35] error: net: http 429 
+[2026-10-18T12:37:41] SARING 0xde6206d6 | skor 0.451 LOLOS | dev 0xba2e06 | penjual menit-1 1 | LP $20195 | skor ke-100
+[2026-10-18T12:37:47] error: net: http 429 
+[2026-10-18T12:37:51] error: net: http 429 
+[2026-10-18T12:37:54] error: net: http 429 
+[2026-10-18T12:37:58] error: net: http 429 
+[2026-10-18T12:38:01] TUTUP 0xde6206d6 -101% | akun $11.54 -> $0.00 (-11.54) | 0 mnt | rug terdeteksi
+[2026-10-18T12:38:09] SARING 0xca7a7542 | skor 0.035 tolak(ml) | dev 0x836f53 | penjual menit-1 0 | LP $3884 | skor ke-100
+[2026-10-18T12:38:10] SARING 0xa33f4c2b | skor 0.349 tolak(ml) | dev 0xe48ec4 | penjual menit-1 2 | LP $60189 | skor ke-100
+[2026-10-18T12:38:16] error: net: http 429 
+[2026-10-18T12:38:19] error: net: http 429 
+[2026-10-18T12:38:22] error: net: http 429 
+[2026-10-18T12:38:26] error: net: http 429 
+[2026-10-18T12:38:29] error: net: http 429 
+[2026-10-18T12:38:33] error: net: http 429 
+[2026-10-18T12:38:36] error: net: http 429 
+[2026-10-18T12:38:59] TUTUP 0xa984a01f +18% | akun $11.54 -> $13.61 (+2.07) | 2 mnt | dump >=5% LP
+[2026-10-18T12:39:10] SARING 0x3b310b1d | skor 0.423 tolak(ml) | dev 0x12532d | penjual menit-1 19 | LP $22271 | skor ke-100
+[2026-10-18T12:39:10] SARING 0x421d187d | skor 0.424 tolak(ml) | dev 0xe8ccc5 | penjual menit-1 9 | LP $17408 | skor ke-100
+[2026-10-18T12:39:13] SARING 0xa2ba3d87 | skor 0.426 tolak(ml) | dev 0x9abfc3 | penjual menit-1 9 | LP $26967 | skor ke-100
+[2026-10-18T12:39:22] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:39:34] SARING 0x63fc99ef | skor 0.035 tolak(ml) | dev 0x836f53 | penjual menit-1 0 | LP $3886 | skor ke-100
+[2026-10-18T12:39:48] SARING 0xdad0201c | skor 0.257 tolak(ml) | dev 0x5b6447 | penjual menit-1 1 | LP $57304 | skor ke-100
+[2026-10-18T12:39:58] SARING 0xf6e3072d | skor 0.355 tolak(ml) | dev 0x89ca65 | penjual menit-1 21 | LP $19743 | skor ke-100
+[2026-10-18T12:40:01] SARING 0x9f297bfd | skor 0.352 tolak(ml) | dev 0xfea449 | penjual menit-1 23 | LP $28565 | skor ke-100
+[2026-10-18T12:40:01] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:40:23] SARING 0x4e8b22a0 | skor 0.485 LOLOS | dev 0x621955 | penjual menit-1 5 | LP $72973 | skor ke-100
+[2026-10-18T12:40:31] SARING 0x919b4ac2 | skor 0.377 tolak(ml) | dev 0x56537a | penjual menit-1 1 | LP $22410 | skor ke-100
+[2026-10-18T12:41:10] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:41:20] SARING 0x822f076f | skor 0.428 tolak(ml) | dev 0xc68e22 | penjual menit-1 21 | LP $24441 | skor ke-100
+[2026-10-18T12:42:19] SARING 0x7290074f | skor 0.348 tolak(ml) | dev 0xace835 | penjual menit-1 0 | LP $19876 | skor ke-100
+[2026-10-18T12:43:40] SARING 0x0e74f97b | skor 0.407 tolak(ml) | dev 0x16eb01 | penjual menit-1 18 | LP $27761 | skor ke-100
+[2026-10-18T12:44:06] SARING 0x1daa25da | skor 0.357 tolak(ml) | dev 0xa89108 | penjual menit-1 1 | LP $28817 | skor ke-100
+[2026-10-18T12:44:27] error: net: http 429 
+[2026-10-18T12:44:30] error: net: http 429 
+[2026-10-18T12:44:34] error: net: http 429 
+[2026-10-18T12:44:37] error: net: http 429 
+[2026-10-18T12:44:41] error: net: http 429 
+[2026-10-18T12:44:44] error: net: http 429 
+[2026-10-18T12:44:48] error: net: http 429 
+[2026-10-18T12:44:51] error: net: http 429 
+[2026-10-18T12:44:54] error: net: http 429 
+[2026-10-18T12:44:58] error: net: http 429 
+[2026-10-18T12:45:02] SARING 0x2bbb5f3a | skor 0.402 tolak(ml) | dev 0xb74500 | penjual menit-1 20 | LP $29876 | skor ke-100
+[2026-10-18T12:45:26] error: net: http 429 
+[2026-10-18T12:45:30] error: net: http 429 
+[2026-10-18T12:45:33] error: net: http 429 
+[2026-10-18T12:45:37] error: net: http 429 
+[2026-10-18T12:45:40] error: net: http 429 
+[2026-10-18T12:45:44] error: net: http 429 
+[2026-10-18T12:45:47] error: net: http 429 
+[2026-10-18T12:45:50] error: net: http 429 
+[2026-10-18T12:45:54] error: net: http 429 
+[2026-10-18T12:45:57] error: net: http 429 
+[2026-10-18T12:46:02] SARING 0xfe47510b | skor 0.499 LOLOS | dev 0x2635bb | penjual menit-1 1 | LP $17747 | skor ke-100
+[2026-10-18T12:46:26] error: net: http 429 
+[2026-10-18T12:46:29] error: net: http 429 
+[2026-10-18T12:46:33] error: net: http 429 
+[2026-10-18T12:46:36] error: net: http 429 
+[2026-10-18T12:46:39] error: net: http 429 
+[2026-10-18T12:46:43] error: net: http 429 
+[2026-10-18T12:46:46] error: net: http 429 
+[2026-10-18T12:46:49] error: net: http 429 
+[2026-10-18T12:46:53] error: net: http 429 
+[2026-10-18T12:46:56] error: net: http 429 
+[2026-10-18T12:47:00] SARING 0x9e2d29bb | skor 0.388 tolak(ml) | dev 0x28cc29 | penjual menit-1 21 | LP $19257 | skor ke-100
+[2026-10-18T12:47:11] TUTUP 0xfe47510b +58% | akun $10.65 -> $16.79 (+6.14) | 1 mnt | model bahaya
+[2026-10-18T12:47:12] SARING 0x9c9d91d3 | skor 0.549 LOLOS | dev 0x413192 | penjual menit-1 0 | LP $17941 | skor ke-100
+[2026-10-18T12:47:23] error: net: http 429 
+[2026-10-18T12:47:26] radar: 0 meta pabrik 0x10253594 dimuat sekaligus
+[2026-10-18T12:47:26] error: net: http 429 
+[2026-10-18T12:47:30] error: net: http 429 
+[2026-10-18T12:47:33] error: net: http 429 
+[2026-10-18T12:47:37] error: net: http 429 
+[2026-10-18T12:47:40] error: net: http 429 
+[2026-10-18T12:47:43] error: net: http 429 
+[2026-10-18T12:47:47] error: net: http 429 
+[2026-10-18T12:47:50] error: net: http 429 
+[2026-10-18T12:47:54] error: net: http 429 
+[2026-10-18T12:47:57] error: net: http 429 
+[2026-10-18T12:49:17] SARING 0x2f9a1657 | skor 0.401 tolak(ml) | dev 0x023c33 | penjual menit-1 22 | LP $21168 | skor ke-100
+[2026-10-18T12:49:19] SARING 0xab780847 | skor 0.429 tolak(ml) | dev 0x01cd41 | penjual menit-1 21 | LP $21509 | skor ke-100
+[2026-10-18T12:49:25] SARING 0xde803e2f | skor 0.358 tolak(ml) | dev ? | penjual menit-1 23 | LP $29354 | skor ke-100
+[2026-10-18T12:49:30] error: net: http 429 
+[2026-10-18T12:49:34] error: net: http 429 
+[2026-10-18T12:49:37] error: net: http 429 
+[2026-10-18T12:49:40] error: net: http 429 
+[2026-10-18T12:49:44] error: net: http 429 
+[2026-10-18T12:49:47] error: net: http 429 
+[2026-10-18T12:49:51] error: net: http 429 
+[2026-10-18T12:49:54] error: net: http 429 
+[2026-10-18T12:49:58] error: net: http 429 
+[2026-10-18T12:50:26] error: net: http 429 
+[2026-10-18T12:50:30] error: net: http 429 
+[2026-10-18T12:50:33] error: net: http 429 
+[2026-10-18T12:50:36] error: net: http 429 
+[2026-10-18T12:50:40] error: net: http 429 
+[2026-10-18T12:50:43] error: net: http 429 
+[2026-10-18T12:50:47] error: net: http 429 
+[2026-10-18T12:50:50] error: net: http 429 
+[2026-10-18T12:50:54] error: net: http 429 
+[2026-10-18T12:50:57] error: net: http 429 
+[2026-10-18T12:51:22] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:52:03] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:52:07] TUTUP 0x4e8b22a0 +93% | akun $10.65 -> $20.61 (+9.96) | 11 mnt | tanda pucuk
+[2026-10-18T12:52:21] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:52:25] error: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T12:53:25] replay: 473 duplicate store rows (written by an older version) were replayed once
+[2026-10-18T12:53:25] putar ulang 15841 event sejak blok 91652225 -> 31 trade tutup total, 4 posisi terbuka, kas $112.85. Lanjut dari blok 91783623.
+[2026-10-18T12:53:25] catatan: latih ulang dijalankan terjadwal oleh latih_ulang.py (gerbang mutu); bot memuat model baru otomatis.
+[2026-10-18T12:53:36] radar: 10326 meta pool v4 dimuat sekaligus
+[2026-10-18T12:53:37] error: edge.goldsky.com: net: http 429 
+[2026-10-18T12:53:49] error: edge.goldsky.com: net: http 429 
+[2026-10-18T12:53:59] error: edge.goldsky.com: net: http 429 
+[2026-10-18T12:54:07] SARING 0x730ac048 | skor 0.515 LOLOS | dev 0xd99103 | penjual menit-1 2 | LP $20729 | skor ke-100
+[2026-10-18T12:54:22] error: edge.goldsky.com: net: http 429 
+[2026-10-18T12:54:34] error: edge.goldsky.com: net: http 429 
+[2026-10-18T12:54:44] error: edge.goldsky.com: net: http 429 
+[2026-10-18T12:54:54] error: edge.goldsky.com: net: http 429 
+[2026-10-18T12:55:24] error: edge.goldsky.com: net: http 429 
+[2026-10-18T12:55:36] error: edge.goldsky.com: net: http 429 
+[2026-10-18T12:55:46] error: edge.goldsky.com: net: http 429 
+[2026-10-18T12:55:57] error: edge.goldsky.com: net: http 429 
+[2026-10-18T12:56:15] SARING 0x28ac29c5 | skor 0.227 tolak(ml) | dev 0xa92c54 | penjual menit-1 0 | LP $10187 | skor ke-100
+[2026-10-18T12:56:20] error: edge.goldsky.com: net: http 429 
+[2026-10-18T12:56:32] error: edge.goldsky.com: net: http 429 
+[2026-10-18T12:56:42] error: edge.goldsky.com: net: http 429 
+[2026-10-18T12:56:52] error: edge.goldsky.com: net: http 429 
+[2026-10-18T12:57:26] error: edge.goldsky.com: net: http 429 
+[2026-10-18T12:57:38] error: edge.goldsky.com: net: http 429 
+[2026-10-18T12:57:48] error: edge.goldsky.com: net: http 429 
+[2026-10-18T12:57:58] error: edge.goldsky.com: net: http 429 
+[2026-10-18T12:58:25] error: edge.goldsky.com: net: http 429 
+[2026-10-18T12:58:37] error: edge.goldsky.com: net: http 429 
+[2026-10-18T12:58:47] error: edge.goldsky.com: net: http 429 
+[2026-10-18T12:58:57] error: edge.goldsky.com: net: http 429 
+[2026-10-18T12:59:05] SARING 0xbe582b12 | skor 0.094 tolak(ml) | dev 0xf1de29 | penjual menit-1 0 | LP $48312 | skor ke-100
+[2026-10-18T12:59:08] SARING 0x212d14f6 | skor 0.411 tolak(ml) | dev 0x773cc3 | penjual menit-1 11 | LP $20048 | skor ke-100
+[2026-10-18T12:59:08] SARING 0x288a7a50 | skor 0.372 tolak(ml) | dev 0x3b46cc | penjual menit-1 21 | LP $29628 | skor ke-100
+[2026-10-18T12:59:09] SARING 0xee6fb849 | skor 0.404 tolak(ml) | dev 0x4190ac | penjual menit-1 19 | LP $20818 | skor ke-100
+[2026-10-18T12:59:10] error: edge.goldsky.com: net: http 429 
+[2026-10-18T12:59:22] error: edge.goldsky.com: net: http 429 
+[2026-10-18T12:59:32] error: edge.goldsky.com: net: http 429 
+[2026-10-18T12:59:42] error: edge.goldsky.com: net: http 429 
+[2026-10-18T12:59:52] error: edge.goldsky.com: net: http 429 
+[2026-10-18T13:00:03] SARING 0x0cffd7f6 | skor 0.426 tolak(ml) | dev 0x404a59 | penjual menit-1 19 | LP $22147 | skor ke-100
+[2026-10-18T13:00:24] error: edge.goldsky.com: net: http 429 
+[2026-10-18T13:00:36] error: edge.goldsky.com: net: http 429 
+[2026-10-18T13:00:46] error: edge.goldsky.com: net: http 429 
+[2026-10-18T13:00:56] error: edge.goldsky.com: net: http 429 
+[2026-10-18T13:01:00] TUTUP 0x730ac048 +38% | akun $16.26 -> $22.47 (+6.20) | 7 mnt | dump >=5% LP
+[2026-10-18T13:01:22] SARING 0x3412b7b7 | skor 0.128 tolak(ml) | dev 0x5553f3 | penjual menit-1 0 | LP $48257 | skor ke-100
+[2026-10-18T13:01:22] error: rpc.mainnet.chain.robinhood.com: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T13:01:57] error: rpc.mainnet.chain.robinhood.com: net: http 429 
+[2026-10-18T13:01:57] SARING 0x8d699213 | skor 0.304 tolak(ml) | dev ? | penjual menit-1 0 | LP $17060 | skor ke-100
+[2026-10-18T13:03:46] error: rpc.mainnet.chain.robinhood.com: net: http 429 {"jsonrpc":"2.0","error":{"code":429,"message":"Too Many Requests"}}
+
+[2026-10-18T13:03:47] SARING 0x9910c301 | skor 0.364 tolak(ml) | dev ? | penjual menit-1 1 | LP $23048 | skor ke-100
+[2026-10-18T13:03:58] error: edge.goldsky.com: net: http 429 
+[2026-10-18T13:04:25] SARING 0x0c215e66 | skor 0.233 tolak(ml) | dev 0x530a8c | penjual menit-1 0 | LP $10894 | skor ke-100
+[2026-10-18T13:04:31] error: rpc.mainnet.chain.robinhood.com: net: http 429 
+[2026-10-18T13:04:31] SARING 0xb190e0d8 | skor 0.128 tolak(ml) | dev ? | penjual menit-1 0 | LP $48253 | skor ke-100
+[2026-10-18T13:04:43] error: edge.goldsky.com: net: http 429 
+[2026-10-18T13:04:53] error: edge.goldsky.com: net: http 429 
+[2026-10-18T13:05:25] error: edge.goldsky.com: net: http 429 
+[2026-10-18T13:05:37] error: edge.goldsky.com: net: http 429 
+[2026-10-18T13:05:47] error: edge.goldsky.com: net: http 429 
+[2026-10-18T13:05:57] error: edge.goldsky.com: net: http 429 
+[2026-10-18T13:06:01] SARING 0x797f7e8d | skor 0.394 tolak(ml) | dev 0x892ee5 | penjual menit-1 1 | LP $21063 | skor ke-100
+[2026-10-18T13:06:25] error: edge.goldsky.com: net: http 429 
+[2026-10-18T13:06:37] error: edge.goldsky.com: net: http 429 
+[2026-10-18T13:06:47] error: edge.goldsky.com: net: http 429 
+[2026-10-18T13:06:57] error: edge.goldsky.com: net: http 429 
+[2026-10-18T13:07:27] error: edge.goldsky.com: net: http 429 
+[2026-10-18T13:07:39] error: edge.goldsky.com: net: http 429 
+[2026-10-18T13:07:49] error: edge.goldsky.com: net: http 429 
+[2026-10-18T13:07:59] error: edge.goldsky.com: net: http 429 
+[2026-10-18T13:08:11] SARING 0xde190efd | skor 0.492 LOLOS | dev 0x4ce96d | penjual menit-1 1 | LP $30128 | skor ke-100
+[2026-10-18T13:08:23] stop.txt ditemukan -> berhenti dengan rapi.

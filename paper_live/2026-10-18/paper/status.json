@@ -1,0 +1,66 @@
+{
+  "akun": {
+    "drawdown_maks_pct": 2.0000000000000018,
+    "equity_harga_beli": 127.80929542192526,
+    "equity_harga_pasar": 127.80440673882622,
+    "kas": 119.05060819344985,
+    "kelly": 0.1337500000000001,
+    "menang": 24,
+    "modal_awal": 100.0,
+    "posisi_terbuka": 4,
+    "stop_darurat": false,
+    "trade_dibeli": 36,
+    "trade_selesai": 32
+  },
+  "checkpoint_blok": 91652225.0,
+  "eth_usd": 2412.313003237066,
+  "label_latihan_ditulis": 1,
+  "lag_blocks": 0.0,
+  "last_block": 91793018.0,
+  "last_error": "",
+  "log_gate": {
+    "duplicate_dropped": 0,
+    "late_delivered": 0,
+    "outside_range_dropped": 0,
+    "range_cap_blocks": 1000,
+    "removed_dropped": 0,
+    "reread_ok": 46358
+  },
+  "mode": "KERTAS (tanpa transaksi) — mesin Rust",
+  "mode_aman": false,
+  "pools_dipantau": 9,
+  "radar": {
+    "label_radar": 0,
+    "pool_dikenal": 657975,
+    "swap_tercatat": 15706,
+    "token_terklasifikasi": 2173
+  },
+  "rpc_diam_dtk": 0,
+  "saringan": {
+    "ambang_awal": 0.7474632644259495,
+    "cek_gagal": 0,
+    "data_basi": 1,
+    "skor_tersimpan": 100,
+    "tolak": {
+      "cek telat >10 dtk": 3,
+      "data basi": 4,
+      "honeypot (belum ada penjual)": 3,
+      "ml": 167
+    }
+  },
+  "setelan": {
+    "DUMP_FRAC": 0.05,
+    "EXP_MAX": 0.5,
+    "KELLY_MAKS": 0.15,
+    "KILL_DD": 0.6,
+    "LP_CAP": 0.01,
+    "MAX_POS": 10,
+    "QTHR": 0.8,
+    "TRAIL_PUNCAK": 0.4,
+    "TUTUP_SAAT_RUG": true
+  },
+  "tip": 91793018.0,
+  "updated": "2026-10-18T13:08:23Z",
+  "uptime_menit": 14,
+  "versi": "rhc-live 1.0"
+}
